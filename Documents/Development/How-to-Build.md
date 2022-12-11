@@ -1,6 +1,6 @@
 # How to Build the Standard Toolkit
 
-If you want to build this project, there are a number of prerequisites you will need to have first before continuing.
+If you want to build the Standard Toolkit project, there are a number of prerequisites you will need to have first before continuing.
 
 * A supported copy of Windows 10/11
 * Microsoft Visual Studio/Build Tools 2022 or later
