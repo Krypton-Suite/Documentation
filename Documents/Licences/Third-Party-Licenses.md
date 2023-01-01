@@ -11,7 +11,7 @@ The purpose of this file is to document the licenses used by third party librari
 - System.Management - [View License](https://licenses.nuget.org/MIT)
 - System.Net.Http - [View License](https://licenses.nuget.org/MIT)
 - Unofficial.Cyotek.Windows.Forms.NET - [View License](https://raw.githubusercontent.com/cyotek/Cyotek.Windows.Forms.ColorPicker/master/LICENSE.txt)
-- Unofficial.WinFormAnimation-NET - [View License](https://www.nuget.org/packages/Unofficial.WinFormAnimation-NET/2.0.1/License)
+- Unofficial.WinFormAnimation - [View License](https://www.nuget.org/packages/Unofficial.WinFormAnimation-NET/2.0.1/License)
 - WindowsAPICodePack - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
 - WindowsAPICodePackShell - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
 - WindowsAPICodePackShellExtensions - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
