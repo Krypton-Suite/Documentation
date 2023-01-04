@@ -1,0 +1,18 @@
+The purpose of this file is to document the licenses used by third party libraries that are linked to the extended toolkit project.
+
+- DotNetZip - [View License](https://raw.githubusercontent.com/haf/DotNetZip.Semverd/master/LICENSE)
+- EasyScintilla - [View License](https://raw.githubusercontent.com/adam8797/EasyScintilla/master/LICENSE)
+- Handlebars.Net - [View License](https://raw.githubusercontent.com/Handlebars-Net/Handlebars.Net/master/LICENSE)
+- ILRepack.Lib.MSBuild.Task - [View License](https://raw.githubusercontent.com/ravibpatel/ILRepack.Lib.MSBuild.Task/master/LICENSE.md)
+- Newtonsoft.Json - [View License](https://raw.githubusercontent.com/JamesNK/Newtonsoft.Json/master/LICENSE.md)
+- Simple-MAPI.NET - [View License](https://raw.githubusercontent.com/PandaWood/Simple-MAPI.NET/master/LICENSE)
+- System.Data.SQLite.Core - [View License](https://www.sqlite.org/copyright.html)
+- System.DirectoryServices - [View License](https://licenses.nuget.org/MIT)
+- System.Management - [View License](https://licenses.nuget.org/MIT)
+- System.Net.Http - [View License](https://licenses.nuget.org/MIT)
+- Unofficial.Cyotek.Windows.Forms.NET - [View License](https://raw.githubusercontent.com/cyotek/Cyotek.Windows.Forms.ColorPicker/master/LICENSE.txt)
+- Unofficial.WinFormAnimation - [View License](https://www.nuget.org/packages/Unofficial.WinFormAnimation-NET/2.0.1/License)
+- WindowsAPICodePack - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
+- WindowsAPICodePackShell - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
+- WindowsAPICodePackShellExtensions - [View License](https://raw.githubusercontent.com/Wagnerp/Windows-API-CodePack-NET/main/LICENSE)
+- ZipStorer - [View License](https://raw.githubusercontent.com/jaime-olivares/zipstorer/master/LICENSE.md)
