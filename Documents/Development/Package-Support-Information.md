@@ -15,8 +15,8 @@ There are currently two types of package that are supported. The table below out
 
 | Version | Status | Latest Release | Latest Release Date | End of Support |
 |---|---|---|---|---|
-| .NET 7.0 | Standard Term Support | 7.0.1 | December 13, 2022 | May 14, 2024 |
-| .NET 6.0 | Long Term Support | 6.0.12 | December 13, 2022 | November 12, 2024 |
+| .NET 7.0 | Standard Term Support | 7.0.2 | January 10, 2023 | May 14, 2024 |
+| .NET 6.0 | Long Term Support | 6.0.13 | January 10, 2023 | November 12, 2024 |
 
 ### Supported .NET Framework Versions
 
