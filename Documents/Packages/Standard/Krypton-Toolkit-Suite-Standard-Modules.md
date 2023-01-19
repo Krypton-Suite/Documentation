@@ -1,4 +1,4 @@
-## <img src="https://github.com/Krypton-Suite/Krypton-Toolkit-Suite-Version-Dashboard/blob/main/Assets/64%20x%2064/Standard%20Toolkit%20Icon.png?raw=true" /> Krypton Standard Toolkit Modules
+## <img src="https://github.com/Krypton-Suite/Documentation/blob/main/Assets/Standard-Toolkit/StandardToolkitIcon.png?raw=true" /> Krypton Standard Toolkit Modules
 
 ===============================================================================
 
