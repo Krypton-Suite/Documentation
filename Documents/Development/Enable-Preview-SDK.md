@@ -1,6 +1,6 @@
 # How to enable preview SDKs inside of stable versions of Visual Studio
 
-The purpose of this article is to describe how to enable preview SDKs inside of stable versions of Visual Studio. Please note that this guide is for people using Visual Studio 2022, older versions may not be supported.
+The purpose of this article is to describe how to enable preview SDKs inside of stable versions of Visual Studio. Please note that this guide is for people using Visual Studio 2022, older versions may not be supported. If you are using preview versions of Visual Studio, usage of preview SDKs will be enabled by default.
 
 **Step 1:** Open Visual Studio or load a project
 
