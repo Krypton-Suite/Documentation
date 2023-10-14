@@ -1,0 +1,237 @@
+# KryptonDataGridViewTextBoxCell Methods
+
+
+
+
+## Methods
+<table>
+<tr>
+<td>AdjustCellBorderStyle</td>
+<td>Modifies the input cell border style according to the specified criteria.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>BorderWidths</td>
+<td>Returns a Rectangle that represents the widths of all the cell margins.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>ClickUnsharesRow</td>
+<td>Indicates whether the cell's row will be unshared when the cell is clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="677a0508-2159-eddb-6c2e-2a2945038196.md">Clone</a></td>
+<td>Creates an exact copy of this cell.<br />(Overrides DataGridViewTextBoxCell.Clone())</td></tr>
+<tr>
+<td>ContentClickUnsharesRow</td>
+<td>Indicates whether the cell's row will be unshared when the cell's content is clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>ContentDoubleClickUnsharesRow</td>
+<td>Indicates whether the cell's row will be unshared when the cell's content is double-clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>CreateAccessibilityInstance</td>
+<td>Creates a new AccessibleObject for this DataGridViewTextBoxCell instance.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td><a href="c042c8a0-ace5-f95a-7586-82e2c240eeff.md">DetachEditingControl</a></td>
+<td>DetachEditingControl gets called by the DataGridView control when the editing session is ending<br />(Overrides DataGridViewTextBoxCell.DetachEditingControl())</td></tr>
+<tr>
+<td>Dispose()</td>
+<td>Releases all resources used by the DataGridViewCell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="46bcbd87-ab80-d5a9-c901-5ee7f4130db0.md">Dispose(Boolean)</a></td>
+<td>Clean up any resources being used.<br />(Overrides DataGridViewCell.Dispose(Boolean))</td></tr>
+<tr>
+<td>DoubleClickUnsharesRow</td>
+<td>Indicates whether the cell's row will be unshared when the cell is double-clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>EnterUnsharesRow</td>
+<td>Indicates whether the parent row will be unshared when the focus moves to the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Releases the unmanaged resources and performs other cleanup operations before the DataGridViewCell is reclaimed by garbage collection.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetClipboardContent</td>
+<td>Retrieves the formatted value of the cell to copy to the Clipboard.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetContentBounds(Int32)</td>
+<td>Returns the bounding rectangle that encloses the cell's content area using a default Graphics and cell style currently in effect for the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetContentBounds(Graphics, DataGridViewCellStyle, Int32)</td>
+<td>Returns the bounding rectangle that encloses the cell's content area, which is calculated using the specified Graphics and cell style.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>GetEditedFormattedValue</td>
+<td>Returns the current, formatted value of the cell, regardless of whether the cell is in edit mode and the value has not been committed.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="1d0ef516-ef64-da1c-27b2-4c93cabc5236.md">GetErrorIconBounds</a></td>
+<td>Customized implementation of the GetErrorIconBounds function in order to draw the potential error icon next to the up/down buttons and not on top of them.<br />(Overrides DataGridViewTextBoxCell.GetErrorIconBounds(Graphics, DataGridViewCellStyle, Int32))</td></tr>
+<tr>
+<td>GetErrorText</td>
+<td>Returns a string that represents the error for the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetFormattedValue</td>
+<td>Gets the value of the cell as formatted for display.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetInheritedContextMenuStrip</td>
+<td>Gets the inherited shortcut menu for the current cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetInheritedState</td>
+<td>Returns a value indicating the current state of the cell as inherited from the state of its row and column.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetInheritedStyle</td>
+<td>Gets the style applied to the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="5e88f21e-1268-b9b5-c387-ad710258ed9b.md">GetPreferredSize</a></td>
+<td>Custom implementation of the GetPreferredSize function.<br />(Overrides DataGridViewTextBoxCell.GetPreferredSize(Graphics, DataGridViewCellStyle, Int32, Size))</td></tr>
+<tr>
+<td>GetSize</td>
+<td>Gets the size of the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetValue</td>
+<td>Gets the value of the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="4d3c78e8-d128-b64f-1d62-579c28587eac.md">InitializeEditingControl</a></td>
+<td>Custom implementation of the InitializeEditingControl function. This function is called by the DataGridView control at the beginning of an editing session. It makes sure that the properties of the KryptonNumericUpDown editing control are set according to the cell properties.<br />(Overrides DataGridViewTextBoxCell.InitializeEditingControl(Int32, Object, DataGridViewCellStyle))</td></tr>
+<tr>
+<td>KeyDownUnsharesRow</td>
+<td>Indicates whether the parent row is unshared if the user presses a key while the focus is on the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>KeyEntersEditMode</td>
+<td>Determines if edit mode should be started based on the given key.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>KeyPressUnsharesRow</td>
+<td>Indicates whether a row will be unshared if a key is pressed while a cell in the row has focus.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>KeyUpUnsharesRow</td>
+<td>Indicates whether the parent row is unshared when the user releases a key while the focus is on the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>LeaveUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the focus leaves a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>MouseClickUnsharesRow</td>
+<td>Indicates whether a row will be unshared if the user clicks a mouse button while the pointer is on a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseDoubleClickUnsharesRow</td>
+<td>Indicates whether a row will be unshared if the user double-clicks a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseDownUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the user holds down a mouse button while the pointer is on a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseEnterUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the mouse pointer moves over a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseLeaveUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the mouse pointer leaves the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseMoveUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the mouse pointer moves over a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>MouseUpUnsharesRow</td>
+<td>Indicates whether a row will be unshared when the user releases a mouse button while the pointer is on a cell in the row.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnClick</td>
+<td>Called when the cell is clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnContentClick</td>
+<td>Called when the cell's contents are clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnContentDoubleClick</td>
+<td>Called when the cell's contents are double-clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnDataGridViewChanged</td>
+<td>Called when the DataGridView property of the cell changes.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnDoubleClick</td>
+<td>Called when the cell is double-clicked.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnEnter</td>
+<td>Called by DataGridView when the selection cursor moves onto a cell.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>OnKeyDown</td>
+<td>Called when a character key is pressed while the focus is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnKeyPress</td>
+<td>Called when a key is pressed while the focus is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnKeyUp</td>
+<td>Called when a character key is released while the focus is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnLeave</td>
+<td>Called by the DataGridView when the mouse leaves a cell.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>OnMouseClick</td>
+<td>Called by DataGridView when the mouse leaves a cell.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>OnMouseDoubleClick</td>
+<td>Called when the user double-clicks a mouse button while the pointer is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnMouseDown</td>
+<td>Called when the user holds down a mouse button while the pointer is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnMouseEnter</td>
+<td>Called when the mouse pointer moves over a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnMouseLeave</td>
+<td>Called when the mouse pointer leaves the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnMouseMove</td>
+<td>Called when the mouse pointer moves within a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>OnMouseUp</td>
+<td>Called when the user releases a mouse button while the pointer is on a cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>Paint</td>
+<td>Paints the current DataGridViewCell.<br />(Inherited from DataGridViewTextBoxCell)</td></tr>
+<tr>
+<td>PaintBorder</td>
+<td>Paints the border of the current DataGridViewCell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>PaintErrorIcon</td>
+<td>Paints the error icon of the current DataGridViewCell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>ParseFormattedValue</td>
+<td>Converts a value formatted for display to an actual cell value.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="9fec772e-556c-5fdd-330d-b8951bed6ea2.md">PositionEditingControl</a></td>
+<td>Custom implementation of the PositionEditingControl method called by the DataGridView control when it needs to relocate and/or resize the editing control.<br />(Overrides DataGridViewTextBoxCell.PositionEditingControl(Boolean, Boolean, Rectangle, Rectangle, DataGridViewCellStyle, Boolean, Boolean, Boolean, Boolean))</td></tr>
+<tr>
+<td>PositionEditingPanel</td>
+<td>Sets the location and size of the editing panel hosted by the cell, and returns the normal bounds of the editing control within the editing panel.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td>RaiseCellClick</td>
+<td>Raises the CellClick event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>RaiseCellContentClick</td>
+<td>Raises the CellContentClick event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>RaiseCellContentDoubleClick</td>
+<td>Raises the CellContentDoubleClick event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>RaiseCellValueChanged</td>
+<td>Raises the CellValueChanged event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>RaiseDataError</td>
+<td>Raises the DataError event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>RaiseMouseWheel</td>
+<td>Raises the MouseWheel event.<br />(Inherited from DataGridViewElement)</td></tr>
+<tr>
+<td>SetValue</td>
+<td>Sets the value of the cell.<br />(Inherited from DataGridViewCell)</td></tr>
+<tr>
+<td><a href="efe68b75-ad7c-6805-1b11-90b364504164.md">ToString</a></td>
+<td>Returns a standard textual representation of the cell.<br />(Overrides DataGridViewTextBoxCell.ToString())</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="91f95759-e675-412d-1d3b-be12a0f61849.md">KryptonDataGridViewTextBoxCell Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

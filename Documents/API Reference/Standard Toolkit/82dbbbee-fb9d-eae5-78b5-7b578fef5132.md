@@ -1,0 +1,33 @@
+# GlobalColorStrings Property
+
+
+Gets the global color strings.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public GlobalColorStrings GlobalColorStrings { get; }
+```
+**VB**
+``` VB
+Public ReadOnly Property GlobalColorStrings As GlobalColorStrings
+	Get
+```
+
+
+
+#### Property Value
+<a href="bf928b73-6875-1afb-de07-508ec554c744.md">GlobalColorStrings</a>  
+The global color strings.
+
+## See Also
+
+
+#### Reference
+<a href="dac09113-2984-9ef4-34e6-8be84cc38189.md">KryptonLanguageManager Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

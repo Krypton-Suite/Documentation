@@ -1,0 +1,39 @@
+# GetChecked Method
+
+
+Gets the button checked state.
+
+
+
+## Definition
+**Namespace:** <a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon</a>  
+**Assembly:** Krypton.Ribbon (in Krypton.Ribbon.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override ButtonCheckState? GetChecked(
+	PaletteBase? palette
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetChecked ( 
+	palette As PaletteBase
+) As ButtonCheckState
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="6da77fa5-1590-4646-f2ea-70002c922aee.md">PaletteBase</a></dt><dd>Palette to use for inheriting values.</dd></dl>
+
+#### Return Value
+<a href="27dedbcf-430c-4aef-c6be-ac0a908f3575.md">ButtonCheckState</a>  
+Button checked state.
+
+## See Also
+
+
+#### Reference
+<a href="9b6f6ef3-ef09-a00b-060a-ba6fc2506d08.md">ButtonSpecMdiChildClose Class</a>  
+<a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon Namespace</a>  

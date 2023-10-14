@@ -1,0 +1,31 @@
+# DockAutoHidden Field
+
+
+Specifies the auto hidden docking tab style.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public const TabStyle DockAutoHidden = 5
+```
+**VB**
+``` VB
+Public Const DockAutoHidden As TabStyle = 5
+```
+
+
+
+#### Field Value
+<a href="3ae2f48d-a4d8-c0f3-fa53-604321e070e3.md">TabStyle</a>
+
+## See Also
+
+
+#### Reference
+<a href="3ae2f48d-a4d8-c0f3-fa53-604321e070e3.md">TabStyle Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

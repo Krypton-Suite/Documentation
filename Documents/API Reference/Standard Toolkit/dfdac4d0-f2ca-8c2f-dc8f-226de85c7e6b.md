@@ -1,0 +1,38 @@
+# ViewLayoutControl(VisualControl, ViewBase) Constructor
+
+
+Initialize a new instance of the ViewLayoutControl class.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public ViewLayoutControl(
+	VisualControl rootControl,
+	ViewBase viewChild
+)
+```
+**VB**
+``` VB
+Public Sub New ( 
+	rootControl As VisualControl,
+	viewChild As ViewBase
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="3f8d5b86-928d-3774-9233-3c025f7589be.md">VisualControl</a></dt><dd>Top level visual control.</dd><dt>  <a href="309ac2d8-bfc5-c1a7-ab6a-4f4cf86a1ba6.md">ViewBase</a></dt><dd>View used to size and position the child control.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="5002ce33-fe27-3276-5d40-e51c4c498b02.md">ViewLayoutControl Class</a>  
+<a href="037ce9d5-b856-7e47-0105-5ae372cedd2b.md">ViewLayoutControl Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

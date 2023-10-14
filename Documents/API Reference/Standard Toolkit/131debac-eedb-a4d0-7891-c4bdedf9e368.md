@@ -1,0 +1,37 @@
+# SetDock Method
+
+
+Sets the dock setting for the provided child instance.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public void SetDock(
+	ViewBase child,
+	ViewDockStyle dock
+)
+```
+**VB**
+``` VB
+Public Sub SetDock ( 
+	child As ViewBase,
+	dock As ViewDockStyle
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="309ac2d8-bfc5-c1a7-ab6a-4f4cf86a1ba6.md">ViewBase</a></dt><dd>Child view element.</dd><dt>  <a href="6da73770-cdf2-3d7c-814e-8b44ce6769ed.md">ViewDockStyle</a></dt><dd>DockStyle setting.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="3666c3db-a7fd-484c-b2c9-868e206d10c9.md">ViewDrawDocker Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

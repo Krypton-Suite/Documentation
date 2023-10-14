@@ -1,0 +1,32 @@
+# StateNormal Property
+
+
+Gets access to the normal header appearance entries.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public PaletteTripleMetric StateNormal { get; }
+```
+**VB**
+``` VB
+Public ReadOnly Property StateNormal As PaletteTripleMetric
+	Get
+```
+
+
+
+#### Property Value
+<a href="8a642a90-42e7-5b81-68d6-f01eabc8ce04.md">PaletteTripleMetric</a>
+
+## See Also
+
+
+#### Reference
+<a href="9e0d76ad-93c6-3623-d016-36dd28aa701b.md">KryptonHeader Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,33 @@
+# AsciiOnly Property
+
+
+The AsciiOnly property replicates the one from the KryptonMaskedTextBox control
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public bool AsciiOnly { get; set; }
+```
+**VB**
+``` VB
+Public Property AsciiOnly As Boolean
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Boolean
+
+## See Also
+
+
+#### Reference
+<a href="5b97ece5-9659-17d2-dd47-08ef62e988be.md">KryptonDataGridViewMaskedTextBoxCell Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

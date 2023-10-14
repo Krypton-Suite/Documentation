@@ -1,0 +1,19 @@
+# OnTextChanged Method
+
+
+## Overload List
+<table>
+<tr>
+<td><a href="780f1e17-0eea-c0c6-8159-e3d5be7892fc.md">OnTextChanged(EventArgs)</a></td>
+<td>Raises the TextChanged event.</td></tr>
+<tr>
+<td>OnTextChanged(EventArgs)</td>
+<td>Raises the TextChanged event.</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="711fb444-3718-c7af-7199-fab3f2ee7024.md">KryptonMonthCalendar Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

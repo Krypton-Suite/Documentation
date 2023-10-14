@@ -1,0 +1,32 @@
+# PageDragEndData Property
+
+
+Gets access to the cached drag data.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected PageDragEndData? PageDragEndData { get; }
+```
+**VB**
+``` VB
+Protected ReadOnly Property PageDragEndData As PageDragEndData
+	Get
+```
+
+
+
+#### Property Value
+<a href="0c26121e-2e6a-e3c0-21a4-2a1ddbb8d2dc.md">PageDragEndData</a>
+
+## See Also
+
+
+#### Reference
+<a href="3d1c2aa4-0822-eff9-762c-af33cf7f4426.md">DragFeedback Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

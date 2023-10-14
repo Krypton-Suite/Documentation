@@ -1,0 +1,31 @@
+# Click Event
+
+
+Occurs when the recent document item is clicked.
+
+
+
+## Definition
+**Namespace:** <a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon</a>  
+**Assembly:** Krypton.Ribbon (in Krypton.Ribbon.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public event EventHandler Click
+```
+**VB**
+``` VB
+Public Event Click As EventHandler
+```
+
+
+
+#### Value
+EventHandler
+
+## See Also
+
+
+#### Reference
+<a href="d6bcfb01-0910-48d9-c86a-d47c5851629a.md">KryptonRibbonRecentDoc Class</a>  
+<a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon Namespace</a>  

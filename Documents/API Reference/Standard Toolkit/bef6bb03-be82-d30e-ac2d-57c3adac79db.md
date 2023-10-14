@@ -1,0 +1,28 @@
+# ResetOpacity Method
+
+
+\[Missing &lt;summary&gt; documentation for "M:Krypton.Toolkit.BlurValues.ResetOpacity"\]
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public void ResetOpacity()
+```
+**VB**
+``` VB
+Public Sub ResetOpacity
+```
+
+
+
+## See Also
+
+
+#### Reference
+<a href="a590bc45-2a59-a2a4-a05e-980aeb308293.md">BlurValues Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

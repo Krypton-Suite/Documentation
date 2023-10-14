@@ -1,0 +1,33 @@
+# ToolStripGradientBegin Property
+
+
+Gets and sets the starting color of the gradient used in the ToolStrip background..
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Color ToolStripGradientBegin { get; set; }
+```
+**VB**
+``` VB
+Public Property ToolStripGradientBegin As Color
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Color
+
+## See Also
+
+
+#### Reference
+<a href="87f376e6-4494-e434-4e36-2d0bb85fa2eb.md">KryptonPaletteTMSToolStrip Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

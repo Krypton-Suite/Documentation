@@ -1,0 +1,33 @@
+# UniqueName Property
+
+
+Gets and sets the unique name of the page.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual string UniqueName { get; set; }
+```
+**VB**
+``` VB
+Public Overridable Property UniqueName As String
+	Get
+	Set
+```
+
+
+
+#### Property Value
+String
+
+## See Also
+
+
+#### Reference
+<a href="6152055e-8626-d35d-405b-6d965a03471a.md">KryptonPage Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

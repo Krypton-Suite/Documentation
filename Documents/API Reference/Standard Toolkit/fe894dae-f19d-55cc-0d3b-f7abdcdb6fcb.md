@@ -1,0 +1,33 @@
+# MultiLine Property
+
+
+Gets the flag indicating if multiline text is allowed.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual InheritBool MultiLine { get; set; }
+```
+**VB**
+``` VB
+Public Overridable Property MultiLine As InheritBool
+	Get
+	Set
+```
+
+
+
+#### Property Value
+<a href="60db1ece-3db4-87d6-8a1c-3999d61b06c0.md">InheritBool</a>
+
+## See Also
+
+
+#### Reference
+<a href="e5eaafdd-41b7-c554-ccf2-9bf1f03a4f16.md">PaletteDataGridViewContentStates Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,37 @@
+# SelectionStart Property
+
+
+Gets or sets the start date of the selected range of dates.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public DateTime SelectionStart { get; set; }
+```
+**VB**
+``` VB
+Public Property SelectionStart As DateTime
+	Get
+	Set
+```
+
+
+
+#### Property Value
+DateTime
+
+#### Implements
+<a href="adff5040-36b3-28f2-71ec-69457c2dd928.md">IKryptonMonthCalendar.SelectionStart</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="711fb444-3718-c7af-7199-fab3f2ee7024.md">KryptonMonthCalendar Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

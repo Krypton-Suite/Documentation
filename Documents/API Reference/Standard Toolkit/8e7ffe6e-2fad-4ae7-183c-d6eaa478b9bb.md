@@ -1,0 +1,28 @@
+# ResetToggleKeyboardAccess1 Method
+
+
+Resets the ToggleKeyboardAccess1 property to its default value.
+
+
+
+## Definition
+**Namespace:** <a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon</a>  
+**Assembly:** Krypton.Ribbon (in Krypton.Ribbon.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public void ResetToggleKeyboardAccess1()
+```
+**VB**
+``` VB
+Public Sub ResetToggleKeyboardAccess1
+```
+
+
+
+## See Also
+
+
+#### Reference
+<a href="ae8606f8-e9c2-9464-7174-cf2da2cdf6db.md">RibbonShortcuts Class</a>  
+<a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon Namespace</a>  

@@ -1,0 +1,36 @@
+# PaletteMonthCalendarState(PaletteMonthCalendarRedirect) Constructor
+
+
+Initialize a new instance of the PaletteMonthCalendarState class.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public PaletteMonthCalendarState(
+	PaletteMonthCalendarRedirect? redirect
+)
+```
+**VB**
+``` VB
+Public Sub New ( 
+	redirect As PaletteMonthCalendarRedirect
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="864800f6-e53d-3e64-c4b1-fffae18215ef.md">PaletteMonthCalendarRedirect</a></dt><dd>inheritance redirection instance.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="d2ee1285-f8f1-ac5c-69ec-9bb8ec94d8af.md">PaletteMonthCalendarState Class</a>  
+<a href="eb136c0f-ef7c-0240-3801-6ec192ba80ae.md">PaletteMonthCalendarState Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,33 @@
+# ButtonEdgeInset Property
+
+
+Gets the sets how far to inset buttons from the header edge.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public int ButtonEdgeInset { get; set; }
+```
+**VB**
+``` VB
+Public Property ButtonEdgeInset As Integer
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Int32
+
+## See Also
+
+
+#### Reference
+<a href="ae5e72d5-8bf4-9cdf-1499-da5cc20c28f6.md">PaletteHeaderButtonRedirect Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

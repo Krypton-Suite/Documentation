@@ -1,0 +1,33 @@
+# AutoSizeMode Property
+
+
+Gets and sets the auto size mode.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual AutoSizeMode AutoSizeMode { get; set; }
+```
+**VB**
+``` VB
+Public Overridable Property AutoSizeMode As AutoSizeMode
+	Get
+	Set
+```
+
+
+
+#### Property Value
+AutoSizeMode
+
+## See Also
+
+
+#### Reference
+<a href="c694ec82-881d-9be7-5585-83bda73ce040.md">VisualSimpleBase Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,28 @@
+# Undo Method
+
+
+Undoes the last edit operation in the text box.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public void Undo()
+```
+**VB**
+``` VB
+Public Sub Undo
+```
+
+
+
+## See Also
+
+
+#### Reference
+<a href="bafb1891-da9d-07a1-9249-da755c1768d7.md">KryptonTextBox Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

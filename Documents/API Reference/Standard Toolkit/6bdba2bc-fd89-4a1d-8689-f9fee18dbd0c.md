@@ -1,0 +1,33 @@
+# MiniMapImage Property
+
+
+Gets and sets the mapping used for the mini button item image.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual MapKryptonPageImage MiniMapImage { get; set; }
+```
+**VB**
+``` VB
+Public Overridable Property MiniMapImage As MapKryptonPageImage
+	Get
+	Set
+```
+
+
+
+#### Property Value
+<a href="5d49d8c1-00f3-7879-d398-385ab71a9278.md">MapKryptonPageImage</a>
+
+## See Also
+
+
+#### Reference
+<a href="740390a8-02ee-df25-3cac-517ccf6ebae8.md">NavigatorOutlookMini Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

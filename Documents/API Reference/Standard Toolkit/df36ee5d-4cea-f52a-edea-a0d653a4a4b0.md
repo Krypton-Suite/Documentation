@@ -1,0 +1,45 @@
+# BeginInvoke Method
+
+
+\[Missing &lt;summary&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual IAsyncResult BeginInvoke(
+	PaletteState state,
+	PaletteMetricInt metric,
+	AsyncCallback callback,
+	Object object
+)
+```
+**VB**
+``` VB
+Public Overridable Function BeginInvoke ( 
+	state As PaletteState,
+	metric As PaletteMetricInt,
+	callback As AsyncCallback,
+	object As Object
+) As IAsyncResult
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>\[Missing &lt;param name="state"/&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]</dd><dt>  <a href="add1c883-3c14-ed6e-05cf-668b87f7fd6d.md">PaletteMetricInt</a></dt><dd>\[Missing &lt;param name="metric"/&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]</dd><dt>  AsyncCallback</dt><dd>\[Missing &lt;param name="callback"/&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]</dd><dt>  Object</dt><dd>\[Missing &lt;param name="object"/&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]</dd></dl>
+
+#### Return Value
+IAsyncResult  
+\[Missing &lt;returns&gt; documentation for "M:Krypton.Toolkit.GetIntMetric.BeginInvoke(Krypton.Toolkit.PaletteState,Krypton.Toolkit.PaletteMetricInt,System.AsyncCallback,System.Object)"\]
+
+## See Also
+
+
+#### Reference
+<a href="c03a8845-45ae-587f-15b0-bb76a6c9399b.md">GetIntMetric Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

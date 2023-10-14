@@ -1,0 +1,43 @@
+# GetRibbonGroupSeparatorDark Method
+
+
+Gets the color for the group separator dark.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override Color GetRibbonGroupSeparatorDark(
+	PaletteState? state
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetRibbonGroupSeparatorDark ( 
+	state As PaletteState
+) As Color
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+Color  
+Color value.
+
+#### Implements
+<a href="85fb271e-9020-d9db-bb6e-49f8a99a9cf5.md">IPaletteRibbonGeneral.GetRibbonGroupSeparatorDark(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="8a34c544-4125-0c6d-d1a3-b00f7624ce24.md">PaletteRibbonGeneralInheritRedirect Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

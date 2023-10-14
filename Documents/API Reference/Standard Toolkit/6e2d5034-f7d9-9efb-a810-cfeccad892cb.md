@@ -1,0 +1,31 @@
+# DrawRect Field
+
+
+For internal use only.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public RectangleF DrawRect
+```
+**VB**
+``` VB
+Public DrawRect As RectangleF
+```
+
+
+
+#### Field Value
+RectangleF
+
+## See Also
+
+
+#### Reference
+<a href="468d9918-4b51-91d1-e5cb-2f8ea5236fb3.md">MementoBackExpertShadow Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

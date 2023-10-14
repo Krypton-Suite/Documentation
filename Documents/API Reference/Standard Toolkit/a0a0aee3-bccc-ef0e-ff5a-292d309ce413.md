@@ -1,0 +1,35 @@
+# NewCellInitialize Method
+
+
+Initialize a new cell.
+
+
+
+## Definition
+**Namespace:** <a href="98399376-cf41-9454-4b4d-4fab2ca20bc7.md">Krypton.Docking</a>  
+**Assembly:** Krypton.Docking (in Krypton.Docking.dll) Version: 80.23.10.287+build2023-10-14T12:58:55:711Z
+
+**C#**
+``` C#
+protected override void NewCellInitialize(
+	KryptonWorkspaceCell cell
+)
+```
+**VB**
+``` VB
+Protected Overrides Sub NewCellInitialize ( 
+	cell As KryptonWorkspaceCell
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="b97e121c-fcc0-2249-475a-015f2aa73754.md">KryptonWorkspaceCell</a></dt><dd>Cell being added to the control.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="15018b77-804e-6e51-4b3e-6f608c90d147.md">KryptonDockableWorkspace Class</a>  
+<a href="98399376-cf41-9454-4b4d-4fab2ca20bc7.md">Krypton.Docking Namespace</a>  

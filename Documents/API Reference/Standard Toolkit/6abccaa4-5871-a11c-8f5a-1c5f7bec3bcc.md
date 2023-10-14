@@ -1,0 +1,300 @@
+# PaletteBackStyleStrings Properties
+
+
+
+
+## Properties
+<table>
+<tr>
+<td><a href="0c30543d-2cd6-d535-996d-0cf084f4efa3.md">ButtonAlternate</a></td>
+<td>Gets or sets the button alternate palette back style string.</td></tr>
+<tr>
+<td><a href="e8f8d633-5735-0dca-46d0-7ec10a50dde5.md">ButtonBreadCrumb</a></td>
+<td>Gets or sets the button breadcrumb palette back style string.</td></tr>
+<tr>
+<td><a href="f8dab319-0aa6-8dbd-d87b-b2320a0d5567.md">ButtonButtonSpec</a></td>
+<td>Gets or sets the button spec palette back style string.</td></tr>
+<tr>
+<td><a href="70e325d0-34c3-48e2-a8ba-4c7b6792df03.md">ButtonCalendarDay</a></td>
+<td>Gets or sets the button calendar day palette back style string.</td></tr>
+<tr>
+<td><a href="1e49d6e4-268b-fe35-5327-990d09a997c4.md">ButtonCluster</a></td>
+<td>Gets or sets the button cluster palette back style string.</td></tr>
+<tr>
+<td><a href="59522c91-2982-696f-0b29-24b9325957d0.md">ButtonCommand</a></td>
+<td>Gets or sets the button command palette back style string.</td></tr>
+<tr>
+<td><a href="23734f97-f125-9118-57d8-8063a8f1ba14.md">ButtonCustom1</a></td>
+<td>Gets or sets the button custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="39adb768-e6f5-e82c-eb88-f696dcefb0ca.md">ButtonCustom2</a></td>
+<td>Gets or sets the button custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="6765b575-b17a-41ac-c871-4080a476d80d.md">ButtonCustom3</a></td>
+<td>Gets or sets the button custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="74415bd6-856a-dfe9-91fe-82a4faec5cdd.md">ButtonForm</a></td>
+<td>Gets or sets the button form palette back style string.</td></tr>
+<tr>
+<td><a href="70183b2a-93c1-0dc2-fefa-d2d56d332b11.md">ButtonFormClose</a></td>
+<td>Gets or sets the button form close palette back style string.</td></tr>
+<tr>
+<td><a href="697df0da-d707-b575-a53c-cb69bc752eb2.md">ButtonGallery</a></td>
+<td>Gets or sets the button gallery palette back style string.</td></tr>
+<tr>
+<td><a href="18663ff6-80b5-04b4-dfb2-af78fb9f2939.md">ButtonInputControl</a></td>
+<td>Gets or sets the button input control palette back style string.</td></tr>
+<tr>
+<td><a href="5d372359-f89c-210e-657e-932238a2976e.md">ButtonListItem</a></td>
+<td>Gets or sets the button list item palette back style string.</td></tr>
+<tr>
+<td><a href="439f618a-ed61-90e0-613c-fd9705719e78.md">ButtonLowProfile</a></td>
+<td>Gets or sets the button low profile palette back style string.</td></tr>
+<tr>
+<td><a href="fe2ac56e-c41c-d70e-a175-0ebd411edb9f.md">ButtonNavigatorMini</a></td>
+<td>Gets or sets the button navigator mini palette back style string.</td></tr>
+<tr>
+<td><a href="153703a9-6036-e487-d294-c80dda4a65db.md">ButtonNavigatorOverflow</a></td>
+<td>Gets or sets the button navigator overflow palette back style string.</td></tr>
+<tr>
+<td><a href="cb8a1d52-77a6-207b-d375-da0bdfc04e17.md">ButtonNavigatorStack</a></td>
+<td>Gets or sets the button navigator stack palette back style string.</td></tr>
+<tr>
+<td><a href="6c71fab7-bc32-8c30-6c67-ede0bf9c2753.md">ButtonStandalone</a></td>
+<td>Gets or sets the button standalone palette back style string.</td></tr>
+<tr>
+<td><a href="ee569ad3-33d2-0062-a66f-c9ede36e8196.md">ContextMenuHeading</a></td>
+<td>Gets or sets the context menu heading palette back style string.</td></tr>
+<tr>
+<td><a href="6ef84de9-ee34-5bbd-db64-cdc3eeaa7ed2.md">ContextMenuInner</a></td>
+<td>Gets or sets the context menu inner palette back style string.</td></tr>
+<tr>
+<td><a href="9579cc14-e97a-82e8-8f02-e257cabad875.md">ContextMenuItemHighlight</a></td>
+<td>Gets or sets the context menu item highlight palette back style string.</td></tr>
+<tr>
+<td><a href="0ac42b4d-8a6b-0aef-839f-f2a91162e9ac.md">ContextMenuItemImage</a></td>
+<td>Gets or sets the context menu item image palette back style string.</td></tr>
+<tr>
+<td><a href="b9061653-3fe0-d058-5f04-2088cf3f6f05.md">ContextMenuItemImageColumn</a></td>
+<td>Gets or sets the context menu item image column palette back style string.</td></tr>
+<tr>
+<td><a href="13fa8e03-02b2-e39b-dbb3-31ea8a00b405.md">ContextMenuItemSplit</a></td>
+<td>Gets or sets the context menu item split palette back style string.</td></tr>
+<tr>
+<td><a href="416bfc24-5760-5110-137f-c9de30267050.md">ContextMenuOuter</a></td>
+<td>Gets or sets the context menu outer palette back style string.</td></tr>
+<tr>
+<td><a href="0574d43d-8f9d-15f2-0367-07f344405d8a.md">ContextMenuSeparator</a></td>
+<td>Gets or sets the context menu separator palette back style string.</td></tr>
+<tr>
+<td><a href="9bd0602b-fd98-e276-e178-fcd2d764a33a.md">Control</a></td>
+<td>Gets or sets the control.</td></tr>
+<tr>
+<td><a href="ff035a84-cb2e-8ea8-831d-82c1ba92fc40.md">ControlAlternate</a></td>
+<td>Gets or sets the control alternate palette back style string.</td></tr>
+<tr>
+<td><a href="0b967ac4-18f8-ba3f-698c-5ad8069513ea.md">ControlClient</a></td>
+<td>Gets or sets the control client palette back style string.</td></tr>
+<tr>
+<td><a href="3651da13-4642-61d7-c023-81c86680b5ce.md">ControlCustom1</a></td>
+<td>Gets or sets the control custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="0389baf2-d4bd-1a3c-3d45-6eef67e9a2cc.md">ControlCustom2</a></td>
+<td>Gets or sets the control custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="25282757-4bb2-5382-0277-6236d8da630f.md">ControlCustom3</a></td>
+<td>Gets or sets the control custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="1f4ab04b-9405-2bca-f2d1-76c9f81b5287.md">ControlGroupBox</a></td>
+<td>Gets or sets the control group box palette back style string.</td></tr>
+<tr>
+<td><a href="b30cdcf4-8549-aa2b-022e-0a7011b2423a.md">ControlRibbon</a></td>
+<td>Gets or sets the control ribbon palette back style string.</td></tr>
+<tr>
+<td><a href="4d20a86c-d337-ab5b-aeee-6d8e31e46a8d.md">ControlRibbonAppMenu</a></td>
+<td>Gets or sets the control ribbon app menu palette back style string.</td></tr>
+<tr>
+<td><a href="09bab051-ae0e-bbd8-d473-edf5fad65832.md">ControlToolTip</a></td>
+<td>Gets or sets the control tool tip palette back style string.</td></tr>
+<tr>
+<td><a href="f4615798-927c-c0dd-27e8-b498d795c1c4.md">FormCustom1</a></td>
+<td>Gets or sets the form custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="ec590082-f6f4-a979-63fc-ca8000992c4e.md">FormCustom2</a></td>
+<td>Gets or sets the form custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="e8b1edce-418f-2497-0ee6-e6b8d354cdf9.md">FormCustom3</a></td>
+<td>Gets or sets the form custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="d63a4b29-9fbc-41e7-ac38-9d5d3b024631.md">FormMain</a></td>
+<td>Gets or sets the input control form main palette back style string.</td></tr>
+<tr>
+<td><a href="ec4388b9-e5c5-9484-257d-a2f7e2043ec1.md">GridBackgroundCustom1</a></td>
+<td>Gets or sets the grid background custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="b2d42e55-8601-eb04-0800-2563d61768dc.md">GridBackgroundCustom2</a></td>
+<td>Gets or sets the grid background custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="4b442299-bad0-a99d-1bfc-0b54e7f01392.md">GridBackgroundCustom3</a></td>
+<td>Gets or sets the grid background custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="6fa0f095-92cb-d9d0-bcfa-e37764ba0e88.md">GridBackgroundList</a></td>
+<td>Gets or sets the grid background list palette back style string.</td></tr>
+<tr>
+<td><a href="15ce3e0b-e9cf-de00-3ba1-9c5ade7c31de.md">GridBackgroundSheet</a></td>
+<td>Gets or sets the grid background sheet palette back style string.</td></tr>
+<tr>
+<td><a href="92315c8d-6e57-8a41-14bb-5d64efe49633.md">GridDataCellCustom1</a></td>
+<td>Gets or sets the grid data cell custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="3e7bf27b-2112-7f8c-2fc2-513a1b55fe4e.md">GridDataCellCustom2</a></td>
+<td>Gets or sets the grid data cell custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="d61037d7-8a19-d0f3-1054-ba7500c3e3fa.md">GridDataCellCustom3</a></td>
+<td>Gets or sets the grid data cell custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="a3888e7b-795d-ebe1-f966-20f111cbfa1e.md">GridDataCellList</a></td>
+<td>Gets or sets the grid data cell list palette back style string.</td></tr>
+<tr>
+<td><a href="e20459e3-a008-6941-0352-08943d427a4e.md">GridDataCellSheet</a></td>
+<td>Gets or sets the grid data cell sheet palette back style string.</td></tr>
+<tr>
+<td><a href="f435cf0c-cdf6-1a71-1114-ee530bd27277.md">GridHeaderColumnCustom1</a></td>
+<td>Gets or sets the grid header column custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="57f25902-058f-f79e-4757-d778bfd7580b.md">GridHeaderColumnCustom2</a></td>
+<td>Gets or sets the grid header column custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="85b74c05-e698-4107-f0bd-1a7f59acdac6.md">GridHeaderColumnCustom3</a></td>
+<td>Gets or sets the grid header column custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="88f970e9-7d8d-c130-0727-b4e5c2d28809.md">GridHeaderColumnList</a></td>
+<td>Gets or sets the grid header column list palette back style string.</td></tr>
+<tr>
+<td><a href="4c323569-c6ca-688a-f5d5-c10cf7766bac.md">GridHeaderColumnSheet</a></td>
+<td>Gets or sets the grid header column sheet palette back style string.</td></tr>
+<tr>
+<td><a href="927ef4eb-77a1-11d5-6088-94c9a792a820.md">GridHeaderRowCustom1</a></td>
+<td>Gets or sets the grid header row custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="fb03c366-8fa2-aa98-69b0-45dcc12965a6.md">GridHeaderRowCustom2</a></td>
+<td>Gets or sets the grid header row custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="f3c3a104-8c2a-be9a-fdf9-ceb8e103b1ba.md">GridHeaderRowCustom3</a></td>
+<td>Gets or sets the grid header row custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="6bcae782-d1f3-9b19-4642-a3f706562275.md">GridHeaderRowList</a></td>
+<td>Gets or sets the grid header row list palette back style string.</td></tr>
+<tr>
+<td><a href="bd68dd8c-c4f6-a8b4-3641-85db7ffdbc63.md">GridHeaderRowSheet</a></td>
+<td>Gets or sets the grid header row sheet palette back style string.</td></tr>
+<tr>
+<td><a href="cf52f4f2-0eb4-bb8f-282a-ac0c17874b5c.md">HeaderCalendar</a></td>
+<td>Gets or sets the header calendar back style string.</td></tr>
+<tr>
+<td><a href="3f5d28e2-9c70-0b2f-57cf-d0f76e6e789c.md">HeaderCustom1</a></td>
+<td>Gets or sets the header custom 1 back style string.</td></tr>
+<tr>
+<td><a href="16b388b4-2476-b0d6-c338-efd1f6dd674b.md">HeaderCustom2</a></td>
+<td>Gets or sets the header custom 2 back style string.</td></tr>
+<tr>
+<td><a href="b258972f-1551-20e7-16f0-c7bc360ee20f.md">HeaderCustom3</a></td>
+<td>Gets or sets the header custom 3 back style string.</td></tr>
+<tr>
+<td><a href="ebc33832-a5f6-0faa-6384-6fceaf38155d.md">HeaderDockActive</a></td>
+<td>Gets or sets the header dock active back style string.</td></tr>
+<tr>
+<td><a href="a2cb2844-6791-fc53-93cd-61bb00fef6b7.md">HeaderDockInactive</a></td>
+<td>Gets or sets the header dock inactive back style string.</td></tr>
+<tr>
+<td><a href="790ebfa3-247a-e49d-701b-0663f18bbc3c.md">HeaderForm</a></td>
+<td>Gets or sets the header form back style string.</td></tr>
+<tr>
+<td><a href="eb15d330-1a0a-9e86-777b-52579c36d948.md">HeaderPrimary</a></td>
+<td>Gets or sets the header primary palette back style string.</td></tr>
+<tr>
+<td><a href="9ae37417-5d7e-994d-17b3-a3e8922fc3c7.md">HeaderSecondary</a></td>
+<td>Gets or sets the header secondary palette back style string.</td></tr>
+<tr>
+<td><a href="71a6846f-bfb6-fb58-b361-6b43ae0583a8.md">Id</a></td>
+<td>Gets the unique identifier of the object.<br />(Inherited from <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>)</td></tr>
+<tr>
+<td><a href="f58dbadf-dc45-980c-ab50-30d02d6c69a1.md">InputControlCustom1</a></td>
+<td>Gets or sets the input control custom 1 palette back style string.</td></tr>
+<tr>
+<td><a href="8c348046-6602-7e6d-ac2f-2b2f8b036d14.md">InputControlCustom2</a></td>
+<td>Gets or sets the input control custom 2 palette back style string.</td></tr>
+<tr>
+<td><a href="e793bd69-3ff9-6199-55d7-e507d1979c46.md">InputControlCustom3</a></td>
+<td>Gets or sets the input control custom 3 palette back style string.</td></tr>
+<tr>
+<td><a href="b6d33c41-6361-2f3a-48e9-f848bb08710b.md">InputControlRibbon</a></td>
+<td>Gets or sets the input control ribbon palette back style string.</td></tr>
+<tr>
+<td><a href="646c7eda-ac81-69a6-beb7-0d38a8da218a.md">InputControlStandalone</a></td>
+<td>Gets or sets the input control standalone palette back style string.</td></tr>
+<tr>
+<td><a href="9c430ea8-ab50-5812-7275-71204036d0f0.md">IsDefault</a></td>
+<td> </td></tr>
+<tr>
+<td><a href="41e3eb63-3293-ba4c-5860-7703004d3358.md">PanelAlternate</a></td>
+<td>Gets or sets the panel alternate back style string.</td></tr>
+<tr>
+<td><a href="06f6a1f9-54f2-d813-c012-b6755021da04.md">PanelClient</a></td>
+<td>Gets or sets the panel client back style string.</td></tr>
+<tr>
+<td><a href="5e46b0be-a972-b8de-8299-b381a540b483.md">PanelCustom1</a></td>
+<td>Gets or sets the panel custom 1 back style string.</td></tr>
+<tr>
+<td><a href="2fb7a604-ba92-6826-8965-222059dacb42.md">PanelCustom2</a></td>
+<td>Gets or sets the panel custom 2 back style string.</td></tr>
+<tr>
+<td><a href="e7960008-acc8-3b21-bb57-cbdc1cfd8385.md">PanelCustom3</a></td>
+<td>Gets or sets the panel custom 3 back style string.</td></tr>
+<tr>
+<td><a href="e2727d33-f6dd-f829-b279-f3e243186c16.md">PanelRibbonInactive</a></td>
+<td>Gets or sets the panel ribbon inactive back style string.</td></tr>
+<tr>
+<td><a href="94cad242-09e0-d522-a6a7-a477d5077038.md">SeparatorHighInternalProfile</a></td>
+<td>Gets or sets the separator high internal profile back style string.</td></tr>
+<tr>
+<td><a href="5a0e4537-d21c-a1db-b984-2b80dc8ec9f8.md">SeparatorHighProfile</a></td>
+<td>Gets or sets the separator high profile back style string.</td></tr>
+<tr>
+<td><a href="5276ae61-ba41-684c-943f-398e314b42f0.md">SeparatorLowProfile</a></td>
+<td>Gets or sets the separator low profile back style string.</td></tr>
+<tr>
+<td><a href="19666685-bffa-36ae-3a7f-6ba580e8deae.md">TabCustom1</a></td>
+<td>Gets or sets the tab custom 1 back style string.</td></tr>
+<tr>
+<td><a href="4820e4cd-d223-ecee-6acc-ab2022d9e685.md">TabCustom2</a></td>
+<td>Gets or sets the tab custom 2 back style string.</td></tr>
+<tr>
+<td><a href="220a9c63-b699-cb82-4ccc-5abf748f17fe.md">TabCustom3</a></td>
+<td>Gets or sets the tab custom 3 back style string.</td></tr>
+<tr>
+<td><a href="8bbc9052-c55b-b20e-bfb8-00043a1ef202.md">TabDock</a></td>
+<td>Gets or sets the tab dock back style string.</td></tr>
+<tr>
+<td><a href="f614e142-23e0-2f3a-d36c-4723a232825f.md">TabDockAutoHidden</a></td>
+<td>Gets or sets the tab dock auto hidden back style string.</td></tr>
+<tr>
+<td><a href="367b8ca1-5193-f931-8bb9-f710acb7e02c.md">TabHighProfile</a></td>
+<td>Gets or sets the tab high profile back style string.</td></tr>
+<tr>
+<td><a href="18418ab9-05f0-63c2-fb59-d39959374fec.md">TabLowProfile</a></td>
+<td>Gets or sets the tab low profile back style string.</td></tr>
+<tr>
+<td><a href="ffaf51bb-ebc1-f4cc-d16d-bd83d9491468.md">TabOneNote</a></td>
+<td>Gets or sets the tab OneNote back style string.</td></tr>
+<tr>
+<td><a href="4584d656-7f85-41df-0d99-dd3467d88018.md">TabStandardProfile</a></td>
+<td>Gets or sets the tab standard profile back style string.</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="bd28134b-8510-c4fa-373f-ae97f3e0c76c.md">PaletteBackStyleStrings Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,45 @@
+# DragTargetWorkspaceEdge Constructor
+
+
+Initialize a new instance of the DragTargetWorkspaceEdge class.
+
+
+
+## Definition
+**Namespace:** <a href="0dbf488f-9676-a1e5-a949-1b4bcea03d52.md">Krypton.Workspace</a>  
+**Assembly:** Krypton.Workspace (in Krypton.Workspace.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public DragTargetWorkspaceEdge(
+	Rectangle screenRect,
+	Rectangle hotRect,
+	Rectangle drawRect,
+	DragTargetHint hint,
+	KryptonWorkspace workspace,
+	KryptonPageFlags allowFlags
+)
+```
+**VB**
+``` VB
+Public Sub New ( 
+	screenRect As Rectangle,
+	hotRect As Rectangle,
+	drawRect As Rectangle,
+	hint As DragTargetHint,
+	workspace As KryptonWorkspace,
+	allowFlags As KryptonPageFlags
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Rectangle</dt><dd>Rectangle for screen area.</dd><dt>  Rectangle</dt><dd>Rectangle for hot area.</dd><dt>  Rectangle</dt><dd>Rectangle for draw area.</dd><dt>  <a href="2f23e476-40d9-f6bb-d06c-b3ad96ca4222.md">DragTargetHint</a></dt><dd>Target hint which should be one of the edges.</dd><dt>  <a href="a977050a-c9d5-1360-9b5d-5a07a77ae65c.md">KryptonWorkspace</a></dt><dd>Control instance for drop.</dd><dt>  <a href="a72955c4-e908-effe-05d6-790c25899294.md">KryptonPageFlags</a></dt><dd>Only drop pages that have one of these flags defined.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="2906aafa-8e8d-9743-193c-19e1659dfdba.md">DragTargetWorkspaceEdge Class</a>  
+<a href="0dbf488f-9676-a1e5-a949-1b4bcea03d52.md">Krypton.Workspace Namespace</a>  

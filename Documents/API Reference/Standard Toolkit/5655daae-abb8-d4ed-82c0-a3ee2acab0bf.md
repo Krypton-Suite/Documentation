@@ -1,0 +1,36 @@
+# OnHandleCreated(EventArgs) Method
+
+
+Raises the HandleCreated event.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected override void OnHandleCreated(
+	EventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overrides Sub OnHandleCreated ( 
+	e As EventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  EventArgs</dt><dd>An EventArgs containing the event data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="bafb1891-da9d-07a1-9249-da755c1768d7.md">KryptonTextBox Class</a>  
+<a href="d08b2c30-5017-6cf0-b787-bb941a2e2a04.md">OnHandleCreated Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

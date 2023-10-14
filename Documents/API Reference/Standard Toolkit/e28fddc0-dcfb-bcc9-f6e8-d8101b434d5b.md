@@ -1,0 +1,268 @@
+# KryptonColorTable365SilverLightMode Class
+
+
+Provide KryptonColorTable365SilverLightMode values using an array of Color values as the source.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class KryptonColorTable365SilverLightMode : KryptonColorTable
+```
+**VB**
+``` VB
+Public Class KryptonColorTable365SilverLightMode
+	Inherits KryptonColorTable
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  ProfessionalColorTable  →  <a href="dea02866-c4bb-a4a9-94c0-3c39ed614761.md">KryptonColorTable</a>  →  KryptonColorTable365SilverLightMode</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="6ad23876-50fb-350c-f432-35f297028484.md">KryptonColorTable365SilverLightMode</a></td>
+<td>Initialize a new instance of the KryptonColorTable365 class.</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td><a href="1d9803b4-c890-62d7-9a9a-bb94b5383a02.md">ButtonCheckedGradientBegin</a></td>
+<td>Gets the background starting color for a checked button.<br />(Overrides ProfessionalColorTable.ButtonCheckedGradientBegin)</td></tr>
+<tr>
+<td><a href="a2e42ed7-08aa-f221-5d33-30464e7c4e6b.md">ButtonCheckedGradientEnd</a></td>
+<td>Gets the background ending color for a checked button.<br />(Overrides ProfessionalColorTable.ButtonCheckedGradientEnd)</td></tr>
+<tr>
+<td><a href="b7f93ea5-3528-1117-13e4-5dec6fd0eacb.md">ButtonCheckedGradientMiddle</a></td>
+<td>Gets the background middle color for a checked button.<br />(Overrides ProfessionalColorTable.ButtonCheckedGradientMiddle)</td></tr>
+<tr>
+<td><a href="c959e383-92b2-5f5b-8ebb-112fd52e31ad.md">ButtonCheckedHighlight</a></td>
+<td>Gets the highlight background for a checked button.<br />(Overrides ProfessionalColorTable.ButtonCheckedHighlight)</td></tr>
+<tr>
+<td><a href="d6e97814-35c1-adf3-a0c5-51b41efcca33.md">ButtonCheckedHighlightBorder</a></td>
+<td>Gets the highlight border for a checked button.<br />(Overrides ProfessionalColorTable.ButtonCheckedHighlightBorder)</td></tr>
+<tr>
+<td><a href="26c4e10b-e09d-c881-66a2-b04debee8450.md">ButtonPressedBorder</a></td>
+<td>Gets the border color for a button being pressed.<br />(Overrides ProfessionalColorTable.ButtonPressedBorder)</td></tr>
+<tr>
+<td><a href="43e0f7b1-6065-fa09-450e-21b584ea6c9f.md">ButtonPressedGradientBegin</a></td>
+<td>Gets the background starting color for a button being pressed.<br />(Overrides ProfessionalColorTable.ButtonPressedGradientBegin)</td></tr>
+<tr>
+<td><a href="71ff4345-1677-f91c-8251-0f102bdec9a3.md">ButtonPressedGradientEnd</a></td>
+<td>Gets the background ending color for a button being pressed.<br />(Overrides ProfessionalColorTable.ButtonPressedGradientEnd)</td></tr>
+<tr>
+<td><a href="14ac822a-01e3-22bf-4f10-82f504830fb6.md">ButtonPressedGradientMiddle</a></td>
+<td>Gets the background middle color for a button being pressed.<br />(Overrides ProfessionalColorTable.ButtonPressedGradientMiddle)</td></tr>
+<tr>
+<td><a href="6fd8a861-f6b2-ac4c-cfb6-c90729946d41.md">ButtonPressedHighlight</a></td>
+<td>Gets the highlight background for a pressed button.<br />(Overrides ProfessionalColorTable.ButtonPressedHighlight)</td></tr>
+<tr>
+<td><a href="2bf9796d-f4f9-7e72-fe79-72d0a592fcfb.md">ButtonPressedHighlightBorder</a></td>
+<td>Gets the highlight border for a pressed button.<br />(Overrides ProfessionalColorTable.ButtonPressedHighlightBorder)</td></tr>
+<tr>
+<td><a href="53feed2a-fc48-cdde-f00f-c24f3033da44.md">ButtonSelectedBorder</a></td>
+<td>Gets the border color for a button being selected.<br />(Overrides ProfessionalColorTable.ButtonSelectedBorder)</td></tr>
+<tr>
+<td><a href="9e8170d8-8d36-4067-19f8-498e3eccbac1.md">ButtonSelectedGradientBegin</a></td>
+<td>Gets the background starting color for a button being selected.<br />(Overrides ProfessionalColorTable.ButtonSelectedGradientBegin)</td></tr>
+<tr>
+<td><a href="39a964a9-c71b-d4b8-4b4a-293c311f1196.md">ButtonSelectedGradientEnd</a></td>
+<td>Gets the background ending color for a button being selected.<br />(Overrides ProfessionalColorTable.ButtonSelectedGradientEnd)</td></tr>
+<tr>
+<td><a href="806ffcfd-c47d-5fd0-fdeb-986a44d32369.md">ButtonSelectedGradientMiddle</a></td>
+<td>Gets the background middle color for a button being selected.<br />(Overrides ProfessionalColorTable.ButtonSelectedGradientMiddle)</td></tr>
+<tr>
+<td><a href="1370de98-684d-c4f8-6ae0-603c4b118437.md">ButtonSelectedHighlight</a></td>
+<td>Gets the highlight background for a selected button.<br />(Overrides ProfessionalColorTable.ButtonSelectedHighlight)</td></tr>
+<tr>
+<td><a href="c01496c5-e0bb-9439-341e-c7c6540e2e07.md">ButtonSelectedHighlightBorder</a></td>
+<td>Gets the highlight border for a selected button.<br />(Overrides ProfessionalColorTable.ButtonSelectedHighlightBorder)</td></tr>
+<tr>
+<td><a href="4c9d5710-adec-7c51-9fac-ce1bcfcbdfd1.md">CheckBackground</a></td>
+<td>Get background of the check mark area.<br />(Overrides ProfessionalColorTable.CheckBackground)</td></tr>
+<tr>
+<td><a href="c50e5751-d6fa-bbfa-4dd3-1d78b83448df.md">CheckPressedBackground</a></td>
+<td>Get background of a pressed check mark area.<br />(Overrides ProfessionalColorTable.CheckPressedBackground)</td></tr>
+<tr>
+<td><a href="4b4920c4-e711-e821-9192-4c040d959911.md">CheckSelectedBackground</a></td>
+<td>Get background of a selected check mark area.<br />(Overrides ProfessionalColorTable.CheckSelectedBackground)</td></tr>
+<tr>
+<td><a href="2f8e524e-069e-461c-3bb6-6baa2f577a4c.md">Colors</a></td>
+<td>Gets the raw set of colors.</td></tr>
+<tr>
+<td><a href="d2f7b775-13c1-d4ae-fb66-2a5debbb5b74.md">GripDark</a></td>
+<td>Gets the dark color used to draw grips.<br />(Overrides ProfessionalColorTable.GripDark)</td></tr>
+<tr>
+<td><a href="28d80ffc-1182-b4b5-719d-7c646c92170f.md">GripLight</a></td>
+<td>Gets the light color used to draw grips.<br />(Overrides ProfessionalColorTable.GripLight)</td></tr>
+<tr>
+<td><a href="dca27047-a77d-e0a6-10e1-89192cc358bf.md">ImageMarginGradientBegin</a></td>
+<td>Gets the starting color for the context menu margin.<br />(Overrides ProfessionalColorTable.ImageMarginGradientBegin)</td></tr>
+<tr>
+<td><a href="f4fe9c73-c9fc-950a-2f74-45d3730726ba.md">ImageMarginGradientEnd</a></td>
+<td>Gets the ending color for the context menu margin.<br />(Overrides ProfessionalColorTable.ImageMarginGradientEnd)</td></tr>
+<tr>
+<td><a href="5e081340-8e98-6fe4-5143-ad6ba2f3ff6c.md">ImageMarginGradientMiddle</a></td>
+<td>Gets the middle color for the context menu margin.<br />(Overrides ProfessionalColorTable.ImageMarginGradientMiddle)</td></tr>
+<tr>
+<td><a href="494f394c-562b-6893-021c-a3d5bfeb1e53.md">ImageMarginRevealedGradientBegin</a></td>
+<td>Gets the starting color for the context menu margin revealed.<br />(Overrides ProfessionalColorTable.ImageMarginRevealedGradientBegin)</td></tr>
+<tr>
+<td><a href="36a5ac52-27d6-fa13-f543-96749f276ce0.md">ImageMarginRevealedGradientEnd</a></td>
+<td>Gets the ending color for the context menu margin revealed.<br />(Overrides ProfessionalColorTable.ImageMarginRevealedGradientEnd)</td></tr>
+<tr>
+<td><a href="823cd834-c8cb-0c1f-5768-83bc62a007ad.md">ImageMarginRevealedGradientMiddle</a></td>
+<td>Gets the middle color for the context menu margin revealed.<br />(Overrides ProfessionalColorTable.ImageMarginRevealedGradientMiddle)</td></tr>
+<tr>
+<td><a href="ddee630a-0c23-dd8e-8360-a5aa6256c38a.md">MenuBorder</a></td>
+<td>Gets the color of the border around menus.<br />(Overrides ProfessionalColorTable.MenuBorder)</td></tr>
+<tr>
+<td><a href="a0bf4c35-dbb5-719a-7989-1b2249fb962f.md">MenuItemBorder</a></td>
+<td>Gets the border color for around the menu item.<br />(Overrides ProfessionalColorTable.MenuItemBorder)</td></tr>
+<tr>
+<td><a href="c346ab79-15c4-7993-9f3a-b58091199554.md">MenuItemPressedGradientBegin</a></td>
+<td>Gets the starting color of the gradient used when a top-level ToolStripMenuItem is pressed down.<br />(Overrides ProfessionalColorTable.MenuItemPressedGradientBegin)</td></tr>
+<tr>
+<td><a href="713d0b06-12cb-7a1a-69c1-b40f00dcfb4d.md">MenuItemPressedGradientEnd</a></td>
+<td>Gets the end color of the gradient used when a top-level ToolStripMenuItem is pressed down.<br />(Overrides ProfessionalColorTable.MenuItemPressedGradientEnd)</td></tr>
+<tr>
+<td><a href="106ebdf4-76c5-3f07-8789-be195a6b6382.md">MenuItemPressedGradientMiddle</a></td>
+<td>Gets the middle color of the gradient used when a top-level ToolStripMenuItem is pressed down.<br />(Overrides ProfessionalColorTable.MenuItemPressedGradientMiddle)</td></tr>
+<tr>
+<td><a href="4d6c3f0c-bdb9-72fe-ee41-a1788f641302.md">MenuItemSelected</a></td>
+<td>Gets the color of a selected menu item.<br />(Overrides ProfessionalColorTable.MenuItemSelected)</td></tr>
+<tr>
+<td><a href="ea8315dd-e2ac-047b-560d-0a183ae0865a.md">MenuItemSelectedGradientBegin</a></td>
+<td>Gets the starting color of the gradient used when the ToolStripMenuItem is selected.<br />(Overrides ProfessionalColorTable.MenuItemSelectedGradientBegin)</td></tr>
+<tr>
+<td><a href="c571548b-7307-4cbf-4941-766c4ede4dfc.md">MenuItemSelectedGradientEnd</a></td>
+<td>Gets the end color of the gradient used when the ToolStripMenuItem is selected.<br />(Overrides ProfessionalColorTable.MenuItemSelectedGradientEnd)</td></tr>
+<tr>
+<td><a href="c63cf86c-19df-01fe-cc7d-d217e04e3417.md">MenuItemText</a></td>
+<td>Gets the text color used on the menu items.<br />(Overrides <a href="bf5ef5b1-9be2-555a-03e6-f3a4f8cbfdcc.md">KryptonColorTable.MenuItemText</a>)</td></tr>
+<tr>
+<td><a href="ae3db01e-0873-67b1-7b0c-eb1269ca0550.md">MenuStripFont</a></td>
+<td>Gets the font used on the menu strip.<br />(Overrides <a href="b6ef872c-406f-7471-482e-2ec54dce7743.md">KryptonColorTable.MenuStripFont</a>)</td></tr>
+<tr>
+<td><a href="4d821977-33cc-0b8c-9afc-394824a5285d.md">MenuStripGradientBegin</a></td>
+<td>Gets the starting color of the gradient used in the MenuStrip.<br />(Overrides ProfessionalColorTable.MenuStripGradientBegin)</td></tr>
+<tr>
+<td><a href="a22c7564-51f6-851f-a077-6f657216686c.md">MenuStripGradientEnd</a></td>
+<td>Gets the end color of the gradient used in the MenuStrip.<br />(Overrides ProfessionalColorTable.MenuStripGradientEnd)</td></tr>
+<tr>
+<td><a href="a395ec4b-6f00-f459-8b1f-1d5f84e8e21c.md">MenuStripText</a></td>
+<td>Gets the text color used on the menu strip.<br />(Overrides <a href="a1a476de-b35c-977c-1f23-fef0e03abc48.md">KryptonColorTable.MenuStripText</a>)</td></tr>
+<tr>
+<td><a href="f264abab-e8ea-706a-7e92-ca5aea22e735.md">OverflowButtonGradientBegin</a></td>
+<td>Gets the starting color of the gradient used in the ToolStripOverflowButton.<br />(Overrides ProfessionalColorTable.OverflowButtonGradientBegin)</td></tr>
+<tr>
+<td><a href="ae6d06f5-6fb8-d0dd-91b6-8fd3d412e7fd.md">OverflowButtonGradientEnd</a></td>
+<td>Gets the end color of the gradient used in the ToolStripOverflowButton.<br />(Overrides ProfessionalColorTable.OverflowButtonGradientEnd)</td></tr>
+<tr>
+<td><a href="7af3605b-b389-59d9-03dd-992ac6d6d64a.md">OverflowButtonGradientMiddle</a></td>
+<td>Gets the middle color of the gradient used in the ToolStripOverflowButton.<br />(Overrides ProfessionalColorTable.OverflowButtonGradientMiddle)</td></tr>
+<tr>
+<td><a href="5402a30e-107d-4479-d1f2-397262be6b24.md">Palette</a></td>
+<td>Gets the associated palette instance.<br />(Inherited from <a href="dea02866-c4bb-a4a9-94c0-3c39ed614761.md">KryptonColorTable</a>)</td></tr>
+<tr>
+<td><a href="be0d8c8d-f080-71f1-c50e-184a187e25b6.md">RaftingContainerGradientBegin</a></td>
+<td>Gets the starting color of the gradient used in the ToolStripContainer.<br />(Overrides ProfessionalColorTable.RaftingContainerGradientBegin)</td></tr>
+<tr>
+<td><a href="0c8a72cc-8c63-af5d-28b7-b841b9f352c2.md">RaftingContainerGradientEnd</a></td>
+<td>Gets the end color of the gradient used in the ToolStripContainer.<br />(Overrides ProfessionalColorTable.RaftingContainerGradientEnd)</td></tr>
+<tr>
+<td><a href="8167efca-927b-0c3c-88f8-ce234c497ae3.md">SeparatorDark</a></td>
+<td>Gets the dark separator color.<br />(Overrides ProfessionalColorTable.SeparatorDark)</td></tr>
+<tr>
+<td><a href="3c60bfe5-4d50-4921-ef14-dfb65d0f62c4.md">SeparatorLight</a></td>
+<td>Gets the light separator color.<br />(Overrides ProfessionalColorTable.SeparatorLight)</td></tr>
+<tr>
+<td>StatusStripBorder</td>
+<td><br />(Inherited from ProfessionalColorTable)</td></tr>
+<tr>
+<td><a href="4d4960cb-0854-7967-e7d6-0b8e12e189d2.md">StatusStripFont</a></td>
+<td>Gets the font used on the status strip.<br />(Overrides <a href="9ebed260-f09c-e4cb-fe1f-c316142558e7.md">KryptonColorTable.StatusStripFont</a>)</td></tr>
+<tr>
+<td><a href="f0ad91ac-c916-4355-5f91-b6d4af6c43e3.md">StatusStripGradientBegin</a></td>
+<td>Gets the starting color for the status strip background.<br />(Overrides ProfessionalColorTable.StatusStripGradientBegin)</td></tr>
+<tr>
+<td><a href="0397f96b-a874-93ed-fcec-20c6d529ddaa.md">StatusStripGradientEnd</a></td>
+<td>Gets the ending color for the status strip background.<br />(Overrides ProfessionalColorTable.StatusStripGradientEnd)</td></tr>
+<tr>
+<td><a href="c169537e-3895-efb3-3b2f-ff58a57a6d90.md">StatusStripText</a></td>
+<td>Gets the text color used on the status strip.<br />(Overrides <a href="01632758-e1ce-3543-6a11-29f340b923e5.md">KryptonColorTable.StatusStripText</a>)</td></tr>
+<tr>
+<td><a href="8d76760b-d31a-24f9-7720-394c2b5d67c3.md">ToolStripBorder</a></td>
+<td>Gets the border color to use on the bottom edge of the ToolStrip.<br />(Overrides ProfessionalColorTable.ToolStripBorder)</td></tr>
+<tr>
+<td><a href="a88415b1-17f2-f1da-34d0-5e21adc8b50a.md">ToolStripContentPanelGradientBegin</a></td>
+<td>Gets the starting color for the content panel background.<br />(Overrides ProfessionalColorTable.ToolStripContentPanelGradientBegin)</td></tr>
+<tr>
+<td><a href="28984433-db9c-7891-5100-f5486beaee26.md">ToolStripContentPanelGradientEnd</a></td>
+<td>Gets the ending color for the content panel background.<br />(Overrides ProfessionalColorTable.ToolStripContentPanelGradientEnd)</td></tr>
+<tr>
+<td><a href="783cf73c-d692-5d70-dd15-48b01f166018.md">ToolStripDropDownBackground</a></td>
+<td>Gets the background color for drop down menus.<br />(Overrides ProfessionalColorTable.ToolStripDropDownBackground)</td></tr>
+<tr>
+<td><a href="5ffaa3cc-136d-4b92-d6ed-766493e950f6.md">ToolStripFont</a></td>
+<td>Gets the font used on the tool strip.<br />(Overrides <a href="f4298298-46cc-e27b-a4cb-8add7f253083.md">KryptonColorTable.ToolStripFont</a>)</td></tr>
+<tr>
+<td><a href="8ac5b2d2-d259-4eb1-bd26-bd089948cc00.md">ToolStripGradientBegin</a></td>
+<td>Gets the starting color of the gradient used in the ToolStrip background.<br />(Overrides ProfessionalColorTable.ToolStripGradientBegin)</td></tr>
+<tr>
+<td><a href="6d013c17-57b2-abde-07f8-6de25399065d.md">ToolStripGradientEnd</a></td>
+<td>Gets the end color of the gradient used in the ToolStrip background.<br />(Overrides ProfessionalColorTable.ToolStripGradientEnd)</td></tr>
+<tr>
+<td><a href="b18490f6-d86f-3b4b-6cff-a80b9e51764a.md">ToolStripGradientMiddle</a></td>
+<td>Gets the middle color of the gradient used in the ToolStrip background.<br />(Overrides ProfessionalColorTable.ToolStripGradientMiddle)</td></tr>
+<tr>
+<td><a href="712c23f7-1d74-7b84-d10c-0ffae6a298a8.md">ToolStripPanelGradientBegin</a></td>
+<td>Gets the starting color of the gradient used in the ToolStripPanel.<br />(Overrides ProfessionalColorTable.ToolStripPanelGradientBegin)</td></tr>
+<tr>
+<td><a href="51609852-1365-342f-4d3d-b1855874b033.md">ToolStripPanelGradientEnd</a></td>
+<td>Gets the end color of the gradient used in the ToolStripPanel.<br />(Overrides ProfessionalColorTable.ToolStripPanelGradientEnd)</td></tr>
+<tr>
+<td><a href="233749e7-4cc7-ae97-458b-f38fd09cfbca.md">ToolStripText</a></td>
+<td>Gets the text color used on the tool strip.<br />(Overrides <a href="79d91581-1635-df06-699e-90c821c48509.md">KryptonColorTable.ToolStripText</a>)</td></tr>
+<tr>
+<td><a href="ce0e00e9-3896-f9fe-0e8b-ff28b6ab9c9c.md">UseRoundedEdges</a></td>
+<td>Gets a value indicating if rounded egdes are required.<br />(Overrides <a href="16893f9b-41f9-0398-61d5-ab2e1a31331c.md">KryptonColorTable.UseRoundedEdges</a>)</td></tr>
+<tr>
+<td>UseSystemColors</td>
+<td>Gets or sets a value indicating whether to use SystemColors rather than colors that match the current visual style.<br />(Inherited from ProfessionalColorTable)</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>ToString</td>
+<td>Returns a string that represents the current object.<br />(Inherited from Object)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

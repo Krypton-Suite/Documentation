@@ -1,0 +1,31 @@
+# BelowNear Field
+
+
+Specifies the popup is below the relative item and aligned to near edge.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public const PopupPagePosition BelowNear = 4
+```
+**VB**
+``` VB
+Public Const BelowNear As PopupPagePosition = 4
+```
+
+
+
+#### Field Value
+<a href="30d9e0cb-ae2f-690c-d2e2-6286e91ba3b3.md">PopupPagePosition</a>
+
+## See Also
+
+
+#### Reference
+<a href="30d9e0cb-ae2f-690c-d2e2-6286e91ba3b3.md">PopupPagePosition Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

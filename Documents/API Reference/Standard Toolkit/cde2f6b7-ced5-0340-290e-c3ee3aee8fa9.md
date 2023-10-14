@@ -1,0 +1,148 @@
+# KryptonContextMenuCollectionEditor Class
+
+
+Designer for a collection of context menu items.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class KryptonContextMenuCollectionEditor : CollectionEditor
+```
+**VB**
+``` VB
+Public Class KryptonContextMenuCollectionEditor
+	Inherits CollectionEditor
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  UITypeEditor  →  CollectionEditor  →  KryptonContextMenuCollectionEditor</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="26e178eb-80cd-c377-ae91-3567347b7f3a.md">KryptonContextMenuCollectionEditor</a></td>
+<td>Initialize a new instance of the KryptonContextMenuCollectionEditor class.</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td>CollectionItemType</td>
+<td>Gets the data type of each item in the collection.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>CollectionType</td>
+<td>Gets the data type of the collection object.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>Context</td>
+<td>Gets a type descriptor that indicates the current context.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>HelpTopic</td>
+<td>Gets the Help keyword to display the Help topic or topic list for when the editor's dialog box Help button or the F1 key is pressed.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>IsDropDownResizable</td>
+<td>Gets a value indicating whether drop-down editors should be resizable by the user.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>NewItemTypes</td>
+<td>Gets the available types of items that can be created for this collection.<br />(Inherited from CollectionEditor)</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>CancelChanges</td>
+<td>Cancels changes to the collection.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>CanRemoveInstance</td>
+<td>Indicates whether original members of the collection can be removed.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>CanSelectMultipleInstances</td>
+<td>Indicates whether multiple collection items can be selected at once.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td><a href="5cee154e-79fc-9bf3-335f-89aa8e93b65c.md">CreateCollectionForm</a></td>
+<td>Creates a new form to display and edit the current collection.<br />(Overrides CollectionEditor.CreateCollectionForm())</td></tr>
+<tr>
+<td>CreateCollectionItemType</td>
+<td>Gets the data type that this collection contains.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>CreateInstance</td>
+<td>Creates a new instance of the specified collection item type.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td><a href="37413ff1-14f0-8ce0-1f3b-73018e2689de.md">CreateNewItemTypes</a></td>
+<td>Gets the data types that this collection editor can contain.<br />(Overrides CollectionEditor.CreateNewItemTypes())</td></tr>
+<tr>
+<td>DestroyInstance</td>
+<td>Destroys the specified instance of the object.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>EditValue(IServiceProvider, Object)</td>
+<td>Edits the value of the specified object using the editor style indicated by the GetEditStyle() method.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>EditValue(ITypeDescriptorContext, IServiceProvider, Object)</td>
+<td>Edits the value of the specified object using the specified service provider and context.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetDisplayText</td>
+<td>Retrieves the display text for the given list item.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>GetEditStyle()</td>
+<td>Gets the editor style used by the EditValue(IServiceProvider, Object) method.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>GetEditStyle(ITypeDescriptorContext)</td>
+<td>Gets the edit style used by the  method.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetItems</td>
+<td>Gets an array of objects containing the specified collection.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>GetObjectsFromInstance</td>
+<td>Returns a list containing the given object.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>GetPaintValueSupported()</td>
+<td>Indicates whether this editor supports painting a representation of an object's value.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>GetPaintValueSupported(ITypeDescriptorContext)</td>
+<td>Indicates whether the specified context supports painting a representation of an object's value within the specified context.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>GetService</td>
+<td>Gets the requested service, if it is available.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>PaintValue(PaintValueEventArgs)</td>
+<td>Paints a representation of the value of an object using the specified PaintValueEventArgs.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>PaintValue(Object, Graphics, Rectangle)</td>
+<td>Paints a representation of the value of the specified object to the specified canvas.<br />(Inherited from UITypeEditor)</td></tr>
+<tr>
+<td>SetItems</td>
+<td>Sets the specified array as the items of the collection.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>ShowHelp</td>
+<td>Displays the default Help topic for the collection editor.<br />(Inherited from CollectionEditor)</td></tr>
+<tr>
+<td>ToString</td>
+<td>Returns a string that represents the current object.<br />(Inherited from Object)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

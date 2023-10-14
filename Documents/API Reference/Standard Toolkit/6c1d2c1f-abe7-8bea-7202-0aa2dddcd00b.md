@@ -1,0 +1,35 @@
+# OnValueChanged Method
+
+
+Raises the ValueChanged event.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected virtual void OnValueChanged(
+	EventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overridable Sub OnValueChanged ( 
+	e As EventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  EventArgs</dt><dd>An EventArgs containing the event data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="c4fe8079-0665-3daa-3153-8c8189a39b91.md">ViewDrawTrackBar Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

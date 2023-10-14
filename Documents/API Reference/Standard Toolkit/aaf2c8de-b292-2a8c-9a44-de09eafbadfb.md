@@ -1,0 +1,33 @@
+# BackColor3 Property
+
+
+Gets and sets the third background color for the ribbon item.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Color BackColor3 { get; set; }
+```
+**VB**
+``` VB
+Public Property BackColor3 As Color
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Color
+
+## See Also
+
+
+#### Reference
+<a href="cbd8b6a0-ee43-3368-7c49-f68dfdf20eae.md">PaletteRibbonDouble Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

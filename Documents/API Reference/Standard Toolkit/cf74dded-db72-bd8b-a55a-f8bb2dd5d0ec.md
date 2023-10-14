@@ -1,0 +1,46 @@
+# LongTextRect Method
+
+
+Gets the short text drawing rectangle.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Rectangle LongTextRect(
+	ViewContext context
+)
+```
+**VB**
+``` VB
+Public Function LongTextRect ( 
+	context As ViewContext
+) As Rectangle
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="ed48663c-5842-51d4-9c11-490570023d3d.md">ViewContext</a></dt><dd>\[Missing &lt;param name="context"/&gt; documentation for "M:Krypton.Toolkit.ViewDrawContent.LongTextRect(Krypton.Toolkit.ViewContext)"\]</dd></dl>
+
+#### Return Value
+Rectangle  
+Rectangle of short text drawing.
+
+## Exceptions
+<table>
+<tr>
+<td>ArgumentNullException</td>
+<td /></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="295b6d58-8430-473c-df05-9ab6f30975ab.md">ViewDrawContent Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

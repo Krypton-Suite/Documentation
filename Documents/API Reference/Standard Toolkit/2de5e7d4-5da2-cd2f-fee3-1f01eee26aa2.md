@@ -1,0 +1,36 @@
+# IgnoreVisualFormLeftButtonDown Property
+
+
+Should the left mouse down be ignored when present on a visual form border area.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual bool IgnoreVisualFormLeftButtonDown { get; }
+```
+**VB**
+``` VB
+Public Overridable ReadOnly Property IgnoreVisualFormLeftButtonDown As Boolean
+	Get
+```
+
+
+
+#### Property Value
+Boolean
+
+#### Implements
+<a href="238bde6a-fe7b-e645-9af0-02a39501cc75.md">IMouseController.IgnoreVisualFormLeftButtonDown</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="4d28eeb6-138d-ce68-aa40-c46ceb66b365.md">ButtonController Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,35 @@
+# OnMoreColors Method
+
+
+Raises the MoreColors event.
+
+
+
+## Definition
+**Namespace:** <a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon</a>  
+**Assembly:** Krypton.Ribbon (in Krypton.Ribbon.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected virtual void OnMoreColors(
+	CancelEventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overridable Sub OnMoreColors ( 
+	e As CancelEventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  CancelEventArgs</dt><dd>An CancelEventArgs that contains the event data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="11637402-9f93-e6c3-d391-f6486719dd91.md">KryptonRibbonGroupClusterColorButton Class</a>  
+<a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon Namespace</a>  

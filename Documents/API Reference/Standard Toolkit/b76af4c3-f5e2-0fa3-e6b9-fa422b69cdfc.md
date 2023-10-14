@@ -1,0 +1,33 @@
+# CheckState Property
+
+
+Gets and sets the checked state of the menu item.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public CheckState CheckState { get; set; }
+```
+**VB**
+``` VB
+Public Property CheckState As CheckState
+	Get
+	Set
+```
+
+
+
+#### Property Value
+CheckState
+
+## See Also
+
+
+#### Reference
+<a href="19269e57-f7e7-326d-c5b4-f602bf32208b.md">KryptonContextMenuItem Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

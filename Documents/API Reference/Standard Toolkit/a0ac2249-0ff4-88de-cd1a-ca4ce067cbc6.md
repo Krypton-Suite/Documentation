@@ -1,0 +1,31 @@
+# InnerRect Field
+
+
+For internal use only.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Rectangle InnerRect
+```
+**VB**
+``` VB
+Public InnerRect As Rectangle
+```
+
+
+
+#### Field Value
+Rectangle
+
+## See Also
+
+
+#### Reference
+<a href="637462de-61f1-7cb8-02ad-e749579c4662.md">MementoBackExpertSquareHighlight Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  
