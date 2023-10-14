@@ -28,3 +28,5 @@ The Krypton Workspace allows a document area to be created that the user can cus
 
 The Krypton Docking set of components allow the user to drag and drop docking pages into new locations in order to customize the organization of the application content. It allows this in a way similar to that of Visual Studio 2008/2019. Each docking area uses an instance of the Krypton Workspace allowing a wide range of options for organizing and displaying pages. It integrates with the Krypton Toolkit architecture to ensure a consistent look and feel.
 <img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonDockingExampleCustomised.png" />
+
+<a href="https://github.com/Krypton-Suite/Documentation/blob/main/Documents/API%20Reference/Standard%20Toolkit/_Sidebar.md">Topics</a>
