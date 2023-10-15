@@ -1,0 +1,38 @@
+# SetDGVScrollBarValue(DataGridView, HScrollBar) Method
+
+
+\[Missing &lt;summary&gt; documentation for "M:Krypton.Toolkit.VScrollSkin.SetDGVScrollBarValue(System.Windows.Forms.DataGridView@,System.Windows.Forms.HScrollBar@)"\]
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public void SetDGVScrollBarValue(
+	ref DataGridView dgv,
+	ref HScrollBar HSB
+)
+```
+**VB**
+``` VB
+Public Sub SetDGVScrollBarValue ( 
+	ByRef dgv As DataGridView,
+	ByRef HSB As HScrollBar
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  DataGridView</dt><dd>\[Missing &lt;param name="dgv"/&gt; documentation for "M:Krypton.Toolkit.VScrollSkin.SetDGVScrollBarValue(System.Windows.Forms.DataGridView@,System.Windows.Forms.HScrollBar@)"\]</dd><dt>  HScrollBar</dt><dd>\[Missing &lt;param name="HSB"/&gt; documentation for "M:Krypton.Toolkit.VScrollSkin.SetDGVScrollBarValue(System.Windows.Forms.DataGridView@,System.Windows.Forms.HScrollBar@)"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="c9914e76-d147-debc-3e3a-8f31590bdb6a.md">VScrollSkin Class</a>  
+<a href="dfccb17c-d107-145e-0a6c-ae308f5696d8.md">SetDGVScrollBarValue Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

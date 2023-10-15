@@ -1,0 +1,31 @@
+# PageButtonPadding Field
+
+
+Specifies the padding for buttons on a navigator page header.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public const PaletteMetricPadding PageButtonPadding = 21
+```
+**VB**
+``` VB
+Public Const PageButtonPadding As PaletteMetricPadding = 21
+```
+
+
+
+#### Field Value
+<a href="0b770d6b-dbd6-9a12-4264-29d519d2ab3c.md">PaletteMetricPadding</a>
+
+## See Also
+
+
+#### Reference
+<a href="0b770d6b-dbd6-9a12-4264-29d519d2ab3c.md">PaletteMetricPadding Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

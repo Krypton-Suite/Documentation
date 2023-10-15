@@ -1,0 +1,32 @@
+# MenuItemBorder Property
+
+
+Gets the border color for around the menu item.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override Color MenuItemBorder { get; }
+```
+**VB**
+``` VB
+Public Overrides ReadOnly Property MenuItemBorder As Color
+	Get
+```
+
+
+
+#### Property Value
+Color
+
+## See Also
+
+
+#### Reference
+<a href="1c4f4a36-6679-53b1-6c36-cc4b5c2600b9.md">KryptonColorTableSparkle Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,31 @@
+# List Field
+
+
+Specifies a list grid style.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public const GridStyle List = 0
+```
+**VB**
+``` VB
+Public Const List As GridStyle = 0
+```
+
+
+
+#### Field Value
+<a href="257798b9-755e-a397-9bd1-8f21564de23f.md">GridStyle</a>
+
+## See Also
+
+
+#### Reference
+<a href="257798b9-755e-a397-9bd1-8f21564de23f.md">GridStyle Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

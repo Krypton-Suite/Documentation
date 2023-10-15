@@ -1,0 +1,36 @@
+# OnEnabledChanged(EventArgs) Method
+
+
+Raises the EnabledChanged event.
+
+
+
+## Definition
+**Namespace:** <a href="0dbf488f-9676-a1e5-a949-1b4bcea03d52.md">Krypton.Workspace</a>  
+**Assembly:** Krypton.Workspace (in Krypton.Workspace.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected virtual void OnEnabledChanged(
+	EventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overridable Sub OnEnabledChanged ( 
+	e As EventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  EventArgs</dt><dd>An EventArgs that contains the event data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="a977050a-c9d5-1360-9b5d-5a07a77ae65c.md">KryptonWorkspace Class</a>  
+<a href="a6963aee-e82b-541e-89a0-f549add530dd.md">OnEnabledChanged Overload</a>  
+<a href="0dbf488f-9676-a1e5-a949-1b4bcea03d52.md">Krypton.Workspace Namespace</a>  

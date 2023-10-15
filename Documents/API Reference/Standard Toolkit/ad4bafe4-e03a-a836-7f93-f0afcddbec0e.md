@@ -1,0 +1,33 @@
+# FormStyles Property
+
+
+Gets access to the appearance for form styles.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public KryptonPaletteForms FormStyles { get; set; }
+```
+**VB**
+``` VB
+Public Property FormStyles As KryptonPaletteForms
+	Get
+	Set
+```
+
+
+
+#### Property Value
+<a href="bb797134-6f9e-7e2e-6109-251a4cdec964.md">KryptonPaletteForms</a>
+
+## See Also
+
+
+#### Reference
+<a href="19e895c2-5326-25bf-d4bb-c7367f234f77.md">KryptonCustomPaletteBase Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

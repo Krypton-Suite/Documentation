@@ -1,0 +1,278 @@
+# HeaderGroupMappingSecondary Class
+
+
+Storage and mapping for secondary header.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class HeaderGroupMappingSecondary : HeaderGroupMappingBase
+```
+**VB**
+``` VB
+Public Class HeaderGroupMappingSecondary
+	Inherits HeaderGroupMappingBase
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  TypeConverter  →  ExpandableObjectConverter  →  <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>  →  <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>  →  <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>  →  <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>  →  HeaderGroupMappingSecondary</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="ba9b59de-f023-638d-29e9-6bfb3850719e.md">HeaderGroupMappingSecondary</a></td>
+<td>Initialize a new instance of the HeaderGroupMappingSecondary class.</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td><a href="7b3c9acd-61c2-3d23-8c15-ee8393a76ebc.md">Description</a></td>
+<td>Gets and sets the header description text.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="e0248b9e-4cf6-7a8f-a87e-f45d96e7fcfe.md">Heading</a></td>
+<td>Gets and sets the heading text.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="71a6846f-bfb6-fb58-b361-6b43ae0583a8.md">Id</a></td>
+<td>Gets the unique identifier of the object.<br />(Inherited from <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>)</td></tr>
+<tr>
+<td><a href="0aeb9974-d108-716f-d8bb-a61129433512.md">Image</a></td>
+<td>Gets and sets the heading image.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="5eac4c59-f3b9-1602-c398-cfe67beb3c94.md">ImageTransparentColor</a></td>
+<td>Gets and sets the heading image transparent color.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="04f93f15-528f-931c-77a6-063c3f30cc7e.md">IsDefault</a></td>
+<td>Gets a value indicating if all values are default.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td><a href="7e879a24-3ac8-020d-b306-0d473b716a82.md">MapDescription</a></td>
+<td>Gets and sets the mapping used for the Description property.<br />(Overrides <a href="a5c29703-4faa-782b-b884-847ea6fc9337.md">HeaderGroupMappingBase.MapDescription</a>)</td></tr>
+<tr>
+<td><a href="8be5cdb9-6db8-15de-7e60-3cffbd7ac4a8.md">MapHeading</a></td>
+<td>Gets and sets the mapping used for the Heading property.<br />(Overrides <a href="1601fccf-68d3-b007-b9da-c584a2fc0f30.md">HeaderGroupMappingBase.MapHeading</a>)</td></tr>
+<tr>
+<td><a href="32d9fca4-4a1b-5f29-76a2-850f98e29aa2.md">MapImage</a></td>
+<td>Gets and sets the mapping used for the Image property.<br />(Overrides <a href="a6b5353f-d495-9d5e-5046-91851946a853.md">HeaderGroupMappingBase.MapImage</a>)</td></tr>
+<tr>
+<td><a href="097a0f47-e60c-4bf7-802c-8391c6d8feff.md">NeedPaint</a></td>
+<td>Gets and sets the need paint delegate for notifying paint requests.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="879ca7f2-32c5-8581-44f2-c7aee6491db2.md">NeedPaintDelegate</a></td>
+<td>Gets access to the need paint delegate.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>CanConvertFrom(Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertFrom(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(Type)</td>
+<td>Returns whether this converter can convert the object to the specified type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert the object to the specified type, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(Object)</td>
+<td>Converts the given value to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given object to the type of this converter, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(ITypeDescriptorContext, String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture and the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(String)</td>
+<td>Converts the specified text to an object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, String)</td>
+<td>Converts the given text to an object, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, CultureInfo, String)</td>
+<td>Converts the given text to an object, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(Object, Type)</td>
+<td>Converts the given value object to the specified type, using the arguments.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)</td>
+<td>Converts the given value object to the specified type, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(Object)</td>
+<td>Converts the specified value to a culture-invariant string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(ITypeDescriptorContext, Object)</td>
+<td>Converts the specified value to a culture-invariant string representation, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(Object)</td>
+<td>Converts the specified value to a string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, Object)</td>
+<td>Converts the given value to a string representation, using the given context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given value to a string representation, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(IDictionary)</td>
+<td>Re-creates an Object given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(ITypeDescriptorContext, IDictionary)</td>
+<td>Creates an instance of the type that this TypeConverter is associated with, using the specified context, given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetConvertFromException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetConvertToException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported()</td>
+<td>Returns whether changing a value on this object requires a call to the CreateInstance(IDictionary) method to create a new value.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported(ITypeDescriptorContext)</td>
+<td>Returns whether changing a value on this object requires a call to CreateInstance(IDictionary) to create a new value, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td><a href="99b271a0-d1f5-55b3-382d-14fb8a9b23de.md">GetDescriptionDefault</a></td>
+<td>Gets the default description value.<br />(Overrides <a href="c7d75551-7ec1-49f3-b77a-06e97e069af3.md">HeaderValuesBase.GetDescriptionDefault()</a>)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="1c93d36e-a079-1939-00d6-eda40c023de3.md">GetHeadingDefault</a></td>
+<td>Gets the default heading value.<br />(Overrides <a href="02cbd383-ccd6-1cc7-02a0-dc6febecd62c.md">HeaderValuesBase.GetHeadingDefault()</a>)</td></tr>
+<tr>
+<td><a href="c8ac23d0-fa2c-60ac-7f3f-f492aa0b0226.md">GetImage</a></td>
+<td>Gets the content image.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td><a href="1f2a196a-5467-d877-1cad-daafc06b3094.md">GetImageDefault</a></td>
+<td>Gets the default image value.<br />(Overrides <a href="2f3a9290-887e-ac37-f322-ff88f756fbf5.md">HeaderGroupMappingBase.GetImageDefault()</a>)</td></tr>
+<tr>
+<td><a href="01c49444-97dc-01a3-eeea-9d3c4c778e8a.md">GetImageTransparentColor</a></td>
+<td>Gets the content image transparent color.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="76ce1ed2-f54a-b067-cbb1-498c29bdaa37.md">GetLongText</a></td>
+<td>Gets the content long text.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td><a href="e39d2716-1be6-85a2-8865-7a99c37e220b.md">GetMapDescriptionDefault</a></td>
+<td>Gets the default description mapping value.<br />(Overrides <a href="c20b46eb-713d-6cad-b64a-12d751e4b937.md">HeaderGroupMappingBase.GetMapDescriptionDefault()</a>)</td></tr>
+<tr>
+<td><a href="7cdce40a-5a44-6567-5912-fe417f427943.md">GetMapHeadingDefault</a></td>
+<td>Gets the default heading mapping value.<br />(Overrides <a href="c35261cc-eb57-62b7-66c6-cf61dd1fc1db.md">HeaderGroupMappingBase.GetMapHeadingDefault()</a>)</td></tr>
+<tr>
+<td><a href="ad120918-23db-8efb-5ac1-de9aff894fbf.md">GetMapImageDefault</a></td>
+<td>Gets the default image mapping value.<br />(Overrides <a href="76364c1b-82ad-dcfb-70fd-0810fc8b04e8.md">HeaderGroupMappingBase.GetMapImageDefault()</a>)</td></tr>
+<tr>
+<td>GetProperties(Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object, Attribute[])</td>
+<td>Gets a collection of properties for the type of object specified by the value parameter.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported()</td>
+<td>Returns whether this object supports properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported(ITypeDescriptorContext)</td>
+<td>Gets a value indicating whether this object supports properties using the specified context.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td><a href="2bfd7793-3822-7ca1-18fb-742bf7b17f09.md">GetShortText</a></td>
+<td>Gets the content short text.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td>GetStandardValues()</td>
+<td>Returns a collection of standard values from the default context for the data type this type converter is designed for.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValues(ITypeDescriptorContext)</td>
+<td>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive()</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive(ITypeDescriptorContext)</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list of possible values, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported()</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported(ITypeDescriptorContext)</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>IsValid(Object)</td>
+<td>Returns whether the given value object is valid for this type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>IsValid(ITypeDescriptorContext, Object)</td>
+<td>Returns whether the given value object is valid for this type and for the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="302d526d-0f27-d317-712d-92aab66d2d2e.md">OnNeedPaint</a></td>
+<td>Raises the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="f8c3c184-f848-40c6-b2dc-e91f3d27a8c3.md">PerformNeedPaint()</a></td>
+<td>Fires the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="63b9f5a4-a5f3-fc40-d0db-feeb82c11ac0.md">PerformNeedPaint(Boolean)</a></td>
+<td>Fires the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="1e87b7c0-17ef-0dad-e9e0-32f5f0196cbd.md">ResetDescription</a></td>
+<td>Resets the Description property to its default value.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="777a0f94-8416-5333-ff88-e73df9fbc08d.md">ResetHeading</a></td>
+<td>Resets the Heading property to its default value.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="a2591976-960e-8361-9457-e7284216b9ad.md">ResetImage</a></td>
+<td>Resets the Image property to its default value.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="0afbc647-5c31-758a-e13a-0913e24dba43.md">ResetImageTransparentColor</a></td>
+<td>Resets the ImageTransparentColor property to its default value.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+<tr>
+<td><a href="568348a4-9d26-b6f7-8ce3-919edbc3847e.md">ResetMapDescription</a></td>
+<td>Resets the MapDescription property to its default value.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td><a href="252a75aa-c30a-8814-20f6-287c613f12e8.md">ResetMapHeading</a></td>
+<td>Resets the MapHeading property to its default value.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td><a href="7888f611-0a76-aeec-fe37-8f502ab614db.md">ResetMapImage</a></td>
+<td>Resets the MapImage property to its default value.<br />(Inherited from <a href="9643b944-e972-23bc-686d-961e1d3df64c.md">HeaderGroupMappingBase</a>)</td></tr>
+<tr>
+<td>SortProperties</td>
+<td>Sorts a collection of properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td><a href="31789cc7-0872-ef6d-6baf-4c4cf2484b50.md">ToString</a></td>
+<td>Returns a string that represents the current defaulted state.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+</table>
+
+## Events
+<table>
+<tr>
+<td><a href="be7644f1-a429-4c99-feb7-639fa1b41216.md">TextChanged</a></td>
+<td>Occurs when the value of the Text property changes.<br />(Inherited from <a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase</a>)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

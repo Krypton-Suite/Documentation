@@ -1,0 +1,43 @@
+# GetRibbonBackColorStyle Method
+
+
+Gets the method used to draw the background of a ribbon item.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override PaletteRibbonColorStyle GetRibbonBackColorStyle(
+	PaletteState state
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetRibbonBackColorStyle ( 
+	state As PaletteState
+) As PaletteRibbonColorStyle
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+<a href="1fdbe521-653f-3585-8cf5-4848a5fc6ed8.md">PaletteRibbonColorStyle</a>  
+PaletteRibbonBackStyle value.
+
+#### Implements
+<a href="4869e2d5-93b0-ad80-91e6-392a99232daa.md">IPaletteRibbonBack.GetRibbonBackColorStyle(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="bbb91a02-1f2d-ff1c-ad36-6e5baf473540.md">PaletteRibbonDoubleInheritOverride Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

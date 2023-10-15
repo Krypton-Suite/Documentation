@@ -1,0 +1,31 @@
+# None Field
+
+
+No items can be selected.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public const CheckedSelectionMode None = 0
+```
+**VB**
+``` VB
+Public Const None As CheckedSelectionMode = 0
+```
+
+
+
+#### Field Value
+<a href="4f5c35f6-15a5-32ab-a21a-32e701ed1e48.md">CheckedSelectionMode</a>
+
+## See Also
+
+
+#### Reference
+<a href="4f5c35f6-15a5-32ab-a21a-32e701ed1e48.md">CheckedSelectionMode Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

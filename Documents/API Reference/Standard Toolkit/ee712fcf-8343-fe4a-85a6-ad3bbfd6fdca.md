@@ -1,0 +1,43 @@
+# MouseUp Method
+
+
+Mouse button has been released in the view.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual void MouseUp(
+	Control c,
+	Point pt,
+	MouseButtons button
+)
+```
+**VB**
+``` VB
+Public Overridable Sub MouseUp ( 
+	c As Control,
+	pt As Point,
+	button As MouseButtons
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Control</dt><dd>Reference to the source control instance.</dd><dt>  Point</dt><dd>Mouse position relative to control.</dd><dt>  MouseButtons</dt><dd>Mouse button released.</dd></dl>
+
+#### Implements
+<a href="51984923-b916-2a5c-9543-0a78e968cf91.md">IMouseController.MouseUp(Control, Point, MouseButtons)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="4d28eeb6-138d-ce68-aa40-c46ceb66b365.md">ButtonController Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,39 @@
+# KryptonColorTable365BlueLightMode Constructor
+
+
+Initialize a new instance of the KryptonColorTable2010 class.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public KryptonColorTable365BlueLightMode(
+	Color[] colors,
+	InheritBool roundedEdges,
+	PaletteBase palette
+)
+```
+**VB**
+``` VB
+Public Sub New ( 
+	colors As Color(),
+	roundedEdges As InheritBool,
+	palette As PaletteBase
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Color[]</dt><dd>Source of</dd><dt>  <a href="60db1ece-3db4-87d6-8a1c-3999d61b06c0.md">InheritBool</a></dt><dd>Should have rounded edges.</dd><dt>  <a href="6da77fa5-1590-4646-f2ea-70002c922aee.md">PaletteBase</a></dt><dd>Associated palette instance.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="a7468330-d55e-d2de-7be6-11059d371db7.md">KryptonColorTable365BlueLightMode Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

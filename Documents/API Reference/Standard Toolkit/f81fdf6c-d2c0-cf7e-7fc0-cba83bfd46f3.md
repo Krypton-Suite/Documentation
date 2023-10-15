@@ -1,0 +1,33 @@
+# ResetOnPrompt Property
+
+
+Gets or sets a value that determines how an input character that matches the prompt character should be handled.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public bool ResetOnPrompt { get; set; }
+```
+**VB**
+``` VB
+Public Property ResetOnPrompt As Boolean
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Boolean
+
+## See Also
+
+
+#### Reference
+<a href="962786e1-b6f4-f78f-d562-d654213adaa6.md">KryptonMaskedTextBox Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

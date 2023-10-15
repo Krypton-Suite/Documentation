@@ -1,0 +1,36 @@
+# OnSizeChanged(EventArgs) Method
+
+
+\[Missing &lt;summary&gt; documentation for "M:Krypton.Toolkit.KryptonTableLayoutPanel.OnSizeChanged(System.EventArgs)"\]
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected virtual void OnSizeChanged(
+	EventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overridable Sub OnSizeChanged ( 
+	e As EventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  EventArgs</dt><dd>\[Missing &lt;param name="e"/&gt; documentation for "M:Krypton.Toolkit.KryptonTableLayoutPanel.OnSizeChanged(System.EventArgs)"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="7c7487b3-36d3-a1a2-1351-3010ba913d74.md">KryptonTableLayoutPanel Class</a>  
+<a href="64503eef-ae77-db71-489d-4f2bb131bc6d.md">OnSizeChanged Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

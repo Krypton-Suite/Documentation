@@ -1,0 +1,32 @@
+# CreateControlsInstance Method
+
+
+Creates a new instance of the control collection for the KryptonListBox.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected override Control.ControlCollection CreateControlsInstance()
+```
+**VB**
+``` VB
+Protected Overrides Function CreateControlsInstance As Control.ControlCollection
+```
+
+
+
+#### Return Value
+Control.ControlCollection  
+A new instance of Control.ControlCollection assigned to the control.
+
+## See Also
+
+
+#### Reference
+<a href="34d189d7-24ac-ce5b-4fff-cda88ff9e2aa.md">KryptonListBox Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

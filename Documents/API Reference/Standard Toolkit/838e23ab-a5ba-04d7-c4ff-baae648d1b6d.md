@@ -1,0 +1,42 @@
+# AddRange Method
+
+
+Adds an array of control objects to the collection.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override void AddRange(
+	Control[] controls
+)
+```
+**VB**
+``` VB
+Public Overrides Sub AddRange ( 
+	controls As Control()
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Control[]</dt><dd>An array of Control objects to add to the collection.</dd></dl>
+
+## Exceptions
+<table>
+<tr>
+<td>NotSupportedException</td>
+<td /></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="b418cb55-7d6e-a665-d48f-6a7500dc5687.md">KryptonReadOnlyControls Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

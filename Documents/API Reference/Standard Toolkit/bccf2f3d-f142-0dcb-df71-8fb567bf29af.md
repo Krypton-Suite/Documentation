@@ -1,0 +1,43 @@
+# GetContentLongTextTrim Method
+
+
+Gets the actual text trimming for the long text.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public PaletteTextTrim GetContentLongTextTrim(
+	PaletteState state
+)
+```
+**VB**
+``` VB
+Public Function GetContentLongTextTrim ( 
+	state As PaletteState
+) As PaletteTextTrim
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+<a href="230c8e9c-46b0-8fb7-d2a4-1775384c3700.md">PaletteTextTrim</a>  
+PaletteTextTrim value.
+
+#### Implements
+<a href="dd6000fb-042e-00ca-d909-023a02f31137.md">IPaletteContent.GetContentLongTextTrim(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="e5eaafdd-41b7-c554-ccf2-9bf1f03a4f16.md">PaletteDataGridViewContentStates Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

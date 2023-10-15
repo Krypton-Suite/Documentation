@@ -1,0 +1,31 @@
+# AcceptsTabChanged Event
+
+
+Occurs when the value of the AcceptsTab property changes.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public event EventHandler AcceptsTabChanged
+```
+**VB**
+``` VB
+Public Event AcceptsTabChanged As EventHandler
+```
+
+
+
+#### Value
+EventHandler
+
+## See Also
+
+
+#### Reference
+<a href="bafb1891-da9d-07a1-9249-da755c1768d7.md">KryptonTextBox Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

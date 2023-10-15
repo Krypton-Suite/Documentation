@@ -1,0 +1,34 @@
+# BaseFont Property
+
+
+Gets or sets the base palette font.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Font BaseFont { get; set; }
+```
+**VB**
+``` VB
+Public Property BaseFont As Font
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Font  
+The base palette font.
+
+## See Also
+
+
+#### Reference
+<a href="6da77fa5-1590-4646-f2ea-70002c922aee.md">PaletteBase Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

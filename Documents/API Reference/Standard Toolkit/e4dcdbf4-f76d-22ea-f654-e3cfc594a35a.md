@@ -1,0 +1,41 @@
+# GetGalleryButtonImage Method
+
+
+Gets a check box image appropriate for the provided state.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override Image? GetGalleryButtonImage(
+	PaletteRibbonGalleryButton? button,
+	PaletteState? state
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetGalleryButtonImage ( 
+	button As PaletteRibbonGalleryButton,
+	state As PaletteState
+) As Image
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="102f93d5-5bec-7af8-ce9e-e1ea41101d1a.md">PaletteRibbonGalleryButton</a></dt><dd>Enum of the button to fetch.</dd><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>State of the button to fetch.</dd></dl>
+
+#### Return Value
+Image  
+Appropriate image for drawing; otherwise null.
+
+## See Also
+
+
+#### Reference
+<a href="c4d8c0e7-ed8b-f62f-62f1-8ad4a90c0ea3.md">PaletteOffice2013WhiteBase Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,41 @@
+# BeginInvoke Method
+
+
+\[Missing &lt;summary&gt; documentation for "M:Krypton.Toolkit.SimpleCall.BeginInvoke(System.AsyncCallback,System.Object)"\]
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual IAsyncResult BeginInvoke(
+	AsyncCallback callback,
+	Object object
+)
+```
+**VB**
+``` VB
+Public Overridable Function BeginInvoke ( 
+	callback As AsyncCallback,
+	object As Object
+) As IAsyncResult
+```
+
+
+
+#### Parameters
+<dl><dt>  AsyncCallback</dt><dd>\[Missing &lt;param name="callback"/&gt; documentation for "M:Krypton.Toolkit.SimpleCall.BeginInvoke(System.AsyncCallback,System.Object)"\]</dd><dt>  Object</dt><dd>\[Missing &lt;param name="object"/&gt; documentation for "M:Krypton.Toolkit.SimpleCall.BeginInvoke(System.AsyncCallback,System.Object)"\]</dd></dl>
+
+#### Return Value
+IAsyncResult  
+\[Missing &lt;returns&gt; documentation for "M:Krypton.Toolkit.SimpleCall.BeginInvoke(System.AsyncCallback,System.Object)"\]
+
+## See Also
+
+
+#### Reference
+<a href="020db564-3ee7-9392-886b-935a54ebde9e.md">SimpleCall Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

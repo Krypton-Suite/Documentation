@@ -1,0 +1,43 @@
+# GetBorderColor1 Method
+
+
+Gets the first border color.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public abstract Color GetBorderColor1(
+	PaletteState state
+)
+```
+**VB**
+``` VB
+Public MustOverride Function GetBorderColor1 ( 
+	state As PaletteState
+) As Color
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+Color  
+Color value.
+
+#### Implements
+<a href="3e5ae553-a1b4-3d72-78f3-b37e1299217d.md">IPaletteBorder.GetBorderColor1(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="57c9d957-13ae-5f76-7265-9dab218e0f72.md">PaletteBorderInherit Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

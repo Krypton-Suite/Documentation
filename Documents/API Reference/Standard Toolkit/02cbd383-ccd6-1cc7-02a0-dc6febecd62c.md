@@ -1,0 +1,32 @@
+# GetHeadingDefault Method
+
+
+Gets the default heading value.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected abstract string GetHeadingDefault()
+```
+**VB**
+``` VB
+Protected MustOverride Function GetHeadingDefault As String
+```
+
+
+
+#### Return Value
+String  
+String reference.
+
+## See Also
+
+
+#### Reference
+<a href="a63c67bc-fc8e-826d-8f66-bcf381784933.md">HeaderValuesBase Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

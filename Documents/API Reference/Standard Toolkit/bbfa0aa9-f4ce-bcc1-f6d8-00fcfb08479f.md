@@ -1,0 +1,43 @@
+# GetContentLongTextPrefix Method
+
+
+Gets the prefix drawing setting for long text.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public virtual PaletteTextHotkeyPrefix GetContentLongTextPrefix(
+	PaletteState state
+)
+```
+**VB**
+``` VB
+Public Overridable Function GetContentLongTextPrefix ( 
+	state As PaletteState
+) As PaletteTextHotkeyPrefix
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+<a href="38643f97-2fde-3681-eb99-4f95515f64d7.md">PaletteTextHotkeyPrefix</a>  
+PaletteTextPrefix value.
+
+#### Implements
+<a href="ee3541d7-336a-4893-34a9-186be97de970.md">IPaletteContent.GetContentLongTextPrefix(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="4f89f640-2a8b-742c-870b-47a722076237.md">PaletteRibbonTabContentInheritOverride Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

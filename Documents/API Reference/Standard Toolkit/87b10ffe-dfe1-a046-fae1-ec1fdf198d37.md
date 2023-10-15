@@ -1,0 +1,33 @@
+# AllowButtonSpecToolTipPriority Property
+
+
+Gets and sets a value indicating if button spec tooltips should remove the parent tooltip.
+
+
+
+## Definition
+**Namespace:** <a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon</a>  
+**Assembly:** Krypton.Ribbon (in Krypton.Ribbon.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public bool AllowButtonSpecToolTipPriority { get; set; }
+```
+**VB**
+``` VB
+Public Property AllowButtonSpecToolTipPriority As Boolean
+	Get
+	Set
+```
+
+
+
+#### Property Value
+Boolean
+
+## See Also
+
+
+#### Reference
+<a href="48941fdd-6b47-4cf0-44b4-279bc59efe6a.md">KryptonRibbonGroupMaskedTextBox Class</a>  
+<a href="1e9bc734-cff9-e9b8-f013-94cdac669794.md">Krypton.Ribbon Namespace</a>  

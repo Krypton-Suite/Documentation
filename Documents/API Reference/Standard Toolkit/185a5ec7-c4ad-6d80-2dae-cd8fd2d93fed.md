@@ -1,0 +1,32 @@
+# ToolTipManager Property
+
+
+Gets access to the ToolTipManager used for displaying tool tips.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public ToolTipManager ToolTipManager { get; }
+```
+**VB**
+``` VB
+Public ReadOnly Property ToolTipManager As ToolTipManager
+	Get
+```
+
+
+
+#### Property Value
+<a href="a3ab60b6-fe99-e139-01ee-7869073e5f5e.md">ToolTipManager</a>
+
+## See Also
+
+
+#### Reference
+<a href="13b29650-b21b-35d6-8387-a6f0a5ca154d.md">KryptonForm Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

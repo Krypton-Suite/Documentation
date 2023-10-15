@@ -1,0 +1,207 @@
+# DataGridViewStyleStrings Class
+
+
+Exposes the set of DataGridViewStyleConverter strings used within Krypton and that are localizable.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+[TypeConverterAttribute(typeof(ExpandableObjectConverter))]
+public class DataGridViewStyleStrings : GlobalId
+```
+**VB**
+``` VB
+<TypeConverterAttribute(GetType(ExpandableObjectConverter))>
+Public Class DataGridViewStyleStrings
+	Inherits GlobalId
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  TypeConverter  →  ExpandableObjectConverter  →  <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>  →  DataGridViewStyleStrings</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="64d44bf7-b088-5ecd-4fba-a0710dc2be72.md">DataGridViewStyleStrings</a></td>
+<td>Initializes a new instance of the DataGridViewStyleStrings class</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td><a href="c7dfee01-b281-5153-6658-5d8bda817b82.md">CustomOne</a></td>
+<td>Gets or sets the custom 1 data grid view style string.</td></tr>
+<tr>
+<td><a href="7e01c333-b2af-d459-4e7b-9166238e6d72.md">CustomThree</a></td>
+<td>Gets or sets the custom 3 data grid view style string.</td></tr>
+<tr>
+<td><a href="8e6e288b-630f-4a1d-51d2-048a189ae8f3.md">CustomTwo</a></td>
+<td>Gets or sets the custom 2 data grid view style string.</td></tr>
+<tr>
+<td><a href="71a6846f-bfb6-fb58-b361-6b43ae0583a8.md">Id</a></td>
+<td>Gets the unique identifier of the object.<br />(Inherited from <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>)</td></tr>
+<tr>
+<td><a href="fc629338-7c73-759a-c286-9d3b745b1cd4.md">IsDefault</a></td>
+<td> </td></tr>
+<tr>
+<td><a href="c32c1823-3171-ca1a-977a-e22498660fd3.md">List</a></td>
+<td>Gets or sets the list data grid view style string.</td></tr>
+<tr>
+<td><a href="50ba3d87-2b05-12d3-e9b1-3f0476af4273.md">Mixed</a></td>
+<td>Gets or sets the mixed data grid view style string.</td></tr>
+<tr>
+<td><a href="94f69a7d-2442-5fe5-ddff-aa8347cc1755.md">Sheet</a></td>
+<td>Gets or sets the sheet data grid view style string.</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>CanConvertFrom(Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertFrom(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(Type)</td>
+<td>Returns whether this converter can convert the object to the specified type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert the object to the specified type, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(Object)</td>
+<td>Converts the given value to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given object to the type of this converter, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(ITypeDescriptorContext, String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture and the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(String)</td>
+<td>Converts the specified text to an object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, String)</td>
+<td>Converts the given text to an object, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, CultureInfo, String)</td>
+<td>Converts the given text to an object, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(Object, Type)</td>
+<td>Converts the given value object to the specified type, using the arguments.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)</td>
+<td>Converts the given value object to the specified type, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(Object)</td>
+<td>Converts the specified value to a culture-invariant string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(ITypeDescriptorContext, Object)</td>
+<td>Converts the specified value to a culture-invariant string representation, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(Object)</td>
+<td>Converts the specified value to a string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, Object)</td>
+<td>Converts the given value to a string representation, using the given context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given value to a string representation, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(IDictionary)</td>
+<td>Re-creates an Object given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(ITypeDescriptorContext, IDictionary)</td>
+<td>Creates an instance of the type that this TypeConverter is associated with, using the specified context, given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetConvertFromException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetConvertToException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported()</td>
+<td>Returns whether changing a value on this object requires a call to the CreateInstance(IDictionary) method to create a new value.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported(ITypeDescriptorContext)</td>
+<td>Returns whether changing a value on this object requires a call to CreateInstance(IDictionary) to create a new value, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetProperties(Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object, Attribute[])</td>
+<td>Gets a collection of properties for the type of object specified by the value parameter.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported()</td>
+<td>Returns whether this object supports properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported(ITypeDescriptorContext)</td>
+<td>Gets a value indicating whether this object supports properties using the specified context.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td>GetStandardValues()</td>
+<td>Returns a collection of standard values from the default context for the data type this type converter is designed for.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValues(ITypeDescriptorContext)</td>
+<td>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive()</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive(ITypeDescriptorContext)</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list of possible values, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported()</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported(ITypeDescriptorContext)</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>IsValid(Object)</td>
+<td>Returns whether the given value object is valid for this type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>IsValid(ITypeDescriptorContext, Object)</td>
+<td>Returns whether the given value object is valid for this type and for the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="2edd490f-66e8-1a07-fc96-7f10921df8ce.md">Reset</a></td>
+<td> </td></tr>
+<tr>
+<td>SortProperties</td>
+<td>Sorts a collection of properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td><a href="1393bfe9-aac1-06f5-5c0b-57d3c8703e13.md">ToString</a></td>
+<td><br />(Overrides Object.ToString())</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

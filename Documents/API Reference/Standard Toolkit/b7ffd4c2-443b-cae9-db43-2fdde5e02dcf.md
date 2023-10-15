@@ -1,0 +1,75 @@
+# NavigatorMode Fields
+
+
+
+
+## Fields
+<table>
+<tr>
+<td><a href="e1b893a5-1cdf-9cfe-1b08-e245be79985d.md">BarCheckButtonGroupInside</a></td>
+<td>Specifies that check buttons are placed on a bar inside a group.</td></tr>
+<tr>
+<td><a href="8bcef0c2-f91b-5544-81e1-fca3e96939be.md">BarCheckButtonGroupOnly</a></td>
+<td>Specifies that check buttons are placed on a bar inside a group without showing pages.</td></tr>
+<tr>
+<td><a href="c1766820-d462-d31f-b0a1-a4627c039633.md">BarCheckButtonGroupOutside</a></td>
+<td>Specifies that check buttons are placed on a bar outside a group.</td></tr>
+<tr>
+<td><a href="6f260403-484d-e288-e076-b26e01f3eef4.md">BarCheckButtonOnly</a></td>
+<td>Specifies that check buttons are placed on a bar without showing pages.</td></tr>
+<tr>
+<td><a href="6f67b964-0e74-a8c5-2aae-5fe36eebd2a2.md">BarRibbonTabGroup</a></td>
+<td>Specifies that ribbons tabs are placed on a bar outside a group.</td></tr>
+<tr>
+<td><a href="0ef73071-d14f-0c22-31c6-35967a0c1f3e.md">BarRibbonTabOnly</a></td>
+<td>Specifies that ribbon tabs are placed on a bar without showing pages.</td></tr>
+<tr>
+<td><a href="77551d57-d1af-cda4-dfed-029137bbd8fc.md">BarTabGroup</a></td>
+<td>Specifies that tabs are placed on a bar outside a group.</td></tr>
+<tr>
+<td><a href="66d8cb78-7c7a-b88f-c107-3ad201e6c5f3.md">BarTabOnly</a></td>
+<td>Specifies that tabs are placed on a bar without showing pages.</td></tr>
+<tr>
+<td><a href="6eceeed5-eaf1-1acb-b6dc-84ef32834117.md">Group</a></td>
+<td>Specifies a KryptonGroup style of appearance.</td></tr>
+<tr>
+<td><a href="baa4404a-9758-339e-a556-0ed4a3f7e5c3.md">HeaderBarCheckButtonGroup</a></td>
+<td>Specifies that check buttons are placed on a bar inside a header in a group.</td></tr>
+<tr>
+<td><a href="2dba4d63-f3c2-0b20-3ff1-9918039802a3.md">HeaderBarCheckButtonHeaderGroup</a></td>
+<td>Specifies that check buttons are placed on a bar inside a header in a header group.</td></tr>
+<tr>
+<td><a href="360e503b-9991-0840-41ad-6700a6f885a1.md">HeaderBarCheckButtonOnly</a></td>
+<td>Specifies that check buttons are placed on a bar inside a header without showing pages.</td></tr>
+<tr>
+<td><a href="4440083f-6951-a280-e5ac-d6af9e42f1bd.md">HeaderGroup</a></td>
+<td>Specifies a KryptonHeaderGroup style of appearance.</td></tr>
+<tr>
+<td><a href="bcc00087-06fa-6482-cfb2-2bbdd87c2da2.md">HeaderGroupTab</a></td>
+<td>Specifies a KryptonHeaderGroup style of appearance combined with a set of tabs.</td></tr>
+<tr>
+<td><a href="29a090ba-69b2-1b82-d372-ac715980ffb6.md">OutlookFull</a></td>
+<td>Specifies a navigation mode similar to the expanded Microsoft Outlook Navigator.</td></tr>
+<tr>
+<td><a href="910800f1-5041-2107-a1dd-e0892ca5213a.md">OutlookMini</a></td>
+<td>Specifies a navigation mode similar to the collapsed Microsoft Outlook Navigator.</td></tr>
+<tr>
+<td><a href="3a0042ca-4d18-e006-e219-e95329585ff1.md">Panel</a></td>
+<td>Specifies a KryptonPanel style of appearance.</td></tr>
+<tr>
+<td><a href="df97bb3a-a192-ed8d-89d5-a8aa1f128d42.md">StackCheckButtonGroup</a></td>
+<td>Specifies that check buttons are stacked inside a group.</td></tr>
+<tr>
+<td><a href="13d73641-55f8-0f23-cdf6-47b78ea2a7fe.md">StackCheckButtonHeaderGroup</a></td>
+<td>Specifies that check buttons are stacked inside a header group.</td></tr>
+<tr>
+<td><a href="25fe456e-509e-5f66-e7d6-ba59ee7fa2ab.md">value__</a></td>
+<td> </td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="615dfc87-3783-4036-36e3-66d918777a7d.md">NavigatorMode Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  

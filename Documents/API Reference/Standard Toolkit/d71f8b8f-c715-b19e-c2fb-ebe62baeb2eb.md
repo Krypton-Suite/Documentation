@@ -1,0 +1,37 @@
+# OnCommandPropertyChanged Method
+
+
+Handles a change in the property of an attached command.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected override void OnCommandPropertyChanged(
+	Object sender,
+	PropertyChangedEventArgs e
+)
+```
+**VB**
+``` VB
+Protected Overrides Sub OnCommandPropertyChanged ( 
+	sender As Object,
+	e As PropertyChangedEventArgs
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Object</dt><dd>Source of the event.</dd><dt>  PropertyChangedEventArgs</dt><dd>A PropertyChangedEventArgs that contains the event data.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="ee73a6f6-a7ac-4fbc-81d5-a99892d36e77.md">KryptonCheckButton Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

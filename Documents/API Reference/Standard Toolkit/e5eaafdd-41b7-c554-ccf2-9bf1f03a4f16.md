@@ -1,0 +1,386 @@
+# PaletteDataGridViewContentStates Class
+
+
+Implement storage for data grid view palette content details.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class PaletteDataGridViewContentStates : Storage, 
+	IPaletteContent
+```
+**VB**
+``` VB
+Public Class PaletteDataGridViewContentStates
+	Inherits Storage
+	Implements IPaletteContent
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  TypeConverter  →  ExpandableObjectConverter  →  <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>  →  <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>  →  PaletteDataGridViewContentStates</td></tr>
+<tr><td><strong>Derived</strong></td><td><a href="5fc7e259-82fc-1301-25ba-55a2f0fd6809.md">Krypton.Toolkit.PaletteDataGridViewContentCommon</a></td></tr>
+<tr><td><strong>Implements</strong></td><td><a href="f2a5541d-c7c1-2c4b-162d-a4616ecccc95.md">IPaletteContent</a></td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="e959522d-d898-efd8-3a69-90dd4d40d094.md">PaletteDataGridViewContentStates</a></td>
+<td>Initialize a new instance of the PaletteDataGridViewContentStates class.</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td><a href="bd456ef6-bdf8-a8b1-7a0c-36cdb9627a8c.md">Color1</a></td>
+<td>Gets and sets the first color for the text.</td></tr>
+<tr>
+<td><a href="23cc3416-b830-e815-5836-a0ecb5be07ac.md">Color2</a></td>
+<td>Gets and sets the second color for the text.</td></tr>
+<tr>
+<td><a href="5a04a988-4917-01b6-7d15-e86eb061dbd4.md">ColorAlign</a></td>
+<td>Gets and set the color alignment for the text.</td></tr>
+<tr>
+<td><a href="d51a2187-9cf7-5c17-92ba-56eeac7c6344.md">ColorAngle</a></td>
+<td>Gets and sets the color angle for the text.</td></tr>
+<tr>
+<td><a href="4417f073-f05a-e133-27f8-bae24ca97a6f.md">ColorStyle</a></td>
+<td>Gets and sets the color drawing style for the text.</td></tr>
+<tr>
+<td><a href="e12eb908-64d7-0f40-16bf-b76f22fc7a23.md">Draw</a></td>
+<td>Gets a value indicating if content should be drawn.</td></tr>
+<tr>
+<td><a href="2eb8b876-2a45-4dbc-3dca-6bdcb58d15e6.md">Hint</a></td>
+<td>Gets the text rendering hint for the text.</td></tr>
+<tr>
+<td><a href="71a6846f-bfb6-fb58-b361-6b43ae0583a8.md">Id</a></td>
+<td>Gets the unique identifier of the object.<br />(Inherited from <a href="9ef2ca3a-e03e-8927-105a-2f9a6fbdf849.md">GlobalId</a>)</td></tr>
+<tr>
+<td><a href="7a147a0a-15f5-eb06-b161-b4df8b52521d.md">Image</a></td>
+<td>Gets and sets the image for the text.</td></tr>
+<tr>
+<td><a href="3da0da0d-ef06-f6d4-e59c-be0277e6eb57.md">ImageAlign</a></td>
+<td>Gets and set the image alignment for the text.</td></tr>
+<tr>
+<td><a href="237152db-3531-b418-cd4a-956c1d83aca3.md">ImageStyle</a></td>
+<td>Gets and sets the image style for the text.</td></tr>
+<tr>
+<td><a href="7cdd718d-8982-ca87-95c4-9db1dc61b7ad.md">Inherit</a></td>
+<td>Gets the inheritance parent.</td></tr>
+<tr>
+<td><a href="0ab4acbd-0145-e0df-a290-c8c38da9f5cf.md">IsDefault</a></td>
+<td>Gets a value indicating if all values are default.<br />(Overrides <a href="bbc0e831-9474-3bce-65dc-0625d793d8c1.md">Storage.IsDefault</a>)</td></tr>
+<tr>
+<td><a href="fe894dae-f19d-55cc-0d3b-f7abdcdb6fcb.md">MultiLine</a></td>
+<td>Gets the flag indicating if multiline text is allowed.</td></tr>
+<tr>
+<td><a href="b5697039-725a-85c5-cd38-ce50b68c32ac.md">MultiLineH</a></td>
+<td>Gets the relative horizontal alignment of multiline content text.</td></tr>
+<tr>
+<td><a href="097a0f47-e60c-4bf7-802c-8391c6d8feff.md">NeedPaint</a></td>
+<td>Gets and sets the need paint delegate for notifying paint requests.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="879ca7f2-32c5-8581-44f2-c7aee6491db2.md">NeedPaintDelegate</a></td>
+<td>Gets access to the need paint delegate.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="fadff836-cc2a-971a-f8f3-5b4c6a244b5d.md">Trim</a></td>
+<td>Gets the text trimming for the text.</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>CanConvertFrom(Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertFrom(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(Type)</td>
+<td>Returns whether this converter can convert the object to the specified type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CanConvertTo(ITypeDescriptorContext, Type)</td>
+<td>Returns whether this converter can convert the object to the specified type, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(Object)</td>
+<td>Converts the given value to the type of this converter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given object to the type of this converter, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromInvariantString(ITypeDescriptorContext, String)</td>
+<td>Converts the given string to the type of this converter, using the invariant culture and the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(String)</td>
+<td>Converts the specified text to an object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, String)</td>
+<td>Converts the given text to an object, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertFromString(ITypeDescriptorContext, CultureInfo, String)</td>
+<td>Converts the given text to an object, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(Object, Type)</td>
+<td>Converts the given value object to the specified type, using the arguments.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)</td>
+<td>Converts the given value object to the specified type, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(Object)</td>
+<td>Converts the specified value to a culture-invariant string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToInvariantString(ITypeDescriptorContext, Object)</td>
+<td>Converts the specified value to a culture-invariant string representation, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(Object)</td>
+<td>Converts the specified value to a string representation.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, Object)</td>
+<td>Converts the given value to a string representation, using the given context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>ConvertToString(ITypeDescriptorContext, CultureInfo, Object)</td>
+<td>Converts the given value to a string representation, using the specified context and culture information.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(IDictionary)</td>
+<td>Re-creates an Object given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>CreateInstance(ITypeDescriptorContext, IDictionary)</td>
+<td>Creates an instance of the type that this TypeConverter is associated with, using the specified context, given a set of property values for the object.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="de83320f-02b6-598e-1df6-0f71634be629.md">GetContentAdjacentGap</a></td>
+<td>Gets the actual padding between adjacent content items.</td></tr>
+<tr>
+<td><a href="a433ccdf-2a78-13c8-2425-d7cd15ed178a.md">GetContentDraw</a></td>
+<td>Gets the actual content draw value.</td></tr>
+<tr>
+<td><a href="c70abfaa-ceef-ffa8-7a8c-17b6f4c23396.md">GetContentDrawFocus</a></td>
+<td>Gets the actual content draw with focus value.</td></tr>
+<tr>
+<td><a href="d4c1d06b-6282-d2f3-fa1f-180e6e38f17d.md">GetContentImageColorMap</a></td>
+<td>Gets the image color to remap into another color.</td></tr>
+<tr>
+<td><a href="0b5b0ed2-1c5a-2212-d545-8f0b401e3b7a.md">GetContentImageColorTo</a></td>
+<td>Gets the color to use in place of the image map color.</td></tr>
+<tr>
+<td><a href="7192e1db-a50e-e0e1-6bec-092b0e617af9.md">GetContentImageEffect</a></td>
+<td>Gets the actual image drawing effect value.</td></tr>
+<tr>
+<td><a href="583a118c-06d5-babf-1760-968f14e47d43.md">GetContentImageH</a></td>
+<td>Gets the actual content image horizontal alignment value.</td></tr>
+<tr>
+<td><a href="a7e9ddfd-5965-d9da-0666-b3ec171a5134.md">GetContentImageV</a></td>
+<td>Gets the actual content image vertical alignment value.</td></tr>
+<tr>
+<td><a href="3b089834-5db4-2d08-c370-6ba65f01a056.md">GetContentLongTextColor1</a></td>
+<td>Gets the first color for the long text.</td></tr>
+<tr>
+<td><a href="79de1b15-2bc3-3ae5-591c-1590a38ba81e.md">GetContentLongTextColor2</a></td>
+<td>Gets the second back color for the long text.</td></tr>
+<tr>
+<td><a href="a942d0e0-c008-5968-4974-15cf35fb62b1.md">GetContentLongTextColorAlign</a></td>
+<td>Gets the color alignment style for the long text.</td></tr>
+<tr>
+<td><a href="3f70ffb0-7074-dff7-5183-4031bacac4e7.md">GetContentLongTextColorAngle</a></td>
+<td>Gets the color angle for the long text.</td></tr>
+<tr>
+<td><a href="19464173-97ad-70fd-39d6-66e65a299e99.md">GetContentLongTextColorStyle</a></td>
+<td>Gets the color drawing style for the long text.</td></tr>
+<tr>
+<td><a href="049cf0fb-523f-15f4-4ab1-2c5329e819a4.md">GetContentLongTextFont</a></td>
+<td>Gets the actual content long text font value.</td></tr>
+<tr>
+<td><a href="965f93ec-e7f4-2c50-e158-c17d0abad448.md">GetContentLongTextH</a></td>
+<td>Gets the actual content long text horizontal alignment value.</td></tr>
+<tr>
+<td><a href="7f1ecfaa-42e4-1437-8e82-823e813d4f19.md">GetContentLongTextHint</a></td>
+<td>Gets the actual text rendering hint for long text.</td></tr>
+<tr>
+<td><a href="7217bb35-0afc-eeff-c9f5-50df291474c2.md">GetContentLongTextImage</a></td>
+<td>Gets an image for the long text.</td></tr>
+<tr>
+<td><a href="93e83083-3acf-871d-1e8c-493f98d52b3d.md">GetContentLongTextImageAlign</a></td>
+<td>Gets the image alignment style for the long text.</td></tr>
+<tr>
+<td><a href="9815bffb-d6c3-d0c0-c723-d3cffd75101c.md">GetContentLongTextImageStyle</a></td>
+<td>Gets the image style for the long text.</td></tr>
+<tr>
+<td><a href="23bc12e9-3667-f50c-74da-67f8c9e9275e.md">GetContentLongTextMultiLine</a></td>
+<td>Gets the flag indicating if multiline text is allowed for long text.</td></tr>
+<tr>
+<td><a href="469d7fc8-aeb4-f68f-24f4-d5621b67f379.md">GetContentLongTextMultiLineH</a></td>
+<td>Gets the actual content long text horizontal multiline alignment value.</td></tr>
+<tr>
+<td><a href="a60411fc-c9ea-8878-d8ab-6f2fb48f349d.md">GetContentLongTextNewFont</a></td>
+<td>Gets the font for the long text by generating a new font instance.</td></tr>
+<tr>
+<td><a href="71b3ba4d-d9af-4bdd-1117-350a254c0dd7.md">GetContentLongTextPrefix</a></td>
+<td>Gets the prefix drawing setting for long text.</td></tr>
+<tr>
+<td><a href="bccf2f3d-f142-0dcb-df71-8fb567bf29af.md">GetContentLongTextTrim</a></td>
+<td>Gets the actual text trimming for the long text.</td></tr>
+<tr>
+<td><a href="458fa446-8b15-a92d-55c7-8cb1e24b0dae.md">GetContentLongTextV</a></td>
+<td>Gets the actual content long text vertical alignment value.</td></tr>
+<tr>
+<td><a href="58283187-84b4-6985-8573-1ce700fb2291.md">GetContentPadding</a></td>
+<td>Gets the actual padding between the border and content drawing.</td></tr>
+<tr>
+<td><a href="6a934080-9a0e-c84c-92f6-19289c170732.md">GetContentShortTextColor1</a></td>
+<td>Gets the first color for the short text.</td></tr>
+<tr>
+<td><a href="be69d5cd-0f89-33ba-4665-a182020faba1.md">GetContentShortTextColor2</a></td>
+<td>Gets the second back color for the short text.</td></tr>
+<tr>
+<td><a href="281cb4ce-f922-029e-377d-7a4aafc5f341.md">GetContentShortTextColorAlign</a></td>
+<td>Gets the color alignment style for the short text.</td></tr>
+<tr>
+<td><a href="8e71ed08-8d2d-1b42-7109-4c3917a1d544.md">GetContentShortTextColorAngle</a></td>
+<td>Gets the color angle for the short text.</td></tr>
+<tr>
+<td><a href="20bfca89-f96c-5da5-e8e9-91a345ab86f6.md">GetContentShortTextColorStyle</a></td>
+<td>Gets the color drawing style for the short text.</td></tr>
+<tr>
+<td><a href="d5f1dd63-ae9f-963e-2a0b-549ca6dec1c3.md">GetContentShortTextFont</a></td>
+<td>Gets the actual content short text font value.</td></tr>
+<tr>
+<td><a href="6237c221-9dd9-cb97-22f1-f7e73bf71cc1.md">GetContentShortTextH</a></td>
+<td>Gets the actual content short text horizontal alignment value.</td></tr>
+<tr>
+<td><a href="a3bbd4bf-232f-465d-4861-698470522dbe.md">GetContentShortTextHint</a></td>
+<td>Gets the actual text rendering hint for short text.</td></tr>
+<tr>
+<td><a href="4e34fc87-87fd-e2f1-a3aa-920521c707e0.md">GetContentShortTextImage</a></td>
+<td>Gets an image for the short text.</td></tr>
+<tr>
+<td><a href="6ad55adf-85d7-82d1-f6f4-df1f587a9113.md">GetContentShortTextImageAlign</a></td>
+<td>Gets the image alignment style for the short text.</td></tr>
+<tr>
+<td><a href="9ce9c9c0-aa21-9f20-4474-2fee1081a100.md">GetContentShortTextImageStyle</a></td>
+<td>Gets the image style for the short text.</td></tr>
+<tr>
+<td><a href="7cfe9d3a-f095-0a1c-cd70-24fc9973b1a0.md">GetContentShortTextMultiLine</a></td>
+<td>Gets the flag indicating if multiline text is allowed for short text.</td></tr>
+<tr>
+<td><a href="bd3cdbd4-0548-2c43-3aa1-2a5adcda2ffe.md">GetContentShortTextMultiLineH</a></td>
+<td>Gets the actual content short text horizontal multiline alignment value.</td></tr>
+<tr>
+<td><a href="b208fe59-601d-dca0-63fe-928115d54950.md">GetContentShortTextNewFont</a></td>
+<td>Gets the font for the short text by generating a new font instance.</td></tr>
+<tr>
+<td><a href="163d422a-5ac1-5a9b-a390-3b04e3304fa7.md">GetContentShortTextPrefix</a></td>
+<td>Gets the prefix drawing setting for short text.</td></tr>
+<tr>
+<td><a href="6e1e442b-9506-a9f4-949c-186e166799c6.md">GetContentShortTextTrim</a></td>
+<td>Gets the actual text trimming for the short text.</td></tr>
+<tr>
+<td><a href="70d51898-4e5a-c082-fdaa-512451d83a12.md">GetContentShortTextV</a></td>
+<td>Gets the actual content short text vertical alignment value.</td></tr>
+<tr>
+<td><a href="0c2eb699-706d-cc9f-9b7a-fa17bdb09efc.md">GetContentStyle</a></td>
+<td>Gets the style appropriate for this content.</td></tr>
+<tr>
+<td>GetConvertFromException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetConvertToException</td>
+<td>Returns an exception to throw when a conversion cannot be performed.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported()</td>
+<td>Returns whether changing a value on this object requires a call to the CreateInstance(IDictionary) method to create a new value.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetCreateInstanceSupported(ITypeDescriptorContext)</td>
+<td>Returns whether changing a value on this object requires a call to CreateInstance(IDictionary) to create a new value, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetProperties(Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object)</td>
+<td>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetProperties(ITypeDescriptorContext, Object, Attribute[])</td>
+<td>Gets a collection of properties for the type of object specified by the value parameter.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported()</td>
+<td>Returns whether this object supports properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetPropertiesSupported(ITypeDescriptorContext)</td>
+<td>Gets a value indicating whether this object supports properties using the specified context.<br />(Inherited from ExpandableObjectConverter)</td></tr>
+<tr>
+<td>GetStandardValues()</td>
+<td>Returns a collection of standard values from the default context for the data type this type converter is designed for.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValues(ITypeDescriptorContext)</td>
+<td>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive()</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesExclusive(ITypeDescriptorContext)</td>
+<td>Returns whether the collection of standard values returned from GetStandardValues() is an exclusive list of possible values, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported()</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetStandardValuesSupported(ITypeDescriptorContext)</td>
+<td>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>IsValid(Object)</td>
+<td>Returns whether the given value object is valid for this type.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>IsValid(ITypeDescriptorContext, Object)</td>
+<td>Returns whether the given value object is valid for this type and for the specified context.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="302d526d-0f27-d317-712d-92aab66d2d2e.md">OnNeedPaint</a></td>
+<td>Raises the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="b1975a46-5a41-dc29-5687-e5b306715f3b.md">OnSyncPropertyChanged</a></td>
+<td>Raises the SyncPropertyChanged event.</td></tr>
+<tr>
+<td><a href="f8c3c184-f848-40c6-b2dc-e91f3d27a8c3.md">PerformNeedPaint()</a></td>
+<td>Fires the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="63b9f5a4-a5f3-fc40-d0db-feeb82c11ac0.md">PerformNeedPaint(Boolean)</a></td>
+<td>Fires the NeedPaint event.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+<tr>
+<td><a href="c79d4d35-b23a-e02d-a541-73bad519d38e.md">PopulateFromBase</a></td>
+<td>Populate values from the base palette.</td></tr>
+<tr>
+<td><a href="6cf51163-da7b-3ec2-da42-b6404d0b4b97.md">SetInherit</a></td>
+<td>Sets the inheritance parent.</td></tr>
+<tr>
+<td>SortProperties</td>
+<td>Sorts a collection of properties.<br />(Inherited from TypeConverter)</td></tr>
+<tr>
+<td><a href="31789cc7-0872-ef6d-6baf-4c4cf2484b50.md">ToString</a></td>
+<td>Returns a string that represents the current defaulted state.<br />(Inherited from <a href="8406cf55-79a3-e579-4094-be084e489431.md">Storage</a>)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

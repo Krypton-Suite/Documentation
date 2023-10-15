@@ -1,0 +1,211 @@
+# DateTimeList Class
+
+
+Manage a list of DateTime instances.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class DateTimeList : List<DateTime>
+```
+**VB**
+``` VB
+Public Class DateTimeList
+	Inherits List(Of DateTime)
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  List(DateTime)  →  DateTimeList</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="3b9231cd-81dc-525a-b5cc-5ec6747927b6.md">DateTimeList</a></td>
+<td>Initializes a new instance of the DateTimeList class</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td>Capacity</td>
+<td>Gets or sets the total number of elements the internal data structure can hold without resizing.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Count</td>
+<td>Gets the number of elements contained in the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Item</td>
+<td>Gets or sets the element at the specified index.<br />(Inherited from List(DateTime))</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td>Add</td>
+<td>Adds an object to the end of the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>AddRange</td>
+<td>Adds the elements of the specified collection to the end of the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>AsReadOnly</td>
+<td>Returns a read-only ReadOnlyCollection(T) wrapper for the current collection.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>BinarySearch(T)</td>
+<td>Searches the entire sorted List(T) for an element using the default comparer and returns the zero-based index of the element.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>BinarySearch(T, IComparer(T))</td>
+<td>Searches the entire sorted List(T) for an element using the specified comparer and returns the zero-based index of the element.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>BinarySearch(Int32, Int32, T, IComparer(T))</td>
+<td>Searches a range of elements in the sorted List(T) for an element using the specified comparer and returns the zero-based index of the element.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Clear</td>
+<td>Removes all elements from the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Contains</td>
+<td>Determines whether an element is in the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>ConvertAll(TOutput)</td>
+<td>Converts the elements in the current List(T) to another type, and returns a list containing the converted elements.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>CopyTo(T[])</td>
+<td>Copies the entire List(T) to a compatible one-dimensional array, starting at the beginning of the target array.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>CopyTo(T[], Int32)</td>
+<td>Copies the entire List(T) to a compatible one-dimensional array, starting at the specified index of the target array.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>CopyTo(Int32, T[], Int32, Int32)</td>
+<td>Copies a range of elements from the List(T) to a compatible one-dimensional array, starting at the specified index of the target array.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Exists</td>
+<td>Determines whether the List(T) contains elements that match the conditions defined by the specified predicate.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Find</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the first occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindAll</td>
+<td>Retrieves all the elements that match the conditions defined by the specified predicate.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindIndex(Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the first occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindIndex(Int32, Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the first occurrence within the range of elements in the List(T) that extends from the specified index to the last element.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindIndex(Int32, Int32, Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the first occurrence within the range of elements in the List(T) that starts at the specified index and contains the specified number of elements.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindLast</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the last occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindLastIndex(Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the last occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindLastIndex(Int32, Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the last occurrence within the range of elements in the List(T) that extends from the first element to the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>FindLastIndex(Int32, Int32, Predicate(T))</td>
+<td>Searches for an element that matches the conditions defined by the specified predicate, and returns the zero-based index of the last occurrence within the range of elements in the List(T) that contains the specified number of elements and ends at the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>ForEach</td>
+<td>Performs the specified action on each element of the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>GetEnumerator</td>
+<td>Returns an enumerator that iterates through the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetRange</td>
+<td>Creates a shallow copy of a range of elements in the source List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>IndexOf(T)</td>
+<td>Searches for the specified object and returns the zero-based index of the first occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>IndexOf(T, Int32)</td>
+<td>Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the List(T) that extends from the specified index to the last element.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>IndexOf(T, Int32, Int32)</td>
+<td>Searches for the specified object and returns the zero-based index of the first occurrence within the range of elements in the List(T) that starts at the specified index and contains the specified number of elements.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Insert</td>
+<td>Inserts an element into the List(T) at the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>InsertRange</td>
+<td>Inserts the elements of a collection into the List(T) at the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>LastIndexOf(T)</td>
+<td>Searches for the specified object and returns the zero-based index of the last occurrence within the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>LastIndexOf(T, Int32)</td>
+<td>Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the List(T) that extends from the first element to the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>LastIndexOf(T, Int32, Int32)</td>
+<td>Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the List(T) that contains the specified number of elements and ends at the specified index.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Remove</td>
+<td>Removes the first occurrence of a specific object from the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>RemoveAll</td>
+<td>Removes all the elements that match the conditions defined by the specified predicate.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>RemoveAt</td>
+<td>Removes the element at the specified index of the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>RemoveRange</td>
+<td>Removes a range of elements from the List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Reverse()</td>
+<td>Reverses the order of the elements in the entire List(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Reverse(Int32, Int32)</td>
+<td>Reverses the order of the elements in the specified range.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Sort()</td>
+<td>Sorts the elements in the entire List(T) using the default comparer.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Sort(Comparison(T))</td>
+<td>Sorts the elements in the entire List(T) using the specified Comparison(T).<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Sort(IComparer(T))</td>
+<td>Sorts the elements in the entire List(T) using the specified comparer.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>Sort(Int32, Int32, IComparer(T))</td>
+<td>Sorts the elements in a range of elements in List(T) using the specified comparer.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>ToArray</td>
+<td>Copies the elements of the List(T) to a new array.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>ToString</td>
+<td>Returns a string that represents the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>TrimExcess</td>
+<td>Sets the capacity to the actual number of elements in the List(T), if that number is less than a threshold value.<br />(Inherited from List(DateTime))</td></tr>
+<tr>
+<td>TrueForAll</td>
+<td>Determines whether every element in the List(T) matches the conditions defined by the specified predicate.<br />(Inherited from List(DateTime))</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

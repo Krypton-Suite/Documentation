@@ -1,0 +1,41 @@
+# Value Property
+
+
+Gets or sets the current position of the progress bar.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public int Value { get; set; }
+```
+**VB**
+``` VB
+Public Property Value As Integer
+	Get
+	Set
+```
+
+
+
+#### Return Value
+Int32  
+The position within the range of the progress bar. The default is 0.
+
+## Exceptions
+<table>
+<tr>
+<td>ArgumentException</td>
+<td>The value specified is greater than the value of the Maximum property. -or- The value specified is less than the value of the Minimum property.</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="d083c0c8-bbdc-278e-e8d3-138bef189038.md">KryptonProgressBarToolStripItem Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,38 @@
+# Clipping(Graphics, GraphicsPath) Constructor
+
+
+Initialize a new instance of the Clipping class.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public Clipping(
+	Graphics? graphics,
+	GraphicsPath path
+)
+```
+**VB**
+``` VB
+Public Sub New ( 
+	graphics As Graphics,
+	path As GraphicsPath
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Graphics</dt><dd>Graphics context.</dd><dt>  GraphicsPath</dt><dd>Path to clip.</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="1a71d977-1440-2c5d-9888-20ea7ea0c26c.md">Clipping Class</a>  
+<a href="00aa7c30-aaab-928f-ccd7-5c1c517e26a9.md">Clipping Overload</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

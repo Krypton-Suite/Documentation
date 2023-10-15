@@ -1,0 +1,869 @@
+# KryptonDataGridViewComboBoxEditingControl Methods
+
+
+
+
+## Methods
+<table>
+<tr>
+<td>AccessibilityNotifyClients(AccessibleEvents, Int32)</td>
+<td>Notifies the accessibility client applications of the specified AccessibleEvents for the specified child control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>AccessibilityNotifyClients(AccessibleEvents, Int32, Int32)</td>
+<td>Notifies the accessibility client applications of the specified AccessibleEvents for the specified child control .<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="c665cdea-b3b8-f019-7dfc-532693a6e827.md">ApplyCellStyleToEditingControl</a></td>
+<td>Method called by the grid before the editing control is shown so it can adapt to the provided cell style.</td></tr>
+<tr>
+<td><a href="ef36e1d8-ab7d-cd3b-cfc4-e41c5fdc03c2.md">BeginInit</a></td>
+<td>Signals the object that initialization is starting.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>BeginInvoke(Action)</td>
+<td>Executes the specified delegate asynchronously on the thread that the control's underlying handle was created on.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>BeginInvoke(Delegate)</td>
+<td>Executes the specified delegate asynchronously on the thread that the control's underlying handle was created on.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>BeginInvoke(Delegate, Object[])</td>
+<td>Executes the specified delegate asynchronously with the specified arguments, on the thread that the control's underlying handle was created on.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="76041c86-bab2-796c-b1ee-61a782d2bead.md">BeginUpdate</a></td>
+<td>Maintains performance when items are added to the ComboBox one at a time.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>BringToFront</td>
+<td>Brings the control to the front of the z-order.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="fc58c042-3c2d-f021-e1f5-73d489c5113d.md">CanProcessMnemonic</a></td>
+<td>Gets a value indicating is processing of mnemonics should be allowed.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="ffbf6243-6dc5-7871-e3d8-7ffcddfdf32c.md">CheckPerformLayout</a></td>
+<td>Check if the layout is dirty and if so perform the layout now.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>Contains</td>
+<td>Retrieves a value indicating whether the specified control is a child of the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="ed56ab8e-9bd7-6187-b49c-d54ecbf66607.md">ContextMenuClosed</a></td>
+<td>Called when a context menu has just been closed.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>CreateAccessibilityInstance</td>
+<td>Creates a new accessibility object for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>CreateControl</td>
+<td>Forces the creation of the visible control, including the creation of the handle and any visible child controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="b0542a8e-43a6-1810-3fb6-61eee208ea2e.md">CreateControlsInstance</a></td>
+<td>Creates a new instance of the control collection for the KryptonComboBox.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>CreateGraphics</td>
+<td>Creates the Graphics for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>CreateHandle</td>
+<td>Creates a handle for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="8ff9ba75-cc49-b4e0-76a3-ffc2a389eca5.md">CreateRedirector</a></td>
+<td>Create the redirector instance.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="905881ec-adfd-7948-eb6d-6f60a2c6086a.md">CreateToolStripRenderer</a></td>
+<td>Create a tool strip renderer appropriate for the current renderer/palette pair.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">
+
+VisualControlBase</a>)</td></tr>
+<tr>
+<td>DefWndProc</td>
+<td>Sends the specified message to the default window procedure.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="1e344e5e-fb52-d3af-f7dd-8002332cdc53.md">DesignerComponentFromPoint</a></td>
+<td>Internal designing mode method.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="88dc30bd-baef-d2e3-0b90-62049d81602a.md">DesignerGetHitTest</a></td>
+<td>Internal designing mode method.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="63674194-48d7-5193-d0b0-2059056e1c0b.md">DesignerMouseLeave</a></td>
+<td>Internal designing mode method.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>DestroyHandle</td>
+<td>Destroys the handle associated with the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Dispose()</td>
+<td>Releases all resources used by the Component.<br />(Inherited from Component)</td></tr>
+<tr>
+<td><a href="053c3100-c45f-5bc0-6eaf-22ac2530223b.md">Dispose(Boolean)</a></td>
+<td>Clean up any resources being used.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>DoDragDrop(Object, DragDropEffects)</td>
+<td>Begins a drag-and-drop operation.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>DoDragDrop(Object, DragDropEffects, Bitmap, Point, Boolean)</td>
+<td>Begins a drag operation.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>DrawToBitmap</td>
+<td>Supports rendering to the specified bitmap.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="6a6a66f4-fc9e-44d2-28fe-b7e4c0cefbd0.md">EditingControlWantsInputKey</a></td>
+<td>Method called by the grid on keystrokes to determine if the editing control is interested in the key or not.</td></tr>
+<tr>
+<td><a href="a78ed3dc-c2e8-695f-60f4-3f78b3525f20.md">EndInit</a></td>
+<td>Signals the object that initialization is complete.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>EndInvoke</td>
+<td>Retrieves the return value of the asynchronous operation represented by the IAsyncResult passed.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="2a8a1c77-7a44-7938-911d-2211eb21c27c.md">EndUpdate</a></td>
+<td>Resumes painting the ComboBox control after painting is suspended by the BeginUpdate method.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="a493c18f-f12b-a98f-f822-27edcb84d15d.md">EvalTransparentPaint</a></td>
+<td>Work out if this control needs to paint transparent areas.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Releases unmanaged resources and performs other cleanup operations before the Component is reclaimed by garbage collection.<br />(Inherited from Component)</td></tr>
+<tr>
+<td>FindForm</td>
+<td>Retrieves the form that the control is on.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="7ee36619-8038-3684-3874-0c1ecf69c28d.md">FindString(String)</a></td>
+<td>Finds the first item in the combo box that starts with the specified string.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="88b17c4d-23fb-9e3e-a82d-afc32bdf5bab.md">FindString(String, Int32)</a></td>
+<td>Finds the first item after the given index which starts with the given string. The search is not case sensitive.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="558d691d-0351-109c-cae1-417be5f4a013.md">FindStringExact(String)</a></td>
+<td>Finds the first item in the combo box that matches the specified string.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="dcfe6f3b-610f-d8a6-eb2a-60dbf5ebc7c6.md">FindStringExact(String, Int32)</a></td>
+<td>Finds the first item after the specified index that matches the specified string.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="746beab3-1c72-80bc-286d-7df0d054f55f.md">Focus</a></td>
+<td>Sets input focus to the control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="35b6841b-e431-2d1a-93fd-40e6b9046782.md">ForceControlLayout</a></td>
+<td>Force the layout logic to size and position the controls.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="4ae48011-3a45-ca60-ec5b-10120880f702.md">ForceViewLayout</a></td>
+<td>Force the control to perform a krypton layout to calculate size and positioning.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>GetAccessibilityObjectById</td>
+<td>Retrieves the specified AccessibleObject.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetAutoSizeMode</td>
+<td>Retrieves a value indicating how a control will behave when its AutoSize() property is enabled.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetChildAtPoint(Point)</td>
+<td>Retrieves the child control that is located at the specified coordinates.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetChildAtPoint(Point, GetChildAtPointSkip)</td>
+<td>Retrieves the child control that is located at the specified coordinates, specifying whether to ignore child controls of a certain type.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetContainerControl</td>
+<td>Returns the next ContainerControl up the control's chain of parent controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="6e5f7aa6-a8ab-d737-bac2-0763925c29e3.md">GetEditingControlFormattedValue</a></td>
+<td>Returns the current value of the editing control.</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="1d26e87c-6a59-048a-2328-51756707131b.md">GetItemHeight</a></td>
+<td>Returns the height of an item in the ComboBox.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="a208ae39-6f5e-1ea5-bde9-bbea26c48042.md">GetItemText</a></td>
+<td>Returns the text representation of the specified item.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>GetLifetimeService</td>
+<td>Retrieves the current lifetime service object that controls the lifetime policy for this instance.<br />(Inherited from MarshalByRefObject)<br /><strong>Obsolete.</strong></td></tr>
+<tr>
+<td>GetNextControl</td>
+<td>Retrieves the next control forward or back in the tab order of child controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="2181aaa1-be90-2418-3625-ba22add20a37.md">GetPreferredSize</a></td>
+<td>Get the preferred size of the control based on a proposed size.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>GetScaledBounds</td>
+<td>Retrieves the bounds within which the control is scaled.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetService</td>
+<td>Returns an object that represents a service provided by the Component or by its Container.<br />(Inherited from Component)</td></tr>
+<tr>
+<td>GetStyle</td>
+<td>Retrieves the value of the specified control style bit for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetTopLevel</td>
+<td>Determines if the control is a top-level control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Hide</td>
+<td>Conceals the control from the user.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>InitializeLifetimeService</td>
+<td>Obtains a lifetime service object to control the lifetime policy for this instance.<br />(Inherited from MarshalByRefObject)<br /><strong>Obsolete.</strong></td></tr>
+<tr>
+<td>InitLayout</td>
+<td>Called after the control has been added to another container.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate()</td>
+<td>Invalidates the entire surface of the control and causes the control to be redrawn.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate(Boolean)</td>
+<td>Invalidates a specific region of the control and causes a paint message to be sent to the control. Optionally, invalidates the child controls assigned to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate(Rectangle)</td>
+<td>Invalidates the specified region of the control (adds it to the control's update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate(Region)</td>
+<td>Invalidates the specified region of the control (adds it to the control's update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate(Rectangle, Boolean)</td>
+<td>Invalidates the specified region of the control (adds it to the control's update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control. Optionally, invalidates the child controls assigned to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invalidate(Region, Boolean)</td>
+<td>Invalidates the specified region of the control (adds it to the control's update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control. Optionally, invalidates the child controls assigned to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invoke(Action)</td>
+<td>Executes the specified delegate on the thread that owns the control's underlying window handle.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invoke(Delegate)</td>
+<td>Executes the specified delegate on the thread that owns the control's underlying window handle.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invoke(Delegate, Object[])</td>
+<td>Executes the specified delegate, on the thread that owns the control's underlying window handle, with the specified list of arguments.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Invoke(T)(Func(T))</td>
+<td>Executes the specified delegate on the thread that owns the control's underlying window handle.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>InvokeGotFocus</td>
+<td>Raises the GotFocus event for the specified control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="4e4e64cb-cf30-e810-85d9-48111c6388c3.md">InvokeLayout</a></td>
+<td>Request a layout be performed before any painting occurs.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>InvokeLostFocus</td>
+<td>Raises the LostFocus event for the specified control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>InvokeOnClick</td>
+<td>Raises the Click event for the specified control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>InvokePaint</td>
+<td>Raises the Paint event for the specified control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>InvokePaintBackground</td>
+<td>Raises the PaintBackground event for the specified control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>IsInputChar</td>
+<td>Determines if a character is an input character that the control recognizes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>IsInputKey</td>
+<td>Determines whether the specified key is a regular input key or a special key that requires preprocessing.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>LogicalToDeviceUnits(Int32)</td>
+<td>Converts a Logical DPI value to its equivalent DeviceUnit DPI value.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>LogicalToDeviceUnits(Size)</td>
+<td>Transforms a size from logical to device units by scaling it for the current DPI and rounding down to the nearest integer value for width and height.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="74fd6525-bfbe-3f74-849b-bd22402e3131.md">MarkLayoutDirty</a></td>
+<td>Mark the layout as being dirty and needing to be performed.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>MemberwiseClone()</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>MemberwiseClone(Boolean)</td>
+<td>Creates a shallow copy of the current MarshalByRefObject object.<br />(Inherited from MarshalByRefObject)</td></tr>
+<tr>
+<td>NotifyInvalidate</td>
+<td>Raises the Invalidated event with a specified region of the control to invalidate.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnAutoSizeChanged</td>
+<td>Raises the AutoSizeChanged() event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="4198637f-f2eb-975c-e863-5164e657cb99.md">OnBackColorChanged(EventArgs)</a></td>
+<td>Raises the BackColorChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnBackColorChanged(EventArgs)</td>
+<td>Raises the BackColorChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="14b9f2fb-0fe2-0aa0-9d44-6e7f8b77f380.md">OnBackgroundImageChanged(EventArgs)</a></td>
+<td>Raises the BackgroundImageChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnBackgroundImageChanged(EventArgs)</td>
+<td>Raises the BackgroundImageChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="41001666-535e-6765-1f76-e35181de4925.md">OnBackgroundImageLayoutChanged(EventArgs)</a></td>
+<td>Raises the BackgroundImageLayoutChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnBackgroundImageLayoutChanged(EventArgs)</td>
+<td>Raises the BackgroundImageLayoutChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnBindingContextChanged</td>
+<td>Raises the BindingContextChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="a5e103ba-e1f9-e850-b22d-ed7a7d0ec35f.md">OnButtonSpecChanged</a></td>
+<td>Processes a notification from palette storage of a button spec change.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="c0707e77-e897-b794-fdeb-a7b01b11daaa.md">OnCausesValidationChanged(EventArgs)</a></td>
+<td>Raises the CausesValidationChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnCausesValidationChanged(EventArgs)</td>
+<td>Raises the CausesValidationChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnChangeUICues</td>
+<td>Raises the ChangeUICues event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnClick</td>
+<td>Raises the Click event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnClientSizeChanged</td>
+<td>Raises the ClientSizeChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnContextMenuStripChanged</td>
+<td>Raises the ContextMenuStripChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnControlAdded</td>
+<td>Raises the ControlAdded event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnControlRemoved</td>
+<td>Raises the ControlRemoved event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnCreateControl</td>
+<td>Raises the CreateControl() method.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnCursorChanged</td>
+<td>Raises the CursorChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDataContextChanged</td>
+<td><br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="7a7a16a3-2ec1-b867-f5c2-948dd1c31dc1.md">OnDataSourceChanged</a></td>
+<td>Raises the DataSourceChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="ac8f4c5a-fbc7-9c83-5a48-14dd69105b14.md">OnDisplayMemberChanged</a></td>
+<td>Raises the DisplayMemberChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnDockChanged</td>
+<td>Raises the DockChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDoubleClick</td>
+<td>Raises the DoubleClick event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDpiChangedAfterParent</td>
+<td>Raises the DpiChangedAfterParent event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDpiChangedBeforeParent</td>
+<td>Raises the DpiChangedBeforeParent event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDragDrop</td>
+<td>Raises the DragDrop event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDragEnter</td>
+<td>Raises the DragEnter event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDragLeave</td>
+<td>Raises the DragLeave event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnDragOver</td>
+<td>Raises the DragOver event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="a2ec7e8e-c0d8-70d6-7662-b5b103d598ae.md">OnDrawItem</a></td>
+<td>Raises the [E:DrawItem] event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="0af74e9d-b5d4-4ad3-d33d-e9bab1e38ced.md">OnDropDown</a></td>
+<td>Raises the DropDown event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="c7d175dc-9027-2db3-68a1-4ac1a73d7362.md">OnDropDownClosed</a></td>
+<td>Raises the DropDownClosed event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="e6edb56c-fa09-08eb-a066-60e7a9108ad8.md">OnDropDownStyleChanged</a></td>
+<td>Raises the DropDownStyleChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="9ecc163a-daba-63dd-8288-279ca938b2a3.md">OnEnabledChanged(EventArgs)</a></td>
+<td>Raises the EnabledChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnEnabledChanged(EventArgs)</td>
+<td>Raises the EnabledChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnEnter</td>
+<td>Raises the Enter event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnFontChanged</td>
+<td>Raises the FontChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="876bb7c8-c543-8bc3-908d-5f1342bf25f2.md">OnForeColorChanged(EventArgs)</a></td>
+<td>Raises the ForeColorChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnForeColorChanged(EventArgs)</td>
+<td>Raises the ForeColorChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="209938ac-dbbd-0846-9e59-2c33f1c63456.md">OnFormat</a></td>
+<td>Raises the Format event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="a4686e02-0f33-5c64-fd1d-1513898c8efb.md">OnFormatInfoChanged</a></td>
+<td>Raises the FormatInfoChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="fdfa533f-5e58-bd54-ab9d-30ee0bd62687.md">OnFormatStringChanged</a></td>
+<td>Raises the FormatStringChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="4530f511-ab18-1f53-3b77-11917c81062f.md">OnFormattingEnabledChanged</a></td>
+<td>Raises the FormattingEnabledChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnGiveFeedback</td>
+<td>Raises the GiveFeedback event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="49bcb367-aa09-f4b7-0983-0fc7a7e27188.md">OnGlobalPaletteChanged</a></td>
+<td>Occurs when the global palette has been changed.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="34b1d69d-81dc-2c49-0baa-c85a6b7e7439.md">OnGotFocus(EventArgs)</a></td>
+<td>Raises the GotFocus event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnGotFocus(EventArgs)</td>
+<td>Raises the GotFocus event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="bd93bd23-274c-3d32-8948-5bb4c497e63a.md">OnHandleCreated(EventArgs)</a></td>
+<td>Raises the HandleCreated event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnHandleCreated(EventArgs)</td>
+<td>Raises the HandleCreated event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnHandleDestroyed</td>
+<td>Raises the HandleDestroyed event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnHelpRequested</td>
+<td>Raises the HelpRequested event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="752e2e9f-9427-b83e-1c9d-06ed6349ab29.md">OnHoverSelectionChanged</a></td>
+<td>Raises the HoveredSelectionChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnImeModeChanged</td>
+<td>Raises the ImeModeChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="0ff59a7c-5df7-90b5-a8df-d3c9c3257dd6.md">OnInitialized</a></td>
+<td>Raises the Initialized event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnInvalidated</td>
+<td>Raises the Invalidated event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="d0b765a9-ae10-5c47-844f-4cbd0720665e.md">OnKeyDown</a></td>
+<td>Raises the KeyDown event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="562399ab-f214-22a5-ba83-51430bf4971a.md">OnKeyPress</a></td>
+<td>Raises the KeyPress event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="992e5695-361b-297d-c36b-f9dc612bca90.md">OnKeyUp</a></td>
+<td>Raises the KeyUp event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="c6c1ca31-2230-8485-b9b8-f8fb2ca9074e.md">OnLayout</a></td>
+<td>Raises the Layout event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnLeave</td>
+<td>Raises the Leave event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnLocationChanged</td>
+<td>Raises the LocationChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="4b7ebb36-fd2a-97ca-5698-cab87f8276d9.md">OnLostFocus(EventArgs)</a></td>
+<td>Raises the LostFocus event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>OnLostFocus(EventArgs)</td>
+<td>Raises the LostFocus event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMarginChanged</td>
+<td>Raises the MarginChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMouseCaptureChanged</td>
+<td>Raises the MouseCaptureChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMouseClick</td>
+<td>Raises the MouseClick event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMouseDoubleClick</td>
+<td>Raises the MouseDoubleClick event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="ad475383-1b15-a673-a877-2b0e1bd04d09.md">OnMouseDown</a></td>
+<td>Raises the MouseDown event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="8368a061-362d-1a5d-76eb-661370b8f668.md">OnMouseEnter(EventArgs)</a></td>
+<td>Raises the MouseEnter event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnMouseEnter(EventArgs)</td>
+<td>Raises the MouseEnter event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMouseHover</td>
+<td>Raises the MouseHover event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="bc0456b2-b28c-0b13-bad6-0be29088bb40.md">OnMouseLeave(EventArgs)</a></td>
+<td>Raises the MouseLeave event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnMouseLeave(EventArgs)</td>
+<td>Raises the MouseLeave event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="3afd164a-6e9b-a40f-136a-e11105053ddd.md">OnMouseMove</a></td>
+<td>Raises the MouseMove event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="27ef0a19-e939-207f-b6bb-bda1b91100c8.md">OnMouseUp</a></td>
+<td>Raises the MouseUp event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>OnMouseWheel</td>
+<td>Raises the MouseWheel event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnMove</td>
+<td>Raises the Move event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="a2760f2c-adf6-74f4-8cdd-562b974b3d89.md">OnNeedPaint</a></td>
+<td>Processes a notification from palette storage of a paint and optional layout required.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnNotifyMessage</td>
+<td>Notifies the control of Windows messages.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="9d673d39-ee1a-f687-9785-84f0e255b402.md">OnPaddingChanged(EventArgs)</a></td>
+<td>Raises the PaddingChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnPaddingChanged(EventArgs)</td>
+<td>Raises the PaddingChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="25f08755-f5ef-1e83-dc4e-39daf5e219ba.md">OnPaint</a></td>
+<td>Raises the Paint event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnPaintBackground</td>
+<td>Paints the background of the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="fd5d19de-b37c-64b0-ffa8-8e82ad7336fb.md">OnPaletteChanged</a></td>
+<td>Raises the PaletteChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="87ea5f5f-0bce-0212-960e-9ae6d99c67e9.md">OnPaletteNeedPaint</a></td>
+<td>Processes a notification from palette of a paint and optional layout required.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnParentBackColorChanged</td>
+<td>Raises the BackColorChanged event when the BackColor property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentBackgroundImageChanged</td>
+<td>Raises the BackgroundImageChanged event when the BackgroundImage property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentBindingContextChanged</td>
+<td>Raises the BindingContextChanged event when the BindingContext property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentChanged</td>
+<td>Raises the ParentChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentCursorChanged</td>
+<td>Raises the CursorChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentDataContextChanged</td>
+<td><br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentEnabledChanged</td>
+<td>Raises the EnabledChanged event when the Enabled property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentFontChanged</td>
+<td>Raises the FontChanged event when the Font property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentForeColorChanged</td>
+<td>Raises the ForeColorChanged event when the ForeColor property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentRightToLeftChanged</td>
+<td>Raises the RightToLeftChanged event when the RightToLeft property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnParentVisibleChanged</td>
+<td>Raises the VisibleChanged event when the Visible property value of the control's container changes.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnPreviewKeyDown</td>
+<td>Raises the PreviewKeyDown event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnPrint</td>
+<td>Raises the Paint event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnQueryContinueDrag</td>
+<td>Raises the QueryContinueDrag event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnRegionChanged</td>
+<td>Raises the RegionChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="81e6b9c2-9d7d-f037-40bc-9133d4b2e763.md">OnResize(EventArgs)</a></td>
+<td>Raises the Resize event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnResize(EventArgs)</td>
+<td>Raises the Resize event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="3d589f45-f95b-b580-5776-9f7541e4de34.md">OnRightToLeftChanged(EventArgs)</a></td>
+<td>Raises the RightToLeftChanged event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>OnRightToLeftChanged(EventArgs)</td>
+<td>Raises the RightToLeftChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="3890f24e-9f46-45be-2584-b0cd6d979614.md">OnSelectedIndexChanged</a></td>
+<td>Listen to the SelectedIndexChanged notification to forward the change to the grid.<br />(Overrides <a href="c71c9c4f-0a9b-0ee0-fe0c-21d0dcffbf3c.md">KryptonComboBox.OnSelectedIndexChanged(EventArgs)</a>)</td></tr>
+<tr>
+<td><a href="1eabb06f-1a42-4417-41bc-af40a631421c.md">OnSelectedValueChanged</a></td>
+<td>Raises the SelectedValueChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="07d2615c-3611-4d26-ea27-121cb9fe2874.md">OnSelectionChangeCommitted</a></td>
+<td>Raises the SelectionChangeCommitted event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnSizeChanged</td>
+<td>Raises the SizeChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnStyleChanged</td>
+<td>Raises the StyleChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnSystemColorsChanged</td>
+<td>Raises the SystemColorsChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnTabIndexChanged</td>
+<td>Raises the TabIndexChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="56a119e0-135f-60fa-b20b-fbbc7d8e16bb.md">OnTabStopChanged(EventArgs)</a></td>
+<td>Raises the TabStop event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnTabStopChanged(EventArgs)</td>
+<td>Raises the TabStopChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="3510a949-c828-9752-8ba5-17678f191a29.md">OnTextChanged(EventArgs)</a></td>
+<td>Listen to the TextChanged notification to forward the change to the grid.</td></tr>
+<tr>
+<td>OnTextChanged(EventArgs)</td>
+<td>Raises the TextChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="3cbcd294-b3cc-b329-58b2-d14dda6231d4.md">OnTextUpdate</a></td>
+<td>Raises the TextUpdate event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="dafd5e2e-88ec-7eaf-c291-155c0a8c3627.md">OnToolTipNeeded</a></td>
+<td>Raises the ToolTipNeeded event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="039eddc2-6ed7-ff01-0a18-1412806cc3da.md">OnTrackMouseEnter</a></td>
+<td>Raises the TrackMouseEnter event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="61c067ac-4ad4-4c73-b768-8aff82bb0d48.md">OnTrackMouseLeave</a></td>
+<td>Raises the TrackMouseLeave event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="1304f536-92a1-c8da-ff7a-43329fe2f3b8.md">OnUserPreferenceChanged</a></td>
+<td>Occurs when a user preference has changed.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnValidated</td>
+<td>Raises the Validated event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>OnValidating</td>
+<td>Raises the Validating event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="c3878869-04df-5ba6-0f04-787870dcb770.md">OnValueMemberChanged</a></td>
+<td>Raises the ValueMemberChanged event.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>OnVisibleChanged</td>
+<td>Raises the VisibleChanged event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="6aceb63f-9ce6-400f-73c0-8dccd3fab465.md">PaintBackground</a></td>
+<td>Perform background painting with the provided default values.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>PerformLayout()</td>
+<td>Forces the control to apply layout logic to all its child controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>PerformLayout(Control, String)</td>
+<td>Forces the control to apply layout logic to all its child controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="408d7ab8-85b5-a283-4721-d1229b9e1ec2.md">PerformNeedPaint</a></td>
+<td>Fires the NeedPaint event.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>PointToClient</td>
+<td>Computes the location of the specified screen point into client coordinates.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>PointToScreen</td>
+<td>Computes the location of the specified client point into screen coordinates.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="26fc4102-0226-475b-61e0-e4dd06324126.md">PrepareEditingControlForEdit</a></td>
+<td>Called by the grid to give the editing control a chance to prepare itself for the editing session.</td></tr>
+<tr>
+<td>PreProcessControlMessage</td>
+<td>Preprocesses keyboard or input messages within the message loop before they are dispatched.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>PreProcessMessage</td>
+<td>Preprocesses keyboard or input messages within the message loop before they are dispatched.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="14536465-5748-35e6-e1e6-2278046bda62.md">ProcessCmdKey</a></td>
+<td>Processes a command key.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>ProcessDialogChar</td>
+<td>Processes a dialog character.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ProcessDialogKey</td>
+<td>Processes a dialog key.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="98901674-6454-93c4-a6d1-f748cf2cb140.md">ProcessKeyEventArgs</a></td>
+<td>A few keyboard messages need to be forwarded to the inner textbox of the KryptonComboBox control so that the first character pressed appears in it.<br />(Overrides Control.ProcessKeyEventArgs(Message))</td></tr>
+<tr>
+<td>ProcessKeyMessage</td>
+<td>Processes a keyboard message.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ProcessKeyPreview</td>
+<td>Previews a keyboard message.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ProcessMnemonic</td>
+<td>Processes a mnemonic character.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RaiseDragEvent</td>
+<td>Raises the appropriate drag event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RaiseKeyEvent</td>
+<td>Raises the appropriate key event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RaiseMouseEvent</td>
+<td>Raises the appropriate mouse event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RaisePaintEvent</td>
+<td>Raises the appropriate paint event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RecreateHandle</td>
+<td>Forces the re-creation of the handle for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RectangleToClient</td>
+<td>Computes the size and location of the specified screen rectangle in client coordinates.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RectangleToScreen</td>
+<td>Computes the size and location of the specified client rectangle in screen coordinates.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Refresh</td>
+<td>Forces the control to invalidate its client area and immediately redraw itself and any child controls.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RescaleConstantsForDpi</td>
+<td>Provides constants for rescaling the control when a DPI change occurs.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ResetMouseEventArgs</td>
+<td>Resets the control to handle the MouseLeave event.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="1f2f1132-e2b2-96db-249e-26b3e471c6c9.md">ResetPalette</a></td>
+<td>Resets the Palette property to its default value.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="cfc2bdf2-2961-70c9-3ca4-9671ed4d7ead.md">ResetPaletteMode</a></td>
+<td>Resets the PaletteMode property to its default value.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>ResetText</td>
+<td>Resets the Text property to its default value (Empty).<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="587b7e23-ebba-0c4c-afec-49f9b5818ec2.md">ResetToolTipValues</a></td>
+<td>Resets the ToolTipValues property to its default value.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>ResumeLayout()</td>
+<td>Resumes usual layout logic.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ResumeLayout(Boolean)</td>
+<td>Resumes usual layout logic, optionally forcing an immediate layout of pending layout requests.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateAlignment(ContentAlignment)</td>
+<td>Converts the specified ContentAlignment to the appropriate ContentAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateAlignment(HorizontalAlignment)</td>
+<td>Converts the specified HorizontalAlignment to the appropriate HorizontalAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateAlignment(LeftRightAlignment)</td>
+<td>Converts the specified LeftRightAlignment to the appropriate LeftRightAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateContent</td>
+<td>Converts the specified ContentAlignment to the appropriate ContentAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateHorizontal</td>
+<td>Converts the specified HorizontalAlignment to the appropriate HorizontalAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>RtlTranslateLeftRight</td>
+<td>Converts the specified LeftRightAlignment to the appropriate LeftRightAlignment to support right-to-left text.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Scale</td>
+<td>Scales the control and all child controls by the specified scaling factor.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ScaleBitmapLogicalToDevice</td>
+<td>Scales a logical bitmap value to it's equivalent device unit value when a DPI change occurs.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ScaleControl</td>
+<td>Scales a control's location, size, padding and margin.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="60c37329-c258-717b-8d27-46108e453862.md">Select()</a></td>
+<td>Activates the control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>Select(Boolean, Boolean)</td>
+<td>Activates a child control. Optionally specifies the direction in the tab order to select the control from.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="ae76efb8-48c4-4f61-2e82-323397123b06.md">Select(Int32, Int32)</a></td>
+<td>Selects a range of text in the control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="af6fcd4e-5e82-81f2-c788-4af988facc96.md">SelectAll</a></td>
+<td>Selects all text in the control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>SelectNextControl</td>
+<td>Activates the next control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SendToBack</td>
+<td>Sends the control to the back of the z-order.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SetAutoSizeMode</td>
+<td>Sets a value indicating how a control will behave when its AutoSize() property is enabled.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SetBounds(Int32, Int32, Int32, Int32)</td>
+<td>Sets the bounds of the control to the specified location and size.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SetBounds(Int32, Int32, Int32, Int32, BoundsSpecified)</td>
+<td>Sets the specified bounds of the control to the specified location and size.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="169e4c50-cc37-c070-cd93-80b0069bff12.md">SetBoundsCore</a></td>
+<td>Performs the work of setting the specified bounds of this control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>SetClientSizeCore</td>
+<td>Sets the size of the client area of the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="868e468d-e1a2-fe36-3427-ee1617375683.md">SetFixedState</a></td>
+<td>Sets the fixed state of the control.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td><a href="bf739e84-c9ba-c0dc-4a6f-56f3cf0e3714.md">SetLayoutDisplayPadding</a></td>
+<td>Override the display padding for the layout fill.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+<tr>
+<td>SetStyle</td>
+<td>Sets a specified ControlStyles flag to either true or false.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SetTopLevel</td>
+<td>Sets the control as the top-level control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SetVisibleCore</td>
+<td>Sets the control to the specified visible state.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>Show</td>
+<td>Displays the control to the user.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SizeFromClientSize</td>
+<td>Determines the size of the entire control from the height and width of its client area.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>SuspendLayout</td>
+<td>Temporarily suspends the layout logic for the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>ToString</td>
+<td>Returns a String containing the name of the Component, if any. This method should not be overridden.<br />(Inherited from Component)</td></tr>
+<tr>
+<td>Update</td>
+<td>Causes the control to redraw the invalidated regions within its client area.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>UpdateBounds()</td>
+<td>Updates the bounds of the control with the current size and location.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>UpdateBounds(Int32, Int32, Int32, Int32)</td>
+<td>Updates the bounds of the control with the specified size and location.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>UpdateBounds(Int32, Int32, Int32, Int32, Int32, Int32)</td>
+<td>Updates the bounds of the control with the specified size, location, and client size.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="07a40314-0c37-654b-e81b-68809af7c653.md">UpdateGlobalEvents</a></td>
+<td>Update global event attachments.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td>UpdateStyles</td>
+<td>Forces the assigned styles to be reapplied to the control.<br />(Inherited from Control)</td></tr>
+<tr>
+<td>UpdateZOrder</td>
+<td>Updates the control in its parent's z-order.<br />(Inherited from Control)</td></tr>
+<tr>
+<td><a href="c92eebae-5bbc-c727-fc44-87f0050670fa.md">ViewFromPoint</a></td>
+<td>Gets the view associated with the provided client location.<br />(Inherited from <a href="692f3254-a85d-c457-f80c-15e27592145b.md">VisualControlBase</a>)</td></tr>
+<tr>
+<td><a href="1e799970-6f3e-ce90-730e-2588bd91cc07.md">WndProc</a></td>
+<td>Process Windows-based messages.<br />(Inherited from <a href="6e3c34ba-a54b-38d7-c887-9815158b827f.md">KryptonComboBox</a>)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="ca03a30d-81c7-7076-fef0-60cb6910ba26.md">KryptonDataGridViewComboBoxEditingControl Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

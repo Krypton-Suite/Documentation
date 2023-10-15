@@ -1,0 +1,53 @@
+# GetRadioButtonPreferredSize Method
+
+
+Calculate the requested display size for the radio button.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override Size GetRadioButtonPreferredSize(
+	ViewLayoutContext context,
+	PaletteBase palette,
+	bool enabled,
+	bool checkState,
+	bool tracking,
+	bool pressed
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetRadioButtonPreferredSize ( 
+	context As ViewLayoutContext,
+	palette As PaletteBase,
+	enabled As Boolean,
+	checkState As Boolean,
+	tracking As Boolean,
+	pressed As Boolean
+) As Size
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="d94d703a-56ce-4f85-7e5d-a7e3debed319.md">ViewLayoutContext</a></dt><dd>Render context.</dd><dt>  <a href="6da77fa5-1590-4646-f2ea-70002c922aee.md">PaletteBase</a></dt><dd>Palette for sourcing display values.</dd><dt>  Boolean</dt><dd>Should check box be Displayed as enabled.</dd><dt>  Boolean</dt><dd>Checked state of the radio button.</dd><dt>  Boolean</dt><dd>Should check box be Displayed as hot tracking.</dd><dt>  Boolean</dt><dd>Should check box be Displayed as pressed.</dd></dl>
+
+#### Return Value
+Size  
+\[Missing &lt;returns&gt; documentation for "M:Krypton.Toolkit.RenderStandard.GetRadioButtonPreferredSize(Krypton.Toolkit.ViewLayoutContext,Krypton.Toolkit.PaletteBase,System.Boolean,System.Boolean,System.Boolean,System.Boolean)"\]
+
+#### Implements
+<a href="6008b4ec-3abb-243b-965b-3ff97a192d11.md">IRenderGlyph.GetRadioButtonPreferredSize(ViewLayoutContext, PaletteBase, Boolean, Boolean, Boolean, Boolean)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="8a8b9945-a6ad-21c4-5182-014e3b962e19.md">RenderStandard Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

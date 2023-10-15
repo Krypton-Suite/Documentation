@@ -1,0 +1,41 @@
+# DrawRibbonTabSelectedBottom2007 Method
+
+
+Internal rendering method.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+protected virtual void DrawRibbonTabSelectedBottom2007(
+	Rectangle rect,
+	Color c4,
+	Color c5,
+	MementoRibbonTabSelected2007 cache
+)
+```
+**VB**
+``` VB
+Protected Overridable Sub DrawRibbonTabSelectedBottom2007 ( 
+	rect As Rectangle,
+	c4 As Color,
+	c5 As Color,
+	cache As MementoRibbonTabSelected2007
+)
+```
+
+
+
+#### Parameters
+<dl><dt>  Rectangle</dt><dd>\[Missing &lt;param name="rect"/&gt; documentation for "M:Krypton.Toolkit.RenderStandard.DrawRibbonTabSelectedBottom2007(System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,Krypton.Toolkit.MementoRibbonTabSelected2007)"\]</dd><dt>  Color</dt><dd>\[Missing &lt;param name="c4"/&gt; documentation for "M:Krypton.Toolkit.RenderStandard.DrawRibbonTabSelectedBottom2007(System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,Krypton.Toolkit.MementoRibbonTabSelected2007)"\]</dd><dt>  Color</dt><dd>\[Missing &lt;param name="c5"/&gt; documentation for "M:Krypton.Toolkit.RenderStandard.DrawRibbonTabSelectedBottom2007(System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,Krypton.Toolkit.MementoRibbonTabSelected2007)"\]</dd><dt>  <a href="f80c8fae-fe3a-7613-d8aa-4eabc8d5b6ce.md">MementoRibbonTabSelected2007</a></dt><dd>\[Missing &lt;param name="cache"/&gt; documentation for "M:Krypton.Toolkit.RenderStandard.DrawRibbonTabSelectedBottom2007(System.Drawing.Rectangle,System.Drawing.Color,System.Drawing.Color,Krypton.Toolkit.MementoRibbonTabSelected2007)"\]</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="8a8b9945-a6ad-21c4-5182-014e3b962e19.md">RenderStandard Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

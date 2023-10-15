@@ -1,0 +1,155 @@
+# KryptonOpenFileDialog Class
+
+
+Displays a dialog window from which the user can select a file.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public class KryptonOpenFileDialog : FileDialogWrapper, 
+	IDisposable
+```
+**VB**
+``` VB
+Public Class KryptonOpenFileDialog
+	Inherits FileDialogWrapper
+	Implements IDisposable
+```
+
+<table><tr><td><strong>Inheritance</strong></td><td>Object  →  <a href="de5b59c8-753f-0e1d-22c6-023819fb1ab5.md">ShellDialogWrapper</a>  →  <a href="eec64c5e-c86e-9628-c49c-0f686fc764d7.md">FileDialogWrapper</a>  →  KryptonOpenFileDialog</td></tr>
+<tr><td><strong>Implements</strong></td><td>IDisposable</td></tr>
+</table>
+
+
+
+## Constructors
+<table>
+<tr>
+<td><a href="62e8c776-8489-21d7-d60d-d5fe3782723c.md">KryptonOpenFileDialog</a></td>
+<td>Initializes a new instance of the KryptonOpenFileDialog class</td></tr>
+</table>
+
+## Properties
+<table>
+<tr>
+<td><a href="4ef3289e-0905-a432-f6d6-8fc2d0795929.md">AddExtension</a></td>
+<td>Gets or sets a value indicating whether the dialog box automatically adds an extension to a file name if the user omits the extension.<br />(Overrides <a href="df0e3e86-fbfa-0668-7b23-e0187d1b6fbf.md">FileDialogWrapper.AddExtension</a>)</td></tr>
+<tr>
+<td><a href="4c7bec53-9977-b2dc-c8e5-0b8718fd3b4f.md">CheckFileExists</a></td>
+<td>Gets or sets a value indicating whether the dialog box displays a warning if the user specifies a file name that does not exist.<br />(Overrides <a href="2fc924db-0f7d-46cf-0c5d-cc453b34ec12.md">FileDialogWrapper.CheckFileExists</a>)</td></tr>
+<tr>
+<td><a href="35987be7-d7c6-c982-d196-74bb24f2094d.md">CheckPathExists</a></td>
+<td>Gets or sets a value indicating whether the dialog box displays a warning if the user specifies a path that does not exist.<br />(Overrides <a href="54fcedf6-0057-48f7-c891-96b0c4c21e6a.md">FileDialogWrapper.CheckPathExists</a>)</td></tr>
+<tr>
+<td><a href="918b6955-78b3-78ca-f406-29ea6974bc80.md">CustomPlaces</a></td>
+<td>Gets the custom places collection for this FileDialog instance.<br />(Overrides <a href="da039a6a-5994-d5a1-f3a1-d27617015fdf.md">FileDialogWrapper.CustomPlaces</a>)</td></tr>
+<tr>
+<td><a href="5944c1e1-340a-b867-0159-c38468b24ceb.md">DefaultExt</a></td>
+<td>Gets or sets the default file name extension.<br />(Overrides <a href="81d25c75-5258-fc12-4b66-4e68ff37962c.md">FileDialogWrapper.DefaultExt</a>)</td></tr>
+<tr>
+<td><a href="f8aa7410-c513-1632-ef46-06968e41428f.md">DereferenceLinks</a></td>
+<td>Gets or sets a value indicating whether the dialog box returns the location of the file referenced by the shortcut or whether it returns the location of the shortcut (.lnk).<br />(Overrides <a href="554e1a26-88c6-5b14-4296-adf2dd698a9a.md">FileDialogWrapper.DereferenceLinks</a>)</td></tr>
+<tr>
+<td><a href="e40c2969-4cee-e483-f872-e8d82a040c53.md">FileName</a></td>
+<td>Gets or sets a string containing the file name selected in the file dialog box.<br />(Overrides <a href="7cf6bb1d-f436-b8b3-d935-5c665a3a813c.md">FileDialogWrapper.FileName</a>)</td></tr>
+<tr>
+<td><a href="3936a48d-e1de-72e2-ee48-e60f487a565f.md">FileNames</a></td>
+<td>Gets the file names of all selected files in the dialog box.<br />(Overrides <a href="3c7e05ff-a91e-936d-1870-848fce47c368.md">FileDialogWrapper.FileNames</a>)</td></tr>
+<tr>
+<td><a href="6252a8cb-5bfa-5ae8-c109-8ccc1f483e5f.md">Filter</a></td>
+<td>Gets or sets the current file name filter string, which determines the choices that appear in the "Save as file type" or "Files of type" box in the dialog box.<br />(Overrides <a href="6062f8ab-8fce-7f51-e701-19e73a67098d.md">FileDialogWrapper.Filter</a>)</td></tr>
+<tr>
+<td><a href="b44c6ed3-d78f-ae12-b2ac-eea00b50fc02.md">FilterIndex</a></td>
+<td>Gets or sets the index of the filter currently selected in the file dialog box.<br />(Overrides <a href="64229bad-28fb-ae5d-75cd-82d905d7dfc1.md">FileDialogWrapper.FilterIndex</a>)</td></tr>
+<tr>
+<td><a href="187adef0-452c-3b70-6961-3b34581a6425.md">Icon</a></td>
+<td>Get or Sets the file dialog box Icon.<br />(Inherited from <a href="de5b59c8-753f-0e1d-22c6-023819fb1ab5.md">ShellDialogWrapper</a>)</td></tr>
+<tr>
+<td><a href="364919da-2059-ecab-9061-e0ef6a6150b2.md">InitialDirectory</a></td>
+<td>Gets or sets the initial directory displayed by the file dialog box.<br />(Overrides <a href="aeb44fca-06d8-f6a0-7cc8-eb0250b94bd4.md">FileDialogWrapper.InitialDirectory</a>)</td></tr>
+<tr>
+<td><a href="0315cd44-423e-42c8-accb-01622a6eb2a0.md">Multiselect</a></td>
+<td>Gets or sets a value indicating whether the dialog box allows multiple files to be selected.</td></tr>
+<tr>
+<td><a href="e8d002e4-9dd0-8777-86a0-bce40d913fcd.md">ReadOnlyChecked</a></td>
+<td>Gets or sets a value indicating whether the read-only check box is selected.</td></tr>
+<tr>
+<td><a href="dcd05e6c-87ed-cd93-7058-ae35bc846d39.md">RestoreDirectory</a></td>
+<td>Gets or sets a value indicating whether the dialog box restores the directory to the previously selected directory before closing.<br />(Overrides <a href="d533f44a-fb52-db62-8c82-ce2bb9f4540b.md">FileDialogWrapper.RestoreDirectory</a>)</td></tr>
+<tr>
+<td><a href="0c5b5120-ab15-1d26-0ac7-30f16078b843.md">SafeFileName</a></td>
+<td>Gets the file name and extension for the file selected in the dialog box. The file name does not include the path.</td></tr>
+<tr>
+<td><a href="7a6e5d61-48d3-5374-3b4f-733c7724a321.md">SafeFileNames</a></td>
+<td>Gets an array of file names and extensions for all the selected files in the dialog box. The file names do not include the path.</td></tr>
+<tr>
+<td><a href="3898dc8f-65fa-e9f1-94b5-367fd4d0d9f1.md">ShowReadOnly</a></td>
+<td>Gets or sets a value indicating whether the dialog box contains a read-only check box.</td></tr>
+<tr>
+<td><a href="d29006dd-e46c-df59-691f-cfc8716c353b.md">SupportMultiDottedExtensions</a></td>
+<td>Gets or sets whether the dialog box supports displaying and saving files that have multiple file name extensions.<br />(Overrides <a href="38e2d3c7-a2d4-e700-4d6e-d2003148f3c1.md">FileDialogWrapper.SupportMultiDottedExtensions</a>)</td></tr>
+<tr>
+<td><a href="fa3193d0-32e3-1fb2-dc51-dfe0cfa1e6f3.md">Title</a></td>
+<td>Gets or sets the file dialog box title.<br />(Overrides <a href="8a26c393-2886-5bfa-8168-26cd5afee572.md">ShellDialogWrapper.Title</a>)</td></tr>
+<tr>
+<td><a href="b077bfc9-16ee-37d6-8c61-e29ed0eb24c1.md">ValidateNames</a></td>
+<td>Gets or sets a value indicating whether the dialog box accepts only valid Win32 file names.<br />(Overrides <a href="7d493b94-4043-0eb8-3cfd-1465760056c0.md">FileDialogWrapper.ValidateNames</a>)</td></tr>
+</table>
+
+## Methods
+<table>
+<tr>
+<td><a href="d23fd349-cea7-0a01-5acb-129a4d806b6b.md">Dispose</a></td>
+<td>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</td></tr>
+<tr>
+<td>Equals</td>
+<td>Determines whether the specified object is equal to the current object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>Finalize</td>
+<td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetHashCode</td>
+<td>Serves as the default hash function.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>GetType</td>
+<td>Gets the Type of the current instance.<br />(Inherited from Object)</td></tr>
+<tr>
+<td>MemberwiseClone</td>
+<td>Creates a shallow copy of the current Object.<br />(Inherited from Object)</td></tr>
+<tr>
+<td><a href="cc48f9dc-2c38-1c2b-a674-cd09b1fb7452.md">OpenFile</a></td>
+<td>Opens the file selected by the user, with read-only permission. The file is specified by the FileName property.</td></tr>
+<tr>
+<td><a href="8049ef0e-22d1-551e-1b88-efa21de3bab0.md">Reset</a></td>
+<td>Resets all properties to their default values.<br />(Overrides <a href="e7adf1de-b8fa-d3a0-a03a-b4e7fb04f58b.md">ShellDialogWrapper.Reset()</a>)</td></tr>
+<tr>
+<td><a href="6382fb28-fe27-ba09-e190-546005426fa9.md">ShowActualDialog</a></td>
+<td>Runs a common dialog box, parented to the given IWin32Window.<br />(Overrides <a href="c6f2dab0-9ab1-1468-a1bd-3686e7f8ce0c.md">ShellDialogWrapper.ShowActualDialog(IWin32Window)</a>)</td></tr>
+<tr>
+<td><a href="59741740-bd13-b09d-6fb8-69e315348ef7.md">ShowDialog()</a></td>
+<td>Runs a common dialog box.<br />(Inherited from <a href="de5b59c8-753f-0e1d-22c6-023819fb1ab5.md">ShellDialogWrapper</a>)</td></tr>
+<tr>
+<td><a href="f96ec4d6-e9e0-e9e1-e062-d36636c025d3.md">ShowDialog(IWin32Window)</a></td>
+<td>Runs a common dialog box, parented to the given IWin32Window.<br />(Inherited from <a href="de5b59c8-753f-0e1d-22c6-023819fb1ab5.md">ShellDialogWrapper</a>)</td></tr>
+<tr>
+<td><a href="733c6373-4c22-b93a-b6b8-ae8b6bdba30b.md">ToString</a></td>
+<td>Provides a string version of this object.<br />(Overrides <a href="432fcdfa-ea86-b418-f176-3b1aecf6f9f7.md">ShellDialogWrapper.ToString()</a>)</td></tr>
+</table>
+
+## Events
+<table>
+<tr>
+<td><a href="ab28c897-aafc-79cf-626e-2de75cb0cd6b.md">FileOk</a></td>
+<td>Occurs when the user clicks on the Open or Save button on a file dialog box.<br />(Overrides <a href="cc0ed8fc-93f5-726d-0f70-67780ae0e7eb.md">FileDialogWrapper.FileOk</a>)</td></tr>
+</table>
+
+## See Also
+
+
+#### Reference
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

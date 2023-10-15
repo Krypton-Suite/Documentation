@@ -1,0 +1,43 @@
+# GetContentLongTextImageAlign Method
+
+
+Gets the image alignment for the long text.
+
+
+
+## Definition
+**Namespace:** <a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit</a>  
+**Assembly:** Krypton.Toolkit (in Krypton.Toolkit.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public override PaletteRectangleAlign GetContentLongTextImageAlign(
+	PaletteState state
+)
+```
+**VB**
+``` VB
+Public Overrides Function GetContentLongTextImageAlign ( 
+	state As PaletteState
+) As PaletteRectangleAlign
+```
+
+
+
+#### Parameters
+<dl><dt>  <a href="93e626cd-00cf-240e-06c6-ab4d47e982ba.md">PaletteState</a></dt><dd>Palette value should be applicable to this state.</dd></dl>
+
+#### Return Value
+<a href="a08dda3c-812d-0f91-9954-af55a04393ca.md">PaletteRectangleAlign</a>  
+Image alignment style.
+
+#### Implements
+<a href="e4f302a6-8ad6-717c-83d8-ae23a5960c3d.md">IPaletteContent.GetContentLongTextImageAlign(PaletteState)</a>  
+
+
+## See Also
+
+
+#### Reference
+<a href="89f41ad6-8af7-9c0b-77bf-229a987368c3.md">PaletteContentInheritNode Class</a>  
+<a href="79d2eac2-21f4-54ff-7552-b20c33c30600.md">Krypton.Toolkit Namespace</a>  

@@ -1,0 +1,33 @@
+# PrimaryHeaderPosition Property
+
+
+Gets and sets the primary header position.
+
+
+
+## Definition
+**Namespace:** <a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator</a>  
+**Assembly:** Krypton.Navigator (in Krypton.Navigator.dll) Version: 80.23.10.287+8d7660f9dc5efd033fabe008ebfb904beab6d444
+
+**C#**
+``` C#
+public VisualOrientation PrimaryHeaderPosition { get; set; }
+```
+**VB**
+``` VB
+Public Property PrimaryHeaderPosition As VisualOrientation
+	Get
+	Set
+```
+
+
+
+#### Property Value
+<a href="d38051f8-c2cc-e81c-0029-02f7ad46f2fa.md">VisualOrientation</a>
+
+## See Also
+
+
+#### Reference
+<a href="fad082bb-2a8d-022e-8c74-00901d939289.md">KryptonNavigatorActionList Class</a>  
+<a href="a21ac074-d119-3dc6-bd1c-d3a12c0128bc.md">Krypton.Navigator Namespace</a>  
