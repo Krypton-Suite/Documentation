@@ -15,10 +15,10 @@ There are currently two types of package that are supported. The table below out
 
 | Version | Status | Latest Release | Latest Release Date | End of Support |
 |---|---|---|---|---|
-| .NET 9.0 | Standard Term Support | 9.0.0-Preview.1 | February 13, 2024 | - |
-| .NET 8.0 | Long Term Support | 8.0.2 | February 13, 2024 | November xx 2026 |
-| .NET 7.0 | Standard Term Support | 7.0.16 | February 13, 2024 | May 14, 2024 |
-| .NET 6.0 | Long Term Support | 6.0.27 | February 13, 2024 | November 12, 2024 |
+| .NET 9.0 | Standard Term Support | 9.0.0-Preview.2 | March 12, 2024 | - |
+| .NET 8.0 | Long Term Support | 8.0.3 | March 12, 2024 | November xx 2026 |
+| .NET 7.0 | Standard Term Support | 7.0.17 | March 12, 2024 | May 14, 2024 |
+| .NET 6.0 | Long Term Support | 6.0.28 | March 12, 2024 | November 12, 2024 |
 
 ### Supported .NET Framework Versions
 
