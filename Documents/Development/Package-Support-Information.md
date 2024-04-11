@@ -15,7 +15,7 @@ There are currently two types of package that are supported. The table below out
 
 | Version | Status | Latest Release | Latest Release Date | End of Support |
 |---|---|---|---|---|
-| .NET 9.0 | Standard Term Support | 9.0.0-Preview.2 | March 12, 2024 | - |
+| .NET 9.0 | Standard Term Support | 9.0.0-Preview.3 | April 11, 2024 | TBC |
 | .NET 8.0 | Long Term Support | 8.0.4 | April 9, 2024 | November xx 2026 |
 | .NET 7.0 | Standard Term Support | 7.0.18 | April 9, 2024 | May 14, 2024 |
 | .NET 6.0 | Long Term Support | 6.0.29 | April 9, 2024 | November 12, 2024 |
