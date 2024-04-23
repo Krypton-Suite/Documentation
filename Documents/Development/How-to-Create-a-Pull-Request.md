@@ -56,6 +56,10 @@ Once you have clicked 'Create pull request', GitHub Desktop will launch your def
 
 ![](https://github.com/Krypton-Suite/Documentation/blob/main/Assets/Miscellaneous/Making%20a%20Pull%20Request/Step%207.png?raw=true)
 
+**Animation**
+
+![]()
+
 ***Additional Notes***
 
 1) Please remember to always update `Changelog.md` with any changes that you have made. This is located in ***Documents\Help\Changelog.md***.
