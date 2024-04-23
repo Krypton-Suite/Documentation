@@ -58,7 +58,7 @@ Once you have clicked 'Create pull request', GitHub Desktop will launch your def
 
 **Animation**
 
-![]()
+![](https://github.com/Krypton-Suite/Documentation/blob/main/Assets/Miscellaneous/Making%20a%20Pull%20Request/Creating%20a%20pull%20request.gif?raw=true)
 
 ***Additional Notes***
 
