@@ -7,6 +7,6 @@ If you want to build the Standard Toolkit project, there are a number of prerequ
 * Microsoft .NET Framework 4.6.2 or later
 * .NET 6 or later
 * Windows Terminal (optional)
-* Time :)
+* Time :slightly_smiling_face:
 
 To compile the source tree for yourself, type in `run.cmd` from Command Prompt or Windows Terminal. By running `run.cmd`, you will also generate the NuGet packages. The output will be stored in 'Bin\Release'.

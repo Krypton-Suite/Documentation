@@ -1,6 +1,6 @@
 # Contributing Guidelines for Krypton Development
 
-BEFORE CONTRIBUTING please read _all_ of the rules below are guidelines, which means that they should be followed when possible. You can contribute to these projects by opening new bug reports, feature requests, discussions and pull requests. New pull requests **will** be reviewed and merged at the maintainers discretion. Above all, have fun coding and learning about the intricacies of the toolkits! :)
+BEFORE CONTRIBUTING please read _all_ of the rules below are guidelines, which means that they should be followed when possible. You can contribute to these projects by opening new bug reports, feature requests, discussions and pull requests. New pull requests **will** be reviewed and merged at the maintainers discretion. Above all, have fun coding and learning about the intricacies of the toolkits! :slightly_smiling_face:
 
 ## Discussions
 
