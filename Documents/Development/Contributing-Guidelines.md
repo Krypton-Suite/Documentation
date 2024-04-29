@@ -13,6 +13,7 @@ The developers **respects** diversity. Any user who posts offensive or disrespec
 ## Reporting issues, bugs and making requests
 
 #### Bugs:
+ 
  - Please use the provided `Bug` template
  - Please be clear when describing issues.
  - Please fill out the form and DO NOT send empty bugs with the information on the title.
