@@ -1,6 +1,6 @@
 # Contributing Guidelines for Krypton Development
 
-BEFORE CONTRIBUTING please read _all_ of the rules below are guidelines, which means that they should be followed when possible. Please do not take them literally.
+BEFORE CONTRIBUTING please read _all_ of the rules below are guidelines, which means that they should be followed when possible. You can contribute to these projects by opening new bug reports, feature requests, discussions and pull requests. New pull requests **will** be reviewed and merged at the maintainers discretion. Above all, have fun coding and learning about the intricacies of the toolkits! :)
 
 ## Discussions
 
@@ -8,7 +8,7 @@ If you wish to discuss about the development of the toolkit, please use the area
 
 ## Rules
 
-The developers **respects** people, despite their race, gender, religion, height or culture. Any user who posts offensive or disrespectful content regarding race, gender, religion, height or culture **will be immediately banned from this repository and Discord by extension**. No exception will be made.
+The developers **respects** diversity. Any user who posts offensive or disrespectful content regarding race, gender, religion, height or culture **will be immediately banned from this repository and Discord by extension**. No exception will be made.
 
 ## Reporting issues, bugs and making requests
 
@@ -78,3 +78,11 @@ The developers **respects** people, despite their race, gender, religion, height
  #### Usage of ReSharper
  
  These toolkits use [ReSharper](https://www.jetbrains.com/resharper/) to do a multitude of tasks on the code-base such as refactoring. It is not essential to have it to work on the code, but it is a bonus to have it installed.
+ 
+ #### Breaking Changes
+ 
+ If you make a breaking change within the code, ensure that the maintainers are aware of these changes, and that they are recorded **both** in the `README` and `Changelog`. Please ensure that in the `Changelog`, you precede the change with the following:-
+ 
+ ```md
+ **[Breaking Change]:**
+ ```
